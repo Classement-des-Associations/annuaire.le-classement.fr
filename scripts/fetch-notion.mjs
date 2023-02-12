@@ -16,7 +16,7 @@ async function main() {
     resolve('content/participations/data/2022'),
     resolve('content/categories/data'),
     resolve('content/ecoles/data'),
-    resolve('content/associations/data')
+    resolve('content/associations-etudiantes/data')
   ]
   await Promise.all([
     paths.map(path => clearDir(path, { extensions: ['json'] }))
@@ -208,7 +208,7 @@ async function main() {
       })
     }
 
-    await writeFile(name, 'associations/data', {
+    await writeFile(name, 'associations-etudiantes/data', {
       id: useSlugify(name),
       name,
       description,
