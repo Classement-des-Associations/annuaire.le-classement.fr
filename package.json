@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@classement-des-associations/website-theme": "^0.0.2",
+    "nuxt": "^3.2.0"
+  }
+}
