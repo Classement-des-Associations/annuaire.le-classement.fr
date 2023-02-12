@@ -1,0 +1,42 @@
+{
+  "id": "icn-business-school",
+  "name": "ICN Business School",
+  "associations": [
+    {
+      "id": "solidaraid",
+      "name": "Solida’raid",
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      }
+    },
+    {
+      "id": "vertiges-mode",
+      "name": "Vertiges Mode",
+      "category": {
+        "id": "art",
+        "name": "Art",
+        "color": "green"
+      }
+    },
+    {
+      "id": "atchances",
+      "name": "ATCHANCES",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
+    },
+    {
+      "id": "solidaraid",
+      "name": "Solida'raid",
+      "category": {
+        "id": "humanitaire",
+        "name": "Humanitaire",
+        "color": "blue"
+      }
+    }
+  ]
+}

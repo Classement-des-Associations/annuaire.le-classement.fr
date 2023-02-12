@@ -1,0 +1,15 @@
+{
+  "id": "epita",
+  "name": "Epita",
+  "associations": [
+    {
+      "id": "supbio-dance",
+      "name": "Sup’Bio Dance",
+      "category": {
+        "id": "sportive",
+        "name": "Sportive",
+        "color": "brown"
+      }
+    }
+  ]
+}

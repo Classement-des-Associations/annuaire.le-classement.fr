@@ -1,0 +1,15 @@
+{
+  "id": "estp",
+  "name": "ESTP",
+  "associations": [
+    {
+      "id": "forum-estp",
+      "name": "Forum ESTP",
+      "category": {
+        "id": "professionnalisante",
+        "name": "Professionnalisante",
+        "color": "gray"
+      }
+    }
+  ]
+}

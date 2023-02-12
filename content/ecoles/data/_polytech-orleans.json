@@ -1,0 +1,15 @@
+{
+  "id": "polytech-orleans",
+  "name": "Polytech Orléans",
+  "associations": [
+    {
+      "id": "humani-world",
+      "name": "Humani World",
+      "category": {
+        "id": "sociale",
+        "name": "Sociale",
+        "color": "pink"
+      }
+    }
+  ]
+}

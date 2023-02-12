@@ -1,0 +1,25 @@
+{
+  "id": "le-chti-grand-lille",
+  "name": "Le Chti Grand Lille",
+  "description": "Découvrez Le Chti, le city guide n°1 de la région lilloise : restaurants, bars, activités sportives et culturelles, shopping et beauté…",
+  "category": {
+    "id": "city-guide",
+    "name": "City-guide",
+    "color": "purple"
+  },
+  "linkedin": "https://www.linkedin.com/company/le-chti-grand-lille/",
+  "instagram": "https://www.instagram.com/lechtigrandlille/",
+  "website": "https://lechti.com/",
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ]
+}
