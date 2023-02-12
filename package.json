@@ -9,7 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@classement-des-associations/website-theme": "^0.0.2",
+    "@classement-des-associations/website-theme": "^0.0.4",
     "nuxt": "^3.2.0"
   }
 }
