@@ -1,4 +1,4 @@
-import { Association } from "~~/types"
+import { Association } from '@/types'
 
 export const useAssociations = () => {
   return useAsyncData('content:associations', () =>

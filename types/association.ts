@@ -1,6 +1,6 @@
-import { Category } from "./category"
-import { Participation } from "./participation"
-import { School } from "./school"
+import { Category } from './category'
+import { Participation } from './participation'
+import { School } from './school'
 
 export interface Association {
   id: string
