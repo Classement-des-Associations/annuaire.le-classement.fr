@@ -2,6 +2,7 @@
   "id": "junior-estaca",
   "name": "Junior ESTACA",
   "description": "Acteur de la professionnalisation des étudiants depuis 1983, l’équipe de Junior ESTACA contribue à répondre aux enjeux des mobilités de demain en rapprochant les projets des entreprises et les compétences des étudiants. Nos valeurs : Engagement, Passion, Cohésion. Intrigués ? Jetez un œil à nos projets  Déjà convaincus ? N’oubliez pas de voter",
+  "categoryId": "professionnalisante",
   "category": {
     "id": "professionnalisante",
     "name": "Professionnalisante",
@@ -10,11 +11,17 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
+  "schoolsId": [
+    "estaca"
+  ],
   "schools": [
     {
       "id": "estaca",
       "name": "ESTACA"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

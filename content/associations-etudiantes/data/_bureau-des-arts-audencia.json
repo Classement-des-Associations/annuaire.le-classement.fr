@@ -1,19 +1,24 @@
 {
   "id": "bureau-des-arts-audencia",
   "name": "Bureau des Arts - Audencia",
+  "categoryId": "artistique",
   "category": {
-    "id": "art",
-    "name": "Art",
+    "id": "artistique",
+    "name": "Artistique",
     "color": "green"
   },
   "linkedin": null,
   "instagram": "https://www.instagram.com/bda_artnaqueurs",
   "website": null,
+  "schoolsId": [
+    "audencia-business-school"
+  ],
   "schools": [
     {
       "id": "audencia-business-school",
       "name": "Audencia Business School"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

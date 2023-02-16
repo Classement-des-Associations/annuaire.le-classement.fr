@@ -2,6 +2,7 @@
   "id": "schola-africa",
   "name": "Schola Africa",
   "description": "Construction de salles de classe, de latrines ou encore distribution de lampes solaires ou de matériel scolaire : les projets de Schola Africa sont variés. Pourtant, tous ont le même objectif, promouvoir l’accès à l’éducation primaire et à la formation professionnelle au Sénégal et au Burkina Faso.",
+  "categoryId": "humanitaire",
   "category": {
     "id": "humanitaire",
     "name": "Humanitaire",
@@ -10,11 +11,17 @@
   "linkedin": "https://www.linkedin.com/company/schola-africa/",
   "instagram": "https://www.instagram.com/scholaafrica/",
   "website": null,
+  "schoolsId": [
+    "edhec"
+  ],
   "schools": [
     {
       "id": "edhec",
       "name": "EDHEC"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

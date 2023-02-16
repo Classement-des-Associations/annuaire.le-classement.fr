@@ -15,8 +15,8 @@
       "id": "bureau-des-arts-audencia",
       "name": "Bureau des Arts - Audencia",
       "category": {
-        "id": "art",
-        "name": "Art",
+        "id": "artistique",
+        "name": "Artistique",
         "color": "green"
       }
     }

@@ -2,6 +2,7 @@
   "id": "supbio-dance",
   "name": "Sup’Bio Dance",
   "description": "Sup’Bio Dance est une association inter-école du groupe IONIS qui vise à rendre la danse accessible à tous les étudiants, pour apprendre à maîtriser son corps dans un espace bienveillant, prendre plaisir à danser ensemble et surtout partager son art, lors de cours réguliers ou d’événements ponctuels. Rejoignez-les pour danser à leurs côtés !",
+  "categoryId": "sportive",
   "category": {
     "id": "sportive",
     "name": "Sportive",
@@ -10,6 +11,11 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/supbiodance/",
   "website": null,
+  "schoolsId": [
+    "epita",
+    "epitech",
+    "supbiotech"
+  ],
   "schools": [
     {
       "id": "epita",
@@ -23,6 +29,9 @@
       "id": "supbiotech",
       "name": "Sup'biotech"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

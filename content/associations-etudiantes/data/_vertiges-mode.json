@@ -1,19 +1,24 @@
 {
   "id": "vertiges-mode",
   "name": "Vertiges Mode",
+  "categoryId": "artistique",
   "category": {
-    "id": "art",
-    "name": "Art",
+    "id": "artistique",
+    "name": "Artistique",
     "color": "green"
   },
   "linkedin": null,
   "instagram": "https://www.instagram.com/vertiges_mode/",
   "website": null,
+  "schoolsId": [
+    "icn-business-school"
+  ],
   "schools": [
     {
       "id": "icn-business-school",
       "name": "ICN Business School"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

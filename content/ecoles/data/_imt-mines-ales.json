@@ -6,8 +6,8 @@
       "id": "cercle-des-eleves-des-mines-dales",
       "name": "Cercle des élèves des Mines d'Alès",
       "category": {
-        "id": "bde",
-        "name": "BDE",
+        "id": "bureau-des-eleves",
+        "name": "Bureau des Élèves",
         "color": "red"
       }
     }

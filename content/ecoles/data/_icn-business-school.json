@@ -15,14 +15,14 @@
       "id": "vertiges-mode",
       "name": "Vertiges Mode",
       "category": {
-        "id": "art",
-        "name": "Art",
+        "id": "artistique",
+        "name": "Artistique",
         "color": "green"
       }
     },
     {
       "id": "atchances",
-      "name": "ATCHANCES",
+      "name": "AT’CHANCES",
       "category": {
         "id": "sociale",
         "name": "Sociale",

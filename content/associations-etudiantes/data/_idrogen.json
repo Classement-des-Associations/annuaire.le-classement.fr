@@ -2,6 +2,7 @@
   "id": "idrogen",
   "name": "iDrogen",
   "description": "Notre objectif ? Développer des véhicules hydrogène répondant aux enjeux environnementaux afin de contribuer à l'évolution vers un monde plus vert !",
+  "categoryId": "technique",
   "category": {
     "id": "technique",
     "name": "Technique",
@@ -10,11 +11,17 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/idrogen_estaca",
   "website": null,
+  "schoolsId": [
+    "estaca"
+  ],
   "schools": [
     {
       "id": "estaca",
       "name": "ESTACA"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

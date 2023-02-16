@@ -1,6 +1,7 @@
 {
   "id": "star-trekkescp",
   "name": "Star Trekk'ESCP",
+  "categoryId": "environnementale",
   "category": {
     "id": "environnementale",
     "name": "Environnementale",
@@ -9,11 +10,15 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/startrekkescp/",
   "website": "https://www.startrekk-escpeurope.com/",
+  "schoolsId": [
+    "escp"
+  ],
   "schools": [
     {
       "id": "escp",
       "name": "ESCP"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

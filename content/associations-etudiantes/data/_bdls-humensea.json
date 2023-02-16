@@ -1,6 +1,7 @@
 {
   "id": "bdls-humensea",
   "name": "BDLS - HUM’ENsea",
+  "categoryId": "sociale",
   "category": {
     "id": "sociale",
     "name": "Sociale",
@@ -9,11 +10,15 @@
   "linkedin": null,
   "instagram": "https://www.linkedin.com/company/11158564/",
   "website": "https://bdls.asso-ensea.fr",
+  "schoolsId": [
+    "ensea"
+  ],
   "schools": [
     {
       "id": "ensea",
       "name": "ENSEA"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <article class="relative p-4 md:p-6 lg:p-8 border border-gray-200 rounded-xl hover:shadow-lg transition ease-in duration-200">
+  <BaseCard class="relative">
     <!-- For the image, use a hardcoded path and the id -->
     <!-- <img :src="" :alt="association.image.alt" loading="lazy" /> -->
     <div class="flex flex-col gap-4 items-center">
@@ -21,5 +21,5 @@ defineProps<{
         <CategoriesItem :category="association.category" />
       </NuxtLink>
     </div>
-  </article>
+  </BaseCard>
 </template>

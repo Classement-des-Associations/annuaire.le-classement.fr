@@ -2,6 +2,7 @@
   "id": "agrovelocity",
   "name": "AgroVéloCity",
   "description": "AgroVéloCity est une association à but non lucratif qui a pour objectif l’étude de l’agriculture urbaine et périurbaine à travers le monde, et la diffusion des connaissances sur cette thématique - conférences, rédaction de contenu scientifique, réseaux sociaux.…",
+  "categoryId": "environnementale",
   "category": {
     "id": "environnementale",
     "name": "Environnementale",
@@ -10,11 +11,17 @@
   "linkedin": "https://www.linkedin.com/in/agrovelocity/",
   "instagram": "https://www.instagram.com/explore/tags/agrov%C3%A9locity/",
   "website": "https://www.agrovelocity.org/",
+  "schoolsId": [
+    "agroparistech"
+  ],
   "schools": [
     {
       "id": "agroparistech",
       "name": "AgroParisTech"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

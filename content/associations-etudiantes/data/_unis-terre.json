@@ -2,6 +2,7 @@
   "id": "unis-terre",
   "name": "Unis-Terre",
   "description": "Unis-Terre est l'une des plus grandes associations étudiantes de développement durable et d'humanitaire implantée à Kedge BS, Marseille.",
+  "categoryId": "environnementale",
   "category": {
     "id": "environnementale",
     "name": "Environnementale",
@@ -10,11 +11,17 @@
   "linkedin": "https://www.linkedin.com/company/unis-terre/",
   "instagram": "https://www.instagram.com/unisterre/?hl=fr",
   "website": "https://www.unis-terre.com/",
+  "schoolsId": [
+    "kedge-bs"
+  ],
   "schools": [
     {
       "id": "kedge-bs",
       "name": "Kedge BS"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

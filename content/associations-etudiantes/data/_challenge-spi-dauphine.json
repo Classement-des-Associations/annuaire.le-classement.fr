@@ -2,6 +2,7 @@
   "id": "challenge-spi-dauphine",
   "name": "Challenge Spi Dauphine",
   "description": "Nous organisons une régate de voile étudiante dans le sud de la France chaque année, elle réunit des entreprises notamment des start ups avec des étudiants de multiples établissements européens. Par la voile, nous cherchons à faire profiter plusieurs centaines de jeunes, tout en promouvant nos enjeux environnementaux et sociaux.",
+  "categoryId": "sportive",
   "category": {
     "id": "sportive",
     "name": "Sportive",
@@ -10,11 +11,17 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
+  "schoolsId": [
+    "universite-paris-dauphine"
+  ],
   "schools": [
     {
       "id": "universite-paris-dauphine",
       "name": "Université Paris Dauphine"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

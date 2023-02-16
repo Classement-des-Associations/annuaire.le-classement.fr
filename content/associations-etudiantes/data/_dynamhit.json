@@ -1,6 +1,7 @@
 {
   "id": "dynamhit",
   "name": "Dynam'hit",
+  "categoryId": "culturelle",
   "category": {
     "id": "culturelle",
     "name": "Culturelle",
@@ -9,11 +10,15 @@
   "linkedin": "https://www.linkedin.com/company/dynam'hit-webradio/",
   "instagram": "https://www.instagram.com/dynam.hit/",
   "website": "http://dynamhit.org/",
+  "schoolsId": [
+    "kedge-bs"
+  ],
   "schools": [
     {
       "id": "kedge-bs",
       "name": "Kedge BS"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

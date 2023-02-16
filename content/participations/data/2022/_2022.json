@@ -194,8 +194,8 @@
       "id": "cercle-des-eleves-des-mines-dales",
       "name": "Cercle des élèves des Mines d'Alès",
       "category": {
-        "id": "bde",
-        "name": "BDE",
+        "id": "bureau-des-eleves",
+        "name": "Bureau des Élèves",
         "color": "red"
       },
       "schools": [
@@ -254,8 +254,8 @@
       "id": "association-des-eleves-de-lecole-centrale-de-lyon",
       "name": "Association des élèves de l’école Centrale de Lyon",
       "category": {
-        "id": "bde",
-        "name": "BDE",
+        "id": "bureau-des-eleves",
+        "name": "Bureau des Élèves",
         "color": "red"
       },
       "schools": [
@@ -284,8 +284,8 @@
       "id": "union-des-eleves-arts-et-metiers",
       "name": "Union des Élèves - Arts et Métiers",
       "category": {
-        "id": "bde",
-        "name": "BDE",
+        "id": "bureau-des-eleves",
+        "name": "Bureau des Élèves",
         "color": "red"
       },
       "schools": [
@@ -299,8 +299,8 @@
       "id": "club-dj-insa-strasbourg",
       "name": "Club DJ INSA Strasbourg",
       "category": {
-        "id": "art",
-        "name": "Art",
+        "id": "artistique",
+        "name": "Artistique",
         "color": "green"
       },
       "schools": [

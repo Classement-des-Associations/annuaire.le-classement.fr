@@ -1,6 +1,7 @@
 {
   "id": "le-dahu",
   "name": "Le Dahu",
+  "categoryId": "city-guide",
   "category": {
     "id": "city-guide",
     "name": "City-guide",
@@ -9,11 +10,15 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/_dahu/",
   "website": "http://www.ledahu.net/",
+  "schoolsId": [
+    "grenoble-ecole-de-maganement"
+  ],
   "schools": [
     {
       "id": "grenoble-ecole-de-maganement",
       "name": "Grenoble Ecole de Maganement"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

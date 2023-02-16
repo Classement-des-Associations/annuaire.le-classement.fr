@@ -1,19 +1,24 @@
 {
   "id": "federation-des-etudiants-de-lieseg",
   "name": "Fédération des Étudiants de l’IESEG",
+  "categoryId": "bureau-des-eleves",
   "category": {
-    "id": "bde",
-    "name": "BDE",
+    "id": "bureau-des-eleves",
+    "name": "Bureau des Élèves",
     "color": "red"
   },
   "linkedin": null,
   "instagram": "www.instagram/fede_ieseg.com",
   "website": null,
+  "schoolsId": [
+    "ieseg"
+  ],
   "schools": [
     {
       "id": "ieseg",
       "name": "IESEG"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

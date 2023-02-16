@@ -1,6 +1,7 @@
 {
   "id": "transaharienne",
   "name": "Transaharienne",
+  "categoryId": "humanitaire",
   "category": {
     "id": "humanitaire",
     "name": "Humanitaire",
@@ -9,11 +10,15 @@
   "linkedin": "https://www.linkedin.com/company/transaharienne",
   "instagram": "https://www.instagram.com/transaharienne",
   "website": "https://transaharienne.fr",
+  "schoolsId": [
+    "isep"
+  ],
   "schools": [
     {
       "id": "isep",
       "name": "ISEP"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

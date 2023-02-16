@@ -1,6 +1,7 @@
 {
   "id": "helloworldedhec",
   "name": "Helloworld!EDHEC",
+  "categoryId": "technique",
   "category": {
     "id": "technique",
     "name": "Technique",
@@ -9,11 +10,15 @@
   "linkedin": "https://www.linkedin.com/company/helloworld-edhec",
   "instagram": "https://www.instagram.com/helloworldedhec/",
   "website": "https://helloworldedhec.com/",
+  "schoolsId": [
+    "edhec"
+  ],
   "schools": [
     {
       "id": "edhec",
       "name": "EDHEC"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

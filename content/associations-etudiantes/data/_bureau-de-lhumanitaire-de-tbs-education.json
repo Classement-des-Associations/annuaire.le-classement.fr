@@ -2,6 +2,7 @@
   "id": "bureau-de-lhumanitaire-de-tbs-education",
   "name": "Bureau de l’Humanitaire de TBS Education",
   "description": "L’association possède plusieurs pôles, chacun avec des missions différentes, qui agissent autant à l'international qu'en France pour venir en aide aux personnes les plus vulnérables.",
+  "categoryId": "sociale",
   "category": {
     "id": "sociale",
     "name": "Sociale",
@@ -10,11 +11,17 @@
   "linkedin": "https://www.linkedin.com/company/bureau-de-l-humanitaire/",
   "instagram": "https://www.instagram.com/bdh.tbs/?hl=fr",
   "website": "https://bdh.tbs.fr/",
+  "schoolsId": [
+    "tbs-education"
+  ],
   "schools": [
     {
       "id": "tbs-education",
       "name": "TBS Education"
     }
+  ],
+  "participationsId": [
+    "2022"
   ],
   "participations": [
     {

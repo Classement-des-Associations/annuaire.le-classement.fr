@@ -1,6 +1,7 @@
 {
   "id": "vive-les-vacances",
   "name": "Vive les Vacances !",
+  "categoryId": "sociale",
   "category": {
     "id": "sociale",
     "name": "Sociale",
@@ -9,11 +10,15 @@
   "linkedin": "https://www.linkedin.com/company/association-vive-les-vacances-/",
   "instagram": "https://www.instagram.com/vivelesvacances_association/?hl=fr",
   "website": "https://www.vive-les-vacances.org/",
+  "schoolsId": [
+    "edhec"
+  ],
   "schools": [
     {
       "id": "edhec",
       "name": "EDHEC"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

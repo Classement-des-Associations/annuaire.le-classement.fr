@@ -7,7 +7,7 @@ import { createNotionClient } from './utils/notion.mjs'
 import { queryDatabase } from './utils/query.mjs'
 import { useSlugify } from './utils/slugify.mjs'
 
-async function main() {
+async function main () {
   consola.start('Script', 'Fetch Notion')
 
   consola.info('Cleaning directories')
@@ -43,50 +43,10 @@ async function main() {
   // Extract participations
   for (const { properties } of participations) {
     const name = useExtractContent(properties.Nom)
-    const associationsId = useExtractContent(properties.Associations)
-
-    const relatedAssociations = []
-    for (const pageId of associationsId) {
-      const association = associations.find(({ id }) => id === pageId)
-
-      if (!association) {
-        continue
-      }
-
-      const associationName = useExtractContent(association.properties.Nom)
-      const associationCategory = useExtractContent(association.properties['Catégorie'])
-      const schoolsPagesId = useExtractContent(association.properties.Ecoles)
-
-      const relatedSchools = []
-      for (const pageId of schoolsPagesId) {
-        const school = schools.find(({ id }) => id === pageId)
-
-        if (!school) {
-          continue
-        }
-
-        const schoolName = useExtractContent(school.properties.Nom)
-        relatedSchools.push({
-          id: useSlugify(schoolName),
-          name: schoolName
-        })
-      }
-
-      relatedAssociations.push({
-        id: useSlugify(associationName),
-        name: associationName,
-        category: {
-          id: useSlugify(associationCategory.name),
-          ...associationCategory
-        },
-        schools: relatedSchools
-      })
-    }
 
     await writeFile(name, 'participations/data/2022', {
       id: useSlugify(name),
-      name,
-      associations: relatedAssociations
+      name
     })
   }
 
@@ -94,75 +54,28 @@ async function main() {
   const categories = new Map()
   for (const { properties } of associations) {
     const category = useExtractContent(properties['Catégorie'])
-    const name = useExtractContent(properties.Nom)
-    const schoolsPagesId = useExtractContent(properties.Ecoles)
 
     const categoryName = category.name
     if (!categories.has(categoryName)) {
-      categories.set(categoryName, { color: category.color, associations: [] })
+      categories.set(categoryName, { color: category.color })
     }
-    const categoryAssociations = categories.get(categoryName)
-
-    const relatedSchools = []
-    for (const pageId of schoolsPagesId) {
-      const school = schools.find(({ id }) => id === pageId)
-
-      if (!school) {
-        continue
-      }
-
-      const schoolName = useExtractContent(school.properties.Nom)
-      relatedSchools.push({
-        id: useSlugify(schoolName),
-        name: schoolName
-      })
-    }
-
-    categoryAssociations.associations.push({
-      id: useSlugify(name),
-      name,
-      schools: relatedSchools
-    })
-    categories.set(categoryName, categoryAssociations)
   }
 
   for (const [category, data] of categories) {
     await writeFile(category, 'categories/data', {
       id: useSlugify(category),
       name: category,
-      color: data.color,
-      associations: data.associations
+      color: data.color
     })
   }
 
   // Extract schools
   for (const { properties } of schools) {
     const name = useExtractContent(properties.Nom)
-    const associationsId = useExtractContent(properties.Associations)
-    const relatedAssociations = []
-    for (const pageId of associationsId) {
-      const association = associations.find(({ id }) => id === pageId)
-      if (!association) {
-        continue
-      }
-
-      const associationName = useExtractContent(association.properties.Nom)
-      const associationCategory = useExtractContent(association.properties['Catégorie'])
-
-      relatedAssociations.push({
-        id: useSlugify(associationName),
-        name: associationName,
-        category: {
-          id: useSlugify(associationCategory.name),
-          ...associationCategory
-        }
-      })
-    }
 
     await writeFile(name, 'ecoles/data', {
       id: useSlugify(name),
-      name,
-      associations: relatedAssociations
+      name
     })
   }
 
@@ -212,6 +125,7 @@ async function main() {
       id: useSlugify(name),
       name,
       description,
+      categoryId: useSlugify(category.name),
       category: {
         id: useSlugify(category.name),
         ...category
@@ -219,13 +133,15 @@ async function main() {
       linkedin,
       instagram,
       website,
+      schoolsId: relatedSchools.map(({ id }) => id),
       schools: relatedSchools,
+      participationsId: relatedParticipations.map(({ id }) => id),
       participations: relatedParticipations
     })
   }
 }
 
-async function fetchAssociationsDatabase(client, databaseId) {
+async function fetchAssociationsDatabase (client, databaseId) {
   const associations = await queryDatabase(client, databaseId, {
     property: 'Montrer',
     checkbox: {
@@ -245,7 +161,7 @@ async function fetchAssociationsDatabase(client, databaseId) {
   return associations
 }
 
-async function fetchSchoolsDatabase(client, databaseId) {
+async function fetchSchoolsDatabase (client, databaseId) {
   const schools = await queryDatabase(client, databaseId, {
     property: 'Le Classement',
     rollup: {
@@ -267,7 +183,7 @@ async function fetchSchoolsDatabase(client, databaseId) {
   return schools
 }
 
-async function fetchParticipationsDatabase(client, databaseId) {
+async function fetchParticipationsDatabase (client, databaseId) {
   const participations = await queryDatabase(client, databaseId)
 
   if (!participations.length) {

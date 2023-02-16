@@ -1,6 +1,7 @@
 {
   "id": "tuong-lai-essec",
   "name": "Tuong Laï Essec",
+  "categoryId": "humanitaire",
   "category": {
     "id": "humanitaire",
     "name": "Humanitaire",
@@ -9,11 +10,15 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/tuonglai_essec/",
   "website": null,
+  "schoolsId": [
+    "essec"
+  ],
   "schools": [
     {
       "id": "essec",
       "name": "ESSEC"
     }
   ],
+  "participationsId": [],
   "participations": []
 }

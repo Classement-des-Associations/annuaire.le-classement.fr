@@ -15,8 +15,8 @@
       "id": "union-des-eleves-arts-et-metiers",
       "name": "Union des Élèves - Arts et Métiers",
       "category": {
-        "id": "bde",
-        "name": "BDE",
+        "id": "bureau-des-eleves",
+        "name": "Bureau des Élèves",
         "color": "red"
       }
     }
