@@ -1,24 +1,4 @@
 {
   "id": "escp",
-  "name": "ESCP",
-  "associations": [
-    {
-      "id": "la-comu",
-      "name": "La CoMu",
-      "category": {
-        "id": "culturelle",
-        "name": "Culturelle",
-        "color": "orange"
-      }
-    },
-    {
-      "id": "star-trekkescp",
-      "name": "Star Trekk'ESCP",
-      "category": {
-        "id": "environnementale",
-        "name": "Environnementale",
-        "color": "yellow"
-      }
-    }
-  ]
+  "name": "ESCP"
 }

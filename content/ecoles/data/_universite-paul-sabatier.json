@@ -1,15 +1,4 @@
 {
   "id": "universite-paul-sabatier",
-  "name": "Université Paul Sabatier",
-  "associations": [
-    {
-      "id": "tutorat-associatif-toulousain",
-      "name": "Tutorat Associatif Toulousain",
-      "category": {
-        "id": "sociale",
-        "name": "Sociale",
-        "color": "pink"
-      }
-    }
-  ]
+  "name": "Université Paul Sabatier"
 }

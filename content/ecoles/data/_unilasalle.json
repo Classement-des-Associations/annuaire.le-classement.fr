@@ -1,24 +1,4 @@
 {
   "id": "unilasalle",
-  "name": "UniLaSalle",
-  "associations": [
-    {
-      "id": "nuit-de-linstitut",
-      "name": "Nuit de l'Institut",
-      "category": {
-        "id": "gala",
-        "name": "Gala",
-        "color": "blue"
-      }
-    },
-    {
-      "id": "ovalies",
-      "name": "Ovalies",
-      "category": {
-        "id": "sportive",
-        "name": "Sportive",
-        "color": "brown"
-      }
-    }
-  ]
+  "name": "UniLaSalle"
 }

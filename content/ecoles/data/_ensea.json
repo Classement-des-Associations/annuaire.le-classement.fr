@@ -1,15 +1,4 @@
 {
   "id": "ensea",
-  "name": "ENSEA",
-  "associations": [
-    {
-      "id": "bdls-humensea",
-      "name": "BDLS - HUM’ENsea",
-      "category": {
-        "id": "sociale",
-        "name": "Sociale",
-        "color": "pink"
-      }
-    }
-  ]
+  "name": "ENSEA"
 }

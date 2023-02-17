@@ -1,24 +1,4 @@
 {
   "id": "arts-et-metiers-paristech",
-  "name": "Arts et Métiers ParisTech",
-  "associations": [
-    {
-      "id": "humam",
-      "name": "Hum'am",
-      "category": {
-        "id": "humanitaire",
-        "name": "Humanitaire",
-        "color": "blue"
-      }
-    },
-    {
-      "id": "union-des-eleves-arts-et-metiers",
-      "name": "Union des Élèves - Arts et Métiers",
-      "category": {
-        "id": "bureau-des-eleves",
-        "name": "Bureau des Élèves",
-        "color": "red"
-      }
-    }
-  ]
+  "name": "Arts et Métiers ParisTech"
 }

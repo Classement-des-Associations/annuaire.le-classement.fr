@@ -1,24 +1,4 @@
 {
   "id": "audencia-business-school",
-  "name": "Audencia Business School",
-  "associations": [
-    {
-      "id": "audencia-junior-conseil",
-      "name": "Audencia Junior Conseil",
-      "category": {
-        "id": "professionnalisante",
-        "name": "Professionnalisante",
-        "color": "gray"
-      }
-    },
-    {
-      "id": "bureau-des-arts-audencia",
-      "name": "Bureau des Arts - Audencia",
-      "category": {
-        "id": "artistique",
-        "name": "Artistique",
-        "color": "green"
-      }
-    }
-  ]
+  "name": "Audencia Business School"
 }

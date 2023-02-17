@@ -1,24 +1,4 @@
 {
   "id": "centralesupelec",
-  "name": "CentraleSupélec",
-  "associations": [
-    {
-      "id": "bureau-des-sports-centralesupelec",
-      "name": "Bureau des sports CentraleSupélec",
-      "category": {
-        "id": "sportive",
-        "name": "Sportive",
-        "color": "brown"
-      }
-    },
-    {
-      "id": "humacs",
-      "name": "HumaCS",
-      "category": {
-        "id": "sociale",
-        "name": "Sociale",
-        "color": "pink"
-      }
-    }
-  ]
+  "name": "CentraleSupélec"
 }

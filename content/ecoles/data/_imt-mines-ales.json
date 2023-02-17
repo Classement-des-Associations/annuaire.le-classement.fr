@@ -1,15 +1,4 @@
 {
   "id": "imt-mines-ales",
-  "name": "IMT Mines Alès",
-  "associations": [
-    {
-      "id": "cercle-des-eleves-des-mines-dales",
-      "name": "Cercle des élèves des Mines d'Alès",
-      "category": {
-        "id": "bureau-des-eleves",
-        "name": "Bureau des Élèves",
-        "color": "red"
-      }
-    }
-  ]
+  "name": "IMT Mines Alès"
 }

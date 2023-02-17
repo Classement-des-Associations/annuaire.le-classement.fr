@@ -1,15 +1,4 @@
 {
   "id": "ecole-centrale-de-lyon",
-  "name": "École Centrale de Lyon",
-  "associations": [
-    {
-      "id": "association-des-eleves-de-lecole-centrale-de-lyon",
-      "name": "Association des élèves de l’école Centrale de Lyon",
-      "category": {
-        "id": "bureau-des-eleves",
-        "name": "Bureau des Élèves",
-        "color": "red"
-      }
-    }
-  ]
+  "name": "École Centrale de Lyon"
 }

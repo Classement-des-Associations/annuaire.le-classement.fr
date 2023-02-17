@@ -1,15 +1,4 @@
 {
   "id": "epitech",
-  "name": "Epitech",
-  "associations": [
-    {
-      "id": "supbio-dance",
-      "name": "Sup’Bio Dance",
-      "category": {
-        "id": "sportive",
-        "name": "Sportive",
-        "color": "brown"
-      }
-    }
-  ]
+  "name": "Epitech"
 }

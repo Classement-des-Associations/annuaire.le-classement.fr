@@ -1,15 +1,4 @@
 {
   "id": "insa-strasbourg",
-  "name": "INSA Strasbourg",
-  "associations": [
-    {
-      "id": "club-dj-insa-strasbourg",
-      "name": "Club DJ INSA Strasbourg",
-      "category": {
-        "id": "artistique",
-        "name": "Artistique",
-        "color": "green"
-      }
-    }
-  ]
+  "name": "INSA Strasbourg"
 }

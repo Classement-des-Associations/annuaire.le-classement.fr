@@ -1,17 +1,5 @@
 {
   "id": "gala",
   "name": "Gala",
-  "color": "blue",
-  "associations": [
-    {
-      "id": "nuit-de-linstitut",
-      "name": "Nuit de l'Institut",
-      "schools": [
-        {
-          "id": "unilasalle",
-          "name": "UniLaSalle"
-        }
-      ]
-    }
-  ]
+  "color": "blue"
 }

@@ -1,15 +1,4 @@
 {
   "id": "isep",
-  "name": "ISEP",
-  "associations": [
-    {
-      "id": "transaharienne",
-      "name": "Transaharienne",
-      "category": {
-        "id": "humanitaire",
-        "name": "Humanitaire",
-        "color": "blue"
-      }
-    }
-  ]
+  "name": "ISEP"
 }
