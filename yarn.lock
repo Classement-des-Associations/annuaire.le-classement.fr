@@ -376,17 +376,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@classement-des-associations/website-theme@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "@classement-des-associations/website-theme@npm:0.0.4"
+"@classement-des-associations/website-theme@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@classement-des-associations/website-theme@npm:0.0.5"
   dependencies:
     "@headlessui/vue": ^1.7.9
     "@nuxt/content": ^2.4.3
     "@nuxtjs/fontaine": ^0.2.4
     "@nuxtjs/tailwindcss": ^6.3.0
     nuxt: ^3.2.0
-    nuxt-icon: ^0.2.11
-  checksum: be5c1a76ac29b7cc6abf639a075504f930b2087d10941abc19dd424523c58aefa038562d3d762d35477a8f34049b419cf15716ddc17868dfd07bfc09dde99653
+    nuxt-icon: ^0.3.0
+  checksum: 0d4c823cdf70487ed753631d2cff1a6d6f687b4ca387e955cfbdef3c3ec41e22da5d14751ea6889b9c5b22c5e2e8793bf2770f8aa61833472be808bb52cad18f
   languageName: node
   linkType: hard
 
@@ -808,7 +808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/vue@npm:^4.0.2":
+"@iconify/vue@npm:^4.1.0":
   version: 4.1.0
   resolution: "@iconify/vue@npm:4.1.0"
   dependencies:
@@ -1088,7 +1088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.2.0, @nuxt/kit@npm:^3.0.0, @nuxt/kit@npm:^3.1.0, @nuxt/kit@npm:^3.2.0":
+"@nuxt/kit@npm:3.2.0, @nuxt/kit@npm:^3.0.0, @nuxt/kit@npm:^3.2.0":
   version: 3.2.0
   resolution: "@nuxt/kit@npm:3.2.0"
   dependencies:
@@ -7742,14 +7742,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-icon@npm:^0.2.11":
-  version: 0.2.11
-  resolution: "nuxt-icon@npm:0.2.11"
+"nuxt-icon@npm:^0.3.0":
+  version: 0.3.2
+  resolution: "nuxt-icon@npm:0.3.2"
   dependencies:
-    "@iconify/vue": ^4.0.2
-    "@nuxt/kit": ^3.1.0
+    "@iconify/vue": ^4.1.0
+    "@nuxt/kit": ^3.2.0
     nuxt-config-schema: ^0.4.4
-  checksum: 356435613644f55008e0796ac5fc53435870417783264b0cda1f34f1c98a68f43364d4d609db2a14c6ce5a62f253728e6dcb99319f72713c2d1f0b203b94d8ed
+  checksum: 8351d0d24bdf670cc36b0b74528eebc6741a2b18627595a7371455a98456f2ea98952748fa47925d57d8ea8b769674b3ff0ac739533f0a5eee75f7d03df0093f
   languageName: node
   linkType: hard
 
@@ -9308,7 +9308,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@classement-des-associations/website-theme": ^0.0.4
+    "@classement-des-associations/website-theme": ^0.0.5
     "@notionhq/client": ^2.2.3
     "@nuxtjs/eslint-config-typescript": ^12.0.0
     eslint: ^8.34.0
