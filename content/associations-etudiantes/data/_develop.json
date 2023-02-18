@@ -1,24 +1,12 @@
 {
   "id": "develop",
   "name": "Develop",
-  "categoryId": "professionnalisante",
-  "category": {
-    "id": "professionnalisante",
-    "name": "Professionnalisante",
-    "color": "gray"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/developedhec/?hl=fr",
   "website": "https://www.developedhec.com/",
+  "categoryId": "professionnalisante",
   "schoolsId": [
     "edhec"
   ],
-  "schools": [
-    {
-      "id": "edhec",
-      "name": "EDHEC"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

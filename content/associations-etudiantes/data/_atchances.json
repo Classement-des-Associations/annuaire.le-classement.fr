@@ -1,24 +1,12 @@
 {
   "id": "atchances",
   "name": "AT’CHANCES",
-  "categoryId": "sociale",
-  "category": {
-    "id": "sociale",
-    "name": "Sociale",
-    "color": "pink"
-  },
   "linkedin": null,
   "instagram": "https://instagram.com/atchances",
   "website": null,
+  "categoryId": "sociale",
   "schoolsId": [
     "icn-business-school"
   ],
-  "schools": [
-    {
-      "id": "icn-business-school",
-      "name": "ICN Business School"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

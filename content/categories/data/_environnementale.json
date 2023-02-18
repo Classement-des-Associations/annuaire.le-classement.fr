@@ -1,5 +1,6 @@
 {
   "id": "environnementale",
   "name": "Environnementale",
-  "color": "yellow"
+  "icon": "fluent-emoji:potted-plant",
+  "color": "green"
 }

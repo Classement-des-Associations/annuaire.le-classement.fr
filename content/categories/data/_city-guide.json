@@ -1,5 +1,6 @@
 {
   "id": "city-guide",
-  "name": "City-guide",
+  "name": "City-Guide",
+  "icon": "fluent-emoji:notebook-with-decorative-cover",
   "color": "purple"
 }

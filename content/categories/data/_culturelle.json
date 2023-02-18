@@ -1,5 +1,6 @@
 {
   "id": "culturelle",
   "name": "Culturelle",
-  "color": "orange"
+  "icon": "fluent-emoji:framed-picture",
+  "color": "yellow"
 }

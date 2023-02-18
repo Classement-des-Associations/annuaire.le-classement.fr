@@ -1,5 +1,6 @@
 {
   "id": "sportive",
   "name": "Sportive",
-  "color": "brown"
+  "icon": "fluent-emoji:sports-medal",
+  "color": "indigo"
 }

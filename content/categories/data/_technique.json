@@ -1,5 +1,6 @@
 {
   "id": "technique",
   "name": "Technique",
-  "color": "default"
+  "icon": "fluent-emoji:hammer-and-wrench",
+  "color": "zinc"
 }

@@ -9,6 +9,7 @@ dotenv.config()
  * @property {string} associationsDatabaseId
  * @property {string} schoolsDatabaseId
  * @property {string} participationsDatabaseId
+ * @property {string} categoriesDatabaseId
  * @returns {Env}
  * @throws {Error}
  */
@@ -33,10 +34,16 @@ export const useEnv = function () {
     throw new Error('No participation database ID found')
   }
 
+  const categoriesDatabaseId = process.env.NOTION_CATEGORIES_DATABASE_ID
+  if (!categoriesDatabaseId) {
+    throw new Error('No category database ID found')
+  }
+
   return {
     notionKey,
     associationsDatabaseId,
     schoolsDatabaseId,
-    participationsDatabaseId
+    participationsDatabaseId,
+    categoriesDatabaseId
   }
 }

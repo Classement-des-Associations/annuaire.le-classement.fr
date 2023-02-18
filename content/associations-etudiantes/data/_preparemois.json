@@ -1,24 +1,12 @@
 {
   "id": "preparemois",
   "name": "Prépa'Rémois",
-  "categoryId": "sociale",
-  "category": {
-    "id": "sociale",
-    "name": "Sociale",
-    "color": "pink"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/preparemois/",
   "website": "https://www.preparemois.com",
+  "categoryId": "sociale",
   "schoolsId": [
     "neoma-business-school"
   ],
-  "schools": [
-    {
-      "id": "neoma-business-school",
-      "name": "Neoma Business School"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

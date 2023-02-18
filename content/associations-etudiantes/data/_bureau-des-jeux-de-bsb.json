@@ -2,31 +2,14 @@
   "id": "bureau-des-jeux-de-bsb",
   "name": "Bureau des Jeux de BSB",
   "description": "Le BDJ est une association chargée d’organiser tous les évents liés aux jeux : jeux classiques (soirées Casino, tournois de jeux de société) ; jeux vidéo (tournois, salons) ; mais aussi des évènements plus génériques (compétitions à thème, Escape Games…).",
-  "categoryId": "culturelle",
-  "category": {
-    "id": "culturelle",
-    "name": "Culturelle",
-    "color": "orange"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/bureaudesjeuxbsb/?hl=fr",
   "website": null,
+  "categoryId": "culturelle",
   "schoolsId": [
     "burgundy-business-school"
   ],
-  "schools": [
-    {
-      "id": "burgundy-business-school",
-      "name": "Burgundy Business School"
-    }
-  ],
   "participationsId": [
     "2022"
-  ],
-  "participations": [
-    {
-      "id": "2022",
-      "name": "2022"
-    }
   ]
 }

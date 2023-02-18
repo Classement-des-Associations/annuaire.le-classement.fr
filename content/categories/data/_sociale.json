@@ -1,5 +1,6 @@
 {
   "id": "sociale",
   "name": "Sociale",
-  "color": "pink"
+  "icon": "fluent-emoji:beach-with-umbrella",
+  "color": "orange"
 }

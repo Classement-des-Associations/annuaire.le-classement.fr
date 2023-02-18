@@ -1,24 +1,12 @@
 {
   "id": "live-efrei",
   "name": "Live Efrei",
-  "categoryId": "artistique",
-  "category": {
-    "id": "artistique",
-    "name": "Artistique",
-    "color": "green"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/live.efrei/",
   "website": "https://live-efrei.fr/",
+  "categoryId": "artistique",
   "schoolsId": [
     "efrei"
   ],
-  "schools": [
-    {
-      "id": "efrei",
-      "name": "EFREI"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

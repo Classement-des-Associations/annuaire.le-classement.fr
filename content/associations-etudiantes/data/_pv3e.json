@@ -1,24 +1,12 @@
 {
   "id": "pv3e",
   "name": "PV3e",
-  "categoryId": "technique",
-  "category": {
-    "id": "technique",
-    "name": "Technique",
-    "color": "default"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/pv3eestaca/",
   "website": "https://www.pv3e-estaca.com/",
+  "categoryId": "technique",
   "schoolsId": [
     "estaca"
   ],
-  "schools": [
-    {
-      "id": "estaca",
-      "name": "ESTACA"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

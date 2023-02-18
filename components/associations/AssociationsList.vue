@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Association } from '@/types';
+import { Association } from '@/types'
 
 defineProps<{
   associations: Association[];

@@ -1,24 +1,12 @@
 {
   "id": "sports-business-consulting",
   "name": "Sports Business Consulting",
-  "categoryId": "professionnalisante",
-  "category": {
-    "id": "professionnalisante",
-    "name": "Professionnalisante",
-    "color": "gray"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/sports_business_consulting/",
   "website": null,
+  "categoryId": "professionnalisante",
   "schoolsId": [
     "edhec"
   ],
-  "schools": [
-    {
-      "id": "edhec",
-      "name": "EDHEC"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

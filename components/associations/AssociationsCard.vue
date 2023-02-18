@@ -1,9 +1,11 @@
 <script lang="ts" setup>
 import { Association } from '@/types'
 
-defineProps<{
+const props = defineProps<{
   association: Association;
 }>()
+
+const { data: category } = await useCategory(props.association?.categoryId)
 </script>
 
 <template>
@@ -17,8 +19,8 @@ defineProps<{
           <div class="absolute inset-0" />
         </NuxtLink>
       </h3>
-      <NuxtLink class="z-10 order-first" :to="`/categories/${association.category.id}`">
-        <CategoriesItem :category="association.category" />
+      <NuxtLink v-if="category" class="z-10 order-first" :to="`/categories/${category.id}`">
+        <CategoriesItem :category="category" />
       </NuxtLink>
     </div>
   </BaseCard>

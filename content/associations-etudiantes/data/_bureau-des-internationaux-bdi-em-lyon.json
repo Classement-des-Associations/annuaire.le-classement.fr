@@ -1,24 +1,12 @@
 {
   "id": "bureau-des-internationaux-bdi-em-lyon",
   "name": "Bureau des Internationaux (BDI) - em lyon",
-  "categoryId": "culturelle",
-  "category": {
-    "id": "culturelle",
-    "name": "Culturelle",
-    "color": "orange"
-  },
   "linkedin": null,
   "instagram": "https://instagram.com/bdi_emlyon",
   "website": null,
+  "categoryId": "culturelle",
   "schoolsId": [
     "emlyon"
   ],
-  "schools": [
-    {
-      "id": "emlyon",
-      "name": "emlyon"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

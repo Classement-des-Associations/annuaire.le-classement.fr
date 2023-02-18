@@ -2,31 +2,14 @@
   "id": "cercle-des-eleves-des-mines-dales",
   "name": "Cercle des élèves des Mines d'Alès",
   "description": "Le Cercle des Elèves s'occupe de la gestion de la vie associative au sein de la Maison des Elèves, son campus. Elle assure l'épanouissement des élèves dans son campus.",
-  "categoryId": "bureau-des-eleves",
-  "category": {
-    "id": "bureau-des-eleves",
-    "name": "Bureau des Élèves",
-    "color": "red"
-  },
   "linkedin": null,
   "instagram": "https://www.instagram.com/bdeimtminesales/?hl=fr",
   "website": null,
+  "categoryId": "bureau-des-eleves",
   "schoolsId": [
     "imt-mines-ales"
   ],
-  "schools": [
-    {
-      "id": "imt-mines-ales",
-      "name": "IMT Mines Alès"
-    }
-  ],
   "participationsId": [
     "2022"
-  ],
-  "participations": [
-    {
-      "id": "2022",
-      "name": "2022"
-    }
   ]
 }

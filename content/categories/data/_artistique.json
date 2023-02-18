@@ -1,5 +1,6 @@
 {
   "id": "artistique",
   "name": "Artistique",
-  "color": "green"
+  "icon": "fluent-emoji:artist-palette",
+  "color": "emerald"
 }

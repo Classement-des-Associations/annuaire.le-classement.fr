@@ -1,5 +1,6 @@
 {
   "id": "gala",
   "name": "Gala",
-  "color": "blue"
+  "icon": "fluent-emoji:bottle-with-popping-cork",
+  "color": "sky"
 }

@@ -1,24 +1,12 @@
 {
   "id": "diplomates",
   "name": "Diplo’Mates",
-  "categoryId": "geopolitique",
-  "category": {
-    "id": "geopolitique",
-    "name": "Géopolitique",
-    "color": "red"
-  },
   "linkedin": "https://www.linkedin.com/company/diplo-mates-emlyon/mycompany/",
   "instagram": "https://www.instagram.com/diplo.mates/",
   "website": "www.diplo-mates.com",
+  "categoryId": "geopolitique",
   "schoolsId": [
     "emlyon"
   ],
-  "schools": [
-    {
-      "id": "emlyon",
-      "name": "emlyon"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

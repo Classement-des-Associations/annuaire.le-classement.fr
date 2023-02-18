@@ -2,31 +2,14 @@
   "id": "forum-estp",
   "name": "Forum ESTP",
   "description": "Chaque année, le Forum ESTP organise un salon de recrutement au Parc des expositions accueillant plus de 180 entreprises et 5000 visiteurs.",
-  "categoryId": "professionnalisante",
-  "category": {
-    "id": "professionnalisante",
-    "name": "Professionnalisante",
-    "color": "gray"
-  },
   "linkedin": "https://www.linkedin.com/company/forum-etp/",
   "instagram": "https://www.instagram.com/forumestp/?hl=fr",
   "website": null,
+  "categoryId": "professionnalisante",
   "schoolsId": [
     "estp"
   ],
-  "schools": [
-    {
-      "id": "estp",
-      "name": "ESTP"
-    }
-  ],
   "participationsId": [
     "2022"
-  ],
-  "participations": [
-    {
-      "id": "2022",
-      "name": "2022"
-    }
   ]
 }

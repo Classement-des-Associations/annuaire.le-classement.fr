@@ -1,5 +1,6 @@
 {
   "id": "humanitaire",
   "name": "Humanitaire",
-  "color": "blue"
+  "icon": "fluent-emoji:wrapped-gift",
+  "color": "lime"
 }

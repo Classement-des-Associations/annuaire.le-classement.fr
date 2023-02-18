@@ -1,5 +1,6 @@
 {
   "id": "professionnalisante",
   "name": "Professionnalisante",
-  "color": "gray"
+  "icon": "fluent-emoji:man-office-worker",
+  "color": "slate"
 }

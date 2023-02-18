@@ -1,1 +1,1 @@
-export type Color = 'gray' | 'red' | 'orange' | 'brown' | 'yellow' | 'green' | 'blue' | 'purple' | 'pink' | 'default'
+export type Color = 'lime' | 'red' | 'purple' | 'green' | 'yellow' | 'sky' | 'rose' | 'teal' | 'emerald' | 'slate' | 'orange' | 'indigo' | 'zinc' | 'fuchsia'

@@ -1,24 +1,12 @@
 {
   "id": "helloworldedhec",
   "name": "Helloworld!EDHEC",
-  "categoryId": "technique",
-  "category": {
-    "id": "technique",
-    "name": "Technique",
-    "color": "default"
-  },
   "linkedin": "https://www.linkedin.com/company/helloworld-edhec",
   "instagram": "https://www.instagram.com/helloworldedhec/",
   "website": "https://helloworldedhec.com/",
+  "categoryId": "technique",
   "schoolsId": [
     "edhec"
   ],
-  "schools": [
-    {
-      "id": "edhec",
-      "name": "EDHEC"
-    }
-  ],
-  "participationsId": [],
-  "participations": []
+  "participationsId": []
 }

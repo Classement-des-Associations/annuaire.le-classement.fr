@@ -22,7 +22,7 @@ async function main () {
     paths.map(path => clearDir(path, { extensions: ['json'] }))
   ])
 
-  const { participationsDatabaseId, schoolsDatabaseId, associationsDatabaseId, notionKey } = useEnv()
+  const { categoriesDatabaseId, participationsDatabaseId, schoolsDatabaseId, associationsDatabaseId, notionKey } = useEnv()
   const client = createNotionClient(notionKey)
 
   // Fetch associations
@@ -40,6 +40,11 @@ async function main () {
   const participations = await fetchParticipationsDatabase(client, participationsDatabaseId)
   consola.info(`Participations fetched in ${Date.now() - startTimeFetchParticipations}ms`)
 
+  // Fetch categories
+  const startTimeFetchCategories = Date.now()
+  const categories = await fetchCategoriesDatabase(client, categoriesDatabaseId)
+  consola.info(`Categories fetched in ${Date.now() - startTimeFetchCategories}ms`)
+
   // Extract participations
   for (const { properties } of participations) {
     const name = useExtractContent(properties.Nom)
@@ -51,21 +56,16 @@ async function main () {
   }
 
   // Extract categories
-  const categories = new Map()
-  for (const { properties } of associations) {
-    const category = useExtractContent(properties['Catégorie'])
+  for (const { properties } of categories) {
+    const name = useExtractContent(properties.Nom)
+    const icon = useExtractContent(properties.Icon)
+    const color = useExtractContent(properties.Couleur)
 
-    const categoryName = category.name
-    if (!categories.has(categoryName)) {
-      categories.set(categoryName, { color: category.color })
-    }
-  }
-
-  for (const [category, data] of categories) {
-    await writeFile(category, 'categories/data', {
-      id: useSlugify(category),
-      name: category,
-      color: data.color
+    await writeFile(name, 'categories/data', {
+      id: useSlugify(name),
+      name,
+      icon,
+      color: useSlugify(color.name)
     })
   }
 
@@ -83,12 +83,27 @@ async function main () {
   for (const { properties } of associations) {
     const name = useExtractContent(properties.Nom)
     const description = useExtractContent(properties.Description)
-    const category = useExtractContent(properties['Catégorie'])
     const linkedin = useExtractContent(properties.LinkedIn)
     const instagram = useExtractContent(properties.Instagram)
     const website = useExtractContent(properties['Site web'])
+    const categoriesId = useExtractContent(properties['Catégorie 1'])
     const schoolsPagesId = useExtractContent(properties.Ecoles)
     const participationsPagesId = useExtractContent(properties['Participations Concours'])
+
+    const relatedCategories = []
+    for (const pageId of categoriesId) {
+      const category = categories.find(({ id }) => id === pageId)
+
+      if (!category) {
+        continue
+      }
+
+      const categoryName = useExtractContent(category.properties.Nom)
+      relatedCategories.push({
+        id: useSlugify(categoryName),
+        name: categoryName
+      })
+    }
 
     const relatedSchools = []
     for (const pageId of schoolsPagesId) {
@@ -125,18 +140,12 @@ async function main () {
       id: useSlugify(name),
       name,
       description,
-      categoryId: useSlugify(category.name),
-      category: {
-        id: useSlugify(category.name),
-        ...category
-      },
       linkedin,
       instagram,
       website,
+      categoryId: relatedCategories.map(({ id }) => id)[0],
       schoolsId: relatedSchools.map(({ id }) => id),
-      schools: relatedSchools,
-      participationsId: relatedParticipations.map(({ id }) => id),
-      participations: relatedParticipations
+      participationsId: relatedParticipations.map(({ id }) => id)
     })
   }
 }
@@ -191,6 +200,21 @@ async function fetchParticipationsDatabase (client, databaseId) {
   }
 
   return participations
+}
+
+async function fetchCategoriesDatabase (client, databaseId) {
+  const categories = await queryDatabase(client, databaseId, undefined, [
+    {
+      property: 'Nom',
+      direction: 'ascending'
+    }
+  ])
+
+  if (!categories.length) {
+    throw new Error('No categories found')
+  }
+
+  return categories
 }
 
 main().then(() => {

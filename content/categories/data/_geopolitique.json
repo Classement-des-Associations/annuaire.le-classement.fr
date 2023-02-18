@@ -1,5 +1,6 @@
 {
   "id": "geopolitique",
   "name": "Géopolitique",
-  "color": "red"
+  "icon": "fluent-emoji:world-map",
+  "color": "teal"
 }
