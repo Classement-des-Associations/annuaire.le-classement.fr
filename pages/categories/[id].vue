@@ -7,9 +7,14 @@ const { data: associations } = await useAssociationsByCategory(route.params.id a
 
 <template>
   <BaseSection class="my-20">
-    <h1 v-if="category">
-      {{ category.name }}
-    </h1>
+    <BaseH1
+      v-if="category"
+      class="flex items-center gap-4"
+    >
+      <Icon
+        :name="category.icon"
+      /> {{ category.name }}
+    </BaseH1>
     <AssociationsList v-if="associations" :associations="associations" class="mt-12">
       {{ associations }}
     </AssociationsList>

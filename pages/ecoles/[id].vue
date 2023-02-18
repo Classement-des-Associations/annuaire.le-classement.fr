@@ -7,9 +7,9 @@ const { data: associations } = await useAssociationsBySchool(route.params.id as 
 
 <template>
   <BaseSection class="my-20">
-    <h1 v-if="school">
+    <BaseH1 v-if="school">
       {{ school.name }}
-    </h1>
+    </BaseH1>
     <AssociationsList v-if="associations" :associations="associations" class="mt-12">
       {{ associations }}
     </AssociationsList>
