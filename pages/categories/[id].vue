@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const route = useRoute()
 
-const { data: category } = await useCategory(route.params.id as string)
+const { data: category } = await useCategoryById(route.params.id as string)
 const { data: associations } = await useAssociationsByCategory(route.params.id as string)
 </script>
 

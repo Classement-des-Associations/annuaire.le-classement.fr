@@ -3,6 +3,7 @@ import { Category } from '@/types'
 
 const props = defineProps<{
   category: Category;
+  icon?: boolean;
 }>()
 
 const color = useCategoryColor(props.category.color)
@@ -14,6 +15,7 @@ const color = useCategoryColor(props.category.color)
       <span class="sr-only">Catégorie</span>
     </dt>
     <dd>
+      <Icon v-if="icon" :name="category.icon" />
       {{ category.name }}
     </dd>
   </dl>

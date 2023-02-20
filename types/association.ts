@@ -7,6 +7,6 @@ export interface Association {
   instagram: string
   website: string,
   categoryId: string,
-  schoolsIds: string[]
-  participationIds: string[]
+  schoolsId: string[]
+  participationsId: string[]
 }
