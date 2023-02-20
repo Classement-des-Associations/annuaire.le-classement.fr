@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <BaseCard class="relative h-full">
     <BaseCardTitle class="h-full">
-      <NuxtLink :to="`/ecoles/${school.id}`" class="h-full flex flex-col justify-center">
+      <NuxtLink :to="`/ecoles/${school.id}/`" class="h-full flex flex-col justify-center">
         {{ school.name }}
         <div class="absolute inset-0" />
       </NuxtLink>

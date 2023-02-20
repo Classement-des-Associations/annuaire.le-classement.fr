@@ -10,8 +10,11 @@ const { data: associations } = await useAssociationsBySchool(route.params.id as 
     <BaseH1 v-if="school">
       {{ school.name }}
     </BaseH1>
-    <AssociationsList v-if="associations" :associations="associations" class="mt-12">
-      {{ associations }}
-    </AssociationsList>
+    <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
+      Associations de l'école
+    </AssociationsRelatedListSection>
+    <NuxtLink to="/ecoles/" class="block mt-16 text-lg font-lig">
+      Revenir aux écoles
+    </NuxtLink>
   </BaseSection>
 </template>

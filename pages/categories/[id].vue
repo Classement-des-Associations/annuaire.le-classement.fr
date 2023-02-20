@@ -15,8 +15,11 @@ const { data: associations } = await useAssociationsByCategory(route.params.id a
         :name="category.icon"
       /> {{ category.name }}
     </BaseH1>
-    <AssociationsList v-if="associations" :associations="associations" class="mt-12">
-      {{ associations }}
-    </AssociationsList>
+    <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
+      Associations de la catégorie
+    </AssociationsRelatedListSection>
+    <NuxtLink to="/categories/" class="block mt-16 text-lg font-light">
+      Revenir aux catégories
+    </NuxtLink>
   </BaseSection>
 </template>

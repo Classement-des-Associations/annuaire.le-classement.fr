@@ -14,7 +14,7 @@ const { data: category } = await useCategoryById(props.association?.categoryId)
     <!-- <img :src="" :alt="association.image.alt" loading="lazy" /> -->
     <div class="flex flex-col gap-4 items-center">
       <h3 class="text-xl lg:text-2xl font-bold text-center">
-        <NuxtLink :to="`/associations-etudiantes/${association.id}`">
+        <NuxtLink :to="`/associations-etudiantes/${association.id}/`">
           {{ association.name }}
           <div class="absolute inset-0" />
         </NuxtLink>

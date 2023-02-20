@@ -11,7 +11,7 @@ const color = useCategoryColor(props.category.color)
 <template>
   <BaseCard :class="color" class="relative border-none">
     <BaseCardTitle>
-      <NuxtLink :to="`/categories/${category.id}`" class="flex justify-center items-center gap-4">
+      <NuxtLink :to="`/categories/${category.id}/`" class="flex justify-center items-center gap-4">
         <Icon
           :name="category.icon"
         />

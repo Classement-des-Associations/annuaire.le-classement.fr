@@ -21,38 +21,32 @@ useSeoMeta({
 
 <template>
   <BaseSection v-if="association" class="my-20">
-    <div class="flex flex-col items-start gap-6">
+    <div class="flex flex-col items-start">
       <h1 class="text-5xl text-black font-bold">
         {{ association.name }}
       </h1>
-      <CategoriesItem v-if="category" :category="category" icon class="order-first" />
-      <dl v-if="schools">
+      <NuxtLink v-if="category" :to="`/categories/${category.id}/`" class="order-first mb-6">
+        <CategoriesItem :category="category" icon />
+      </NuxtLink>
+      <dl v-if="schools" class="mt-2">
         <dt class="sr-only">
           {{ schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
         </dt>
         <dd class="text-2xl text-black font-medium">
-          {{ schools }}
+          <Sentence route="/ecoles" :data="schools" />
         </dd>
       </dl>
     </div>
     <p class="mt-8 text-xl">
       {{ association.description }}
     </p>
-    <p class="mt-4 text-xl">
-      <!-- L'association {{ association.name }} a participé au Classement des Associations en {{
-        useSentence(association.years)
-      }}. -->
-      {{ participations }}
+    <p v-if="participations && participations.length > 0" class="mt-4 text-xl">
+      L'association {{ association.name }} a participé au Classement des Associations en <Sentence route="/participations" :data="participations" nuxt-link-class="hover:underline" />.
     </p>
     <Socials :socials="socials" class="mt-8" />
-    <section v-if="relatedAssociations && relatedAssociations?.length > 0" class="mt-16">
-      <h2 class="text-xl">
-        Associations en lien
-      </h2>
-      <AssociationsList :associations="relatedAssociations" class="mt-4" />
-    </section>
-    <NuxtLink to="/associations-etudiantes" class="block mt-4 text-lg">
-      Retour aux associations
+    <AssociationsRelatedListSection v-if="relatedAssociations && relatedAssociations?.length > 0" :associations="relatedAssociations" class="mt-24" />
+    <NuxtLink to="/associations-etudiantes/" class="block mt-16 text-lg font-light">
+      Revenir aux associations étudiantes
     </NuxtLink>
   </BaseSection>
 </template>
