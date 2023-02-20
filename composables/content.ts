@@ -19,8 +19,7 @@ export const useAssociationById = (associationId: string) => {
   )
 }
 
-// TODO: rename to useAssociationsByCategoryId
-export const useAssociationsByCategory = (categoryId: string) => {
+export const useAssociationsByCategoryId = (categoryId: string) => {
   return useAsyncData(`content:associations:${categoryId}`, () =>
     queryContent<Association>('/associations-etudiantes/data').where({
       _partial: true,
@@ -30,8 +29,7 @@ export const useAssociationsByCategory = (categoryId: string) => {
   )
 }
 
-// TODO: rename to useAssociationsBySchoolId
-export const useAssociationsBySchool = (schoolId: string) => {
+export const useAssociationsBySchoolId = (schoolId: string) => {
   return useAsyncData(`content:associations:${schoolId}`, () =>
     queryContent<Association>('/associations-etudiantes/data').where({
       _partial: true,

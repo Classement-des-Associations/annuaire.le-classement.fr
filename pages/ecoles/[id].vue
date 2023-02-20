@@ -2,7 +2,7 @@
 const route = useRoute()
 
 const { data: school } = await useSchoolById(route.params.id as string)
-const { data: associations } = await useAssociationsBySchool(route.params.id as string)
+const { data: associations } = await useAssociationsBySchoolId(route.params.id as string)
 </script>
 
 <template>
