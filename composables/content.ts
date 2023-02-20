@@ -43,6 +43,18 @@ export const useAssociationsBySchool = (schoolId: string) => {
   )
 }
 
+export const useAssociationsByParticipationId = (participationId: string) => {
+  return useAsyncData(`content:associations:${participationId}`, () =>
+    queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true,
+      _extension: 'json',
+      participationsId: {
+        $contains: participationId
+      }
+    }).find()
+  )
+}
+
 export const useRelatedAssociationsByCategoryId = (categoryId: string) => {
   return useAsyncData(`content:associations:related:${categoryId}`, () =>
     queryContent<Association>('/associations-etudiantes/data').where({
@@ -116,6 +128,16 @@ export const useParticipations = () => {
       _partial: true,
       _extension: 'json'
     }).find()
+  )
+}
+
+export const useParticipationById = (participationId: string) => {
+  return useAsyncData(`content:participation:${participationId}`, () =>
+    queryContent<Participation>('/participations/data').where({
+      _partial: true,
+      _extension: 'json',
+      id: participationId
+    }).findOne()
   )
 }
 

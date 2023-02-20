@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 const route = useRoute()
 
-const { data: school } = await useSchoolById(route.params.id as string)
-const { data: associations } = await useAssociationsBySchool(route.params.id as string)
+const { data: school } = await useParticipationById(route.params.id as string)
+const { data: associations } = await useAssociationsByParticipationId(route.params.id as string)
 </script>
 
 <template>
@@ -11,10 +11,10 @@ const { data: associations } = await useAssociationsBySchool(route.params.id as 
       {{ school.name }}
     </BaseH1>
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
-      Associations de l'école
+      Associations participantes
     </AssociationsRelatedListSection>
-    <NuxtLink to="/ecoles/" class="block mt-24 text-lg font-lig">
-      Revenir aux écoles
+    <NuxtLink to="/participations/" class="block mt-24 text-lg font-lig">
+      Revenir aux participations
     </NuxtLink>
   </BaseSection>
 </template>

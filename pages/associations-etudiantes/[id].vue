@@ -45,7 +45,7 @@ useSeoMeta({
     </p>
     <Socials :socials="socials" class="mt-8" />
     <AssociationsRelatedListSection v-if="relatedAssociations && relatedAssociations?.length > 0" :associations="relatedAssociations" class="mt-24" />
-    <NuxtLink to="/associations-etudiantes/" class="block mt-16 text-lg font-light">
+    <NuxtLink to="/associations-etudiantes/" class="block mt-24 text-lg font-light">
       Revenir aux associations étudiantes
     </NuxtLink>
   </BaseSection>
