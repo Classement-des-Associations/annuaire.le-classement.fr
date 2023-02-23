@@ -15,7 +15,9 @@
   "categories": [
     {
       "id": "humanitaire",
-      "name": "Humanitaire"
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
     }
   ],
   "schools": [

@@ -15,7 +15,9 @@
   "categories": [
     {
       "id": "sociale",
-      "name": "Sociale"
+      "name": "Sociale",
+      "icon": "fluent-emoji:beach-with-umbrella",
+      "color": "orange"
     }
   ],
   "schools": [

@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "city-guide",
-      "name": "City-Guide"
+      "name": "City-Guide",
+      "icon": "fluent-emoji:notebook-with-decorative-cover",
+      "color": "purple"
     }
   ],
   "schools": [

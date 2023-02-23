@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "professionnalisante",
-      "name": "Professionnalisante"
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
     }
   ],
   "schools": [

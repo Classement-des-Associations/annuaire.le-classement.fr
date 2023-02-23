@@ -99,9 +99,13 @@ async function main () {
       }
 
       const categoryName = useExtractContent(category.properties.Nom)
+      const categoryIcon = useExtractContent(category.properties.Icon)
+      const categoryColor = useExtractContent(category.properties.Couleur)
       relatedCategories.push({
         id: useSlugify(categoryName),
-        name: categoryName
+        name: categoryName,
+        icon: categoryIcon,
+        color: useSlugify(categoryColor.name)
       })
     }
 

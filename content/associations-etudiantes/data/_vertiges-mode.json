@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "artistique",
-      "name": "Artistique"
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
     }
   ],
   "schools": [

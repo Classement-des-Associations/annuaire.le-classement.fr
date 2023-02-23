@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "environnementale",
-      "name": "Environnementale"
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
     }
   ],
   "schools": [

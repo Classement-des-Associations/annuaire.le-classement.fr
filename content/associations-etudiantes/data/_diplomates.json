@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "geopolitique",
-      "name": "Géopolitique"
+      "name": "Géopolitique",
+      "icon": "fluent-emoji:world-map",
+      "color": "teal"
     }
   ],
   "schools": [

@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "sportive",
-      "name": "Sportive"
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
     }
   ],
   "schools": [

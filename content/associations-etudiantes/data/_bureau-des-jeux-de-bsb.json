@@ -15,7 +15,9 @@
   "categories": [
     {
       "id": "culturelle",
-      "name": "Culturelle"
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
     }
   ],
   "schools": [

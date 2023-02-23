@@ -15,7 +15,9 @@
   "categories": [
     {
       "id": "bureau-des-eleves",
-      "name": "Bureau des Élèves"
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
     }
   ],
   "schools": [

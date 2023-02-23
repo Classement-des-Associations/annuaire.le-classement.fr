@@ -12,7 +12,9 @@
   "categories": [
     {
       "id": "technique",
-      "name": "Technique"
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
     }
   ],
   "schools": [

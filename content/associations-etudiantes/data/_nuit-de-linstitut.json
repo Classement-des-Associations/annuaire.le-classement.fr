@@ -15,7 +15,9 @@
   "categories": [
     {
       "id": "gala",
-      "name": "Gala"
+      "name": "Gala",
+      "icon": "fluent-emoji:bottle-with-popping-cork",
+      "color": "sky"
     }
   ],
   "schools": [
