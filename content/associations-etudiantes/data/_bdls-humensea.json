@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.linkedin.com/company/11158564/",
   "website": "https://bdls.asso-ensea.fr",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "ensea"
   ],
@@ -13,7 +15,7 @@
     {
       "id": "sociale",
       "name": "Sociale",
-      "icon": "fluent-emoji:beach-with-umbrella",
+      "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
     }
   ],

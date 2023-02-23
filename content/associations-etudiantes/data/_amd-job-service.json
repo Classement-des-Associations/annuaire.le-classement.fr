@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],

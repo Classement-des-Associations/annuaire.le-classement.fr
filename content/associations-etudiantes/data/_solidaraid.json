@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/solidaraid/",
   "instagram": "https://www.instagram.com/solidaraid/",
   "website": null,
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "icn-business-school"
   ],

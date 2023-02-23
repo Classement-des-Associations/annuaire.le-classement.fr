@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/optimize-tbs/",
   "instagram": "https://www.instagram.com/optimizetbs/",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "tbs-education"
   ],

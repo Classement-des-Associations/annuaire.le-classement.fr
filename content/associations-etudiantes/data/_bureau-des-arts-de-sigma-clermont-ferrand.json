@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "sigma-clermont-ferrand"
   ],

@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/unis-terre/",
   "instagram": "https://www.instagram.com/unisterre/?hl=fr",
   "website": "https://www.unis-terre.com/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],

@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/le-chti-grand-lille/",
   "instagram": "https://www.instagram.com/lechtigrandlille/",
   "website": "https://lechti.com/",
-  "categoryId": "city-guide",
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "edhec"
   ],

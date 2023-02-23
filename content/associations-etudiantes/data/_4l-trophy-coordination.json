@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://instagram.com/4ltrophy_coordination",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "rennes-school-of-business"
   ],

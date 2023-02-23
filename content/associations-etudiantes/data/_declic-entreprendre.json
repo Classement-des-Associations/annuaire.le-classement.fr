@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/declic.entreprendre/?hl=fr",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "neoma-business-school"
   ],

@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/preparemois/",
   "website": "https://www.preparemois.com",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "neoma-business-school"
   ],
@@ -13,7 +15,7 @@
     {
       "id": "sociale",
       "name": "Sociale",
-      "icon": "fluent-emoji:beach-with-umbrella",
+      "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
     }
   ],

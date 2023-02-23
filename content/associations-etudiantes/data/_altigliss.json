@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/altigliss/",
   "instagram": "https://www.instagram.com/altigliss/",
   "website": "http://www.altigliss.com/",
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],

@@ -9,10 +9,10 @@ export interface Association {
   linkedin: string
   instagram: string
   website: string,
-  categoryId: string,
-  schoolsId: string[]
-  participationsId: string[],
-  categories: Category[],
-  schools: School[],
-  participations: Participation[]
+  categoriesId?: string[],
+  schoolsId?: string[]
+  participationsId?: string[],
+  categories?: Category[],
+  schools?: School[],
+  participations?: Participation[]
 }

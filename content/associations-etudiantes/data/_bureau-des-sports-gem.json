@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/bdsgem/",
   "website": "https://bdsgemfr.wordpress.com",
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],

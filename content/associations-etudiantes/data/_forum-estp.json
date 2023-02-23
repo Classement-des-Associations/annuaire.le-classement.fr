@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/forum-etp/",
   "instagram": "https://www.instagram.com/forumestp/?hl=fr",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "estp"
   ],

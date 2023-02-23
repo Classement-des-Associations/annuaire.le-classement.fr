@@ -2,7 +2,7 @@
 import { Association } from '@/types'
 
 defineProps<{
-  associations: Association[];
+  associations: Pick<Association, 'id' | 'name' | 'categories'>[];
 }>()
 </script>
 

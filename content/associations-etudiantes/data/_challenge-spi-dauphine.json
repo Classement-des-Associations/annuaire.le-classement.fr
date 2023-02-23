@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "universite-paris-dauphine"
   ],

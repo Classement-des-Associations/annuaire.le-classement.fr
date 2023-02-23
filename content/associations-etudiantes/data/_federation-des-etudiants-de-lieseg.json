@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "www.instagram/fede_ieseg.com",
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "ieseg"
   ],

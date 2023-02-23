@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/_dahu/",
   "website": "http://www.ledahu.net/",
-  "categoryId": "city-guide",
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],

@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/innovative-propulsion-laboratory/",
   "instagram": "https://www.instagram.com/innovative_ipl/",
   "website": null,
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "ipsa"
   ],

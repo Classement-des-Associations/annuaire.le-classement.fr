@@ -5,7 +5,9 @@
   "linkedin": "https://fr.linkedin.com/company/ccedhec",
   "instagram": "https://www.instagram.com/ccedhec/",
   "website": "https://cce.fr/",
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "edhec"
   ],

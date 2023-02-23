@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/live.efrei/",
   "website": "https://live-efrei.fr/",
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "efrei"
   ],

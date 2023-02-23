@@ -1,11 +1,9 @@
 <script lang="ts" setup>
 import { Association } from '@/types'
 
-const props = defineProps<{
-  association: Association;
+defineProps<{
+  association: Pick<Association, 'id' | 'name' | 'categories'>;
 }>()
-
-const { data: category } = await useCategoryById(props.association?.categoryId)
 </script>
 
 <template>
@@ -19,9 +17,11 @@ const { data: category } = await useCategoryById(props.association?.categoryId)
           <div class="absolute inset-0" />
         </NuxtLink>
       </h3>
-      <NuxtLink v-if="category" class="z-10 order-first" :to="`/categories/${category.id}`">
-        <CategoriesItem :category="category" />
-      </NuxtLink>
+      <template v-if="association.categories">
+        <NuxtLink v-for="category in association.categories" :key="category.id" class="z-10 order-first" :to="`/categories/${category.id}`">
+          <CategoriesItem :category="category" />
+        </NuxtLink>
+      </template>
     </div>
   </BaseCard>
 </template>

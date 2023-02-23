@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/sports_business_consulting/",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "edhec"
   ],

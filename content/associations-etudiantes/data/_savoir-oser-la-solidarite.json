@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/savoiroserlasolidarit%C3%A9/",
   "instagram": "https://www.instagram.com/savoir.oser.la.solidarite/",
   "website": "https://savoiroserlasolidarite.org/",
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],

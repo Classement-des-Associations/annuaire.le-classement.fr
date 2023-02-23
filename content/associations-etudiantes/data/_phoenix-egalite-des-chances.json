@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/phoenix-egalite-des-chances/",
   "instagram": "https://www.instagram.com/phoenixedc/",
   "website": "https://www.phoenix-egalite-des-chances.com/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],
@@ -13,7 +15,7 @@
     {
       "id": "sociale",
       "name": "Sociale",
-      "icon": "fluent-emoji:beach-with-umbrella",
+      "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
     }
   ],

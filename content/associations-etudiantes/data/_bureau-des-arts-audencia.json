@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/bda_artnaqueurs",
   "website": null,
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "audencia-business-school"
   ],

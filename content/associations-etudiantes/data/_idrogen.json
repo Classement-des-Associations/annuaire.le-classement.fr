@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/idrogen_estaca",
   "website": null,
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "estaca"
   ],

@@ -2,10 +2,7 @@
 const route = useRoute()
 
 const { data: association } = await useAssociationById(route.params.id as string)
-const { data: category } = await useCategoryById(association.value?.categoryId ?? '')
-const { data: schools } = await useSchoolsById(association.value?.schoolsId ?? [])
-const { data: participations } = await useParticipationsById(association.value?.participationsId ?? [])
-const { data: relatedAssociations } = await useRelatedAssociationsByCategoryId(association.value?.categoryId ?? '')
+const { data: relatedAssociations } = await useRelatedAssociations(association.value?.id ?? '', association.value?.categoriesId ?? [])
 
 const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}`, {
   linkedin: association.value?.linkedin,
@@ -25,27 +22,33 @@ useSeoMeta({
       <h1 class="text-5xl text-black font-bold">
         {{ association.name }}
       </h1>
-      <NuxtLink v-if="category" :to="`/categories/${category.id}/`" class="order-first mb-6">
-        <CategoriesItem :category="category" icon />
-      </NuxtLink>
-      <dl v-if="schools" class="mt-2">
+      <template v-if="association.categories">
+        <NuxtLink v-for="category in association.categories" :key="category.id" :to="`/categories/${category.id}`" class="order-first mb-6">
+          <CategoriesItem :category="category" icon />
+        </NuxtLink>
+      </template>
+      <dl v-if="association.schools" class="mt-2">
         <dt class="sr-only">
-          {{ schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
+          {{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
         </dt>
         <dd class="text-2xl text-black font-medium">
-          <Sentence route="/ecoles" :data="schools" />
+          <Sentence route="/ecoles" :data="association.schools" />
         </dd>
       </dl>
     </div>
     <p class="mt-8 text-xl">
       {{ association.description }}
     </p>
-    <p v-if="participations && participations.length > 0" class="mt-4 text-xl">
-      L'association {{ association.name }} a participé au Classement des Associations en <Sentence route="/participations" :data="participations" nuxt-link-class="hover:underline" />.
-    </p>
+    <template v-if="association.participations">
+      <p v-if="association.participations.length > 0" class="mt-4 text-xl">
+        L'association {{ association.name }} a participé au Classement des Associations en <Sentence route="/participations-concours" :data="association.participations" nuxt-link-class="hover:underline" />.
+      </p>
+    </template>
     <Socials :socials="socials" class="mt-8" />
-    <AssociationsRelatedListSection v-if="relatedAssociations && relatedAssociations?.length > 0" :associations="relatedAssociations" class="mt-24" />
-    <NuxtLink to="/associations-etudiantes/" class="block mt-24 text-lg font-light">
+    <template v-if="relatedAssociations">
+      <AssociationsRelatedListSection v-if="relatedAssociations?.length > 0" :associations="relatedAssociations.filter(Boolean)" class="mt-24" />
+    </template>
+    <NuxtLink to="/associations-etudiantes" class="block mt-24 text-lg font-light">
       Revenir aux associations étudiantes
     </NuxtLink>
   </BaseSection>

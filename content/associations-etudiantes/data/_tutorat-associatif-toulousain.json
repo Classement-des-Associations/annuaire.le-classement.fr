@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": null,
   "website": "https://tutoweb.org/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "universite-paul-sabatier"
   ],
@@ -16,7 +18,7 @@
     {
       "id": "sociale",
       "name": "Sociale",
-      "icon": "fluent-emoji:beach-with-umbrella",
+      "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
     }
   ],

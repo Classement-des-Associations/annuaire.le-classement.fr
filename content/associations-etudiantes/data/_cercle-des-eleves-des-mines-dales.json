@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/bdeimtminesales/?hl=fr",
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "imt-mines-ales"
   ],

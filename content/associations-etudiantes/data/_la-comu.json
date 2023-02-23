@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/comu.gram/",
   "website": "https://comuescpeu.wixsite.com/comu-escp",
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "escp"
   ],

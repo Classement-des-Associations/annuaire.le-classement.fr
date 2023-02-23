@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/aeecl",
   "instagram": "https://www.instagram.com/bdecentralelyon/",
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "ecole-centrale-de-lyon"
   ],

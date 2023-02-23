@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/universalneomabsreims/",
   "instagram": "https://www.instagram.com/universal_neoma/",
   "website": "www.universal-neoma.com",
-  "categoryId": "geopolitique",
+  "categoriesId": [
+    "geopolitique"
+  ],
   "schoolsId": [
     "neoma-business-school"
   ],

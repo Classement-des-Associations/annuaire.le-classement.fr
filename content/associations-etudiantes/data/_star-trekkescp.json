@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/startrekkescp/",
   "website": "https://www.startrekk-escpeurope.com/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "escp"
   ],

@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/hum-am/",
   "instagram": "https://www.instagram.com/humam_ensam/?hl=fr",
   "website": "https://humam2022.wixsite.com/humam2022",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "hec"
   ],

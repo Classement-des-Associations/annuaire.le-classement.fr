@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],

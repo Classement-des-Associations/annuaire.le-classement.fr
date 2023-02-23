@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/nuit-de-l-institut-unilasalle/",
   "instagram": "https://www.instagram.com/nuit_de_linstitut_unilasalle/",
   "website": null,
-  "categoryId": "gala",
+  "categoriesId": [
+    "gala"
+  ],
   "schoolsId": [
     "unilasalle"
   ],

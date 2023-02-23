@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/bureau-de-l-humanitaire/",
   "instagram": "https://www.instagram.com/bdh.tbs/?hl=fr",
   "website": "https://bdh.tbs.fr/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "tbs-education"
   ],
@@ -16,7 +18,7 @@
     {
       "id": "sociale",
       "name": "Sociale",
-      "icon": "fluent-emoji:beach-with-umbrella",
+      "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
     }
   ],

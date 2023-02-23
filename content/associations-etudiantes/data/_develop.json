@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/developedhec/?hl=fr",
   "website": "https://www.developedhec.com/",
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "edhec"
   ],

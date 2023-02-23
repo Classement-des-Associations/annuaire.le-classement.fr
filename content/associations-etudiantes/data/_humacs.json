@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/humacs/",
   "instagram": null,
   "website": "https://huma.cs-campus.fr/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "centralesupelec"
   ],
@@ -16,7 +18,7 @@
     {
       "id": "sociale",
       "name": "Sociale",
-      "icon": "fluent-emoji:beach-with-umbrella",
+      "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
     }
   ],

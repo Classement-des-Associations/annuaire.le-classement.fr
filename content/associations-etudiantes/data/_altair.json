@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/alta%C3%AFr-isara/",
   "instagram": "https://www.instagram.com/altair_isara/",
   "website": "https://altair-lyon.wixsite.com/altair",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "isara-lyon"
   ],

@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/in/audencia-junior-conseil-08519bab?ppe=1",
   "instagram": "https://instagram.com/audencia_junior_conseil_?igshid=YmMyMTA2M2Y=",
   "website": "http://junior-conseil.audencia.com/",
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "audencia-business-school"
   ],

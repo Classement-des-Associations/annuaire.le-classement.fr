@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/tuonglai_essec/",
   "website": null,
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "essec"
   ],

@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/musical.essec/",
   "website": "https://www.musical-essec.com/",
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "essec"
   ],

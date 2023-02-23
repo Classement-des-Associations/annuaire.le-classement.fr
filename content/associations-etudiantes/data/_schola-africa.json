@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/schola-africa/",
   "instagram": "https://www.instagram.com/scholaafrica/",
   "website": null,
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "edhec"
   ],

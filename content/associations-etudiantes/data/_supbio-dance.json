@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/supbiodance/",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "epita",
     "epitech",

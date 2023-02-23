@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/union_des_eleves_artsetmetiers/",
   "website": "ueam.org",
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "arts-et-metiers-paristech"
   ],

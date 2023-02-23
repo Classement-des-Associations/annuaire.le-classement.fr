@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/noise-emlyon/",
   "instagram": "https://instagram.com/noise_emlyon",
   "website": "https://www.noise-emlyon.org/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "emlyon"
   ],

@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/festival-du-cin-ma-europ-en/",
   "instagram": "https://www.instagram.com/eurofilmfest/",
   "website": "https://eurofilmfest-lille.com",
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "edhec"
   ],

@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/bds_centralesupelec/",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "centralesupelec"
   ],

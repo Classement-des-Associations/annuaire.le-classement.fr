@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/club_dj_insastrasbourg/?hl=fr",
   "website": "https://www.clubdj-insastrasbourg.fr/",
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "insa-strasbourg"
   ],

@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/helloworld-edhec",
   "instagram": "https://www.instagram.com/helloworldedhec/",
   "website": "https://helloworldedhec.com/",
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "edhec"
   ],

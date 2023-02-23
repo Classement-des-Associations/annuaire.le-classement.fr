@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/dynam'hit-webradio/",
   "instagram": "https://www.instagram.com/dynam.hit/",
   "website": "http://dynamhit.org/",
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],

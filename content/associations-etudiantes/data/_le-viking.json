@@ -5,7 +5,9 @@
   "linkedin": "https://www.linkedin.com/company/leviking/",
   "instagram": "https://www.instagram.com/levikingrouen/",
   "website": "https://www.le-viking.com/",
-  "categoryId": "city-guide",
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "neoma-business-school"
   ],

@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/pv3eestaca/",
   "website": "https://www.pv3e-estaca.com/",
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "estaca"
   ],

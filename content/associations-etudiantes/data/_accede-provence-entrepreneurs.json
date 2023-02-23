@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/accede_provence_entrepreneurs/",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],
