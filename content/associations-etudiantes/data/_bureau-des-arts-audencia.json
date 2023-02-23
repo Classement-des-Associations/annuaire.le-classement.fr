@@ -8,5 +8,18 @@
   "schoolsId": [
     "audencia-business-school"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique"
+    }
+  ],
+  "schools": [
+    {
+      "id": "audencia-business-school",
+      "name": "Audencia Business School"
+    }
+  ],
+  "participations": []
 }

@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique"
+    }
+  ],
+  "schools": [
+    {
+      "id": "insa-strasbourg",
+      "name": "INSA Strasbourg"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

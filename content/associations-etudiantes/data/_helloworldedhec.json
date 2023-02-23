@@ -8,5 +8,18 @@
   "schoolsId": [
     "edhec"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": []
 }

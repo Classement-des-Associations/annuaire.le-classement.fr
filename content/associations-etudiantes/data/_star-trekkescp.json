@@ -8,5 +8,18 @@
   "schoolsId": [
     "escp"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale"
+    }
+  ],
+  "schools": [
+    {
+      "id": "escp",
+      "name": "ESCP"
+    }
+  ],
+  "participations": []
 }

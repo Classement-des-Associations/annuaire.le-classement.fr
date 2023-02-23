@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle"
+    }
+  ],
+  "schools": [
+    {
+      "id": "sigma-clermont-ferrand",
+      "name": "Sigma Clermont-Ferrand"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

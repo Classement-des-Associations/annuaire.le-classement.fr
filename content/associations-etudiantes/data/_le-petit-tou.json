@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "city-guide",
+      "name": "City-Guide"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

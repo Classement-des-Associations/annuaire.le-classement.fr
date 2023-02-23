@@ -8,5 +8,18 @@
   "schoolsId": [
     "estaca"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique"
+    }
+  ],
+  "schools": [
+    {
+      "id": "estaca",
+      "name": "ESTACA"
+    }
+  ],
+  "participations": []
 }

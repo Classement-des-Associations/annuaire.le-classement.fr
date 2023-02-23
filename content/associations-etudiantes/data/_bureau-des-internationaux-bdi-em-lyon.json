@@ -8,5 +8,18 @@
   "schoolsId": [
     "emlyon"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "participations": []
 }

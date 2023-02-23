@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale"
+    }
+  ],
+  "schools": [
+    {
+      "id": "agroparistech",
+      "name": "AgroParisTech"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

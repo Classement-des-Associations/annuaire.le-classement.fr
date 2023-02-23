@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale"
+    }
+  ],
+  "schools": [
+    {
+      "id": "insa-toulouse",
+      "name": "INSA Toulouse"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

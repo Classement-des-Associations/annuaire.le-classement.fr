@@ -8,5 +8,18 @@
   "schoolsId": [
     "ensea"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensea",
+      "name": "ENSEA"
+    }
+  ],
+  "participations": []
 }

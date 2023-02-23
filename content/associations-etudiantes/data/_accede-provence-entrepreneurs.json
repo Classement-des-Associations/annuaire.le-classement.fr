@@ -10,5 +10,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante"
+    }
+  ],
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

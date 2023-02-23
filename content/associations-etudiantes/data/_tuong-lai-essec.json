@@ -8,5 +8,18 @@
   "schoolsId": [
     "essec"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire"
+    }
+  ],
+  "schools": [
+    {
+      "id": "essec",
+      "name": "ESSEC"
+    }
+  ],
+  "participations": []
 }

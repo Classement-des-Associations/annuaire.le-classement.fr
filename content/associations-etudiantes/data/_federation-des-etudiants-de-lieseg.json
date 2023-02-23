@@ -8,5 +8,18 @@
   "schoolsId": [
     "ieseg"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ieseg",
+      "name": "IESEG"
+    }
+  ],
+  "participations": []
 }

@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive"
+    }
+  ],
+  "schools": [
+    {
+      "id": "rennes-school-of-business",
+      "name": "Rennes School of Business"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

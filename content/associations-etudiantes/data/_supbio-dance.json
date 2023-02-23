@@ -13,5 +13,31 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive"
+    }
+  ],
+  "schools": [
+    {
+      "id": "epita",
+      "name": "Epita"
+    },
+    {
+      "id": "epitech",
+      "name": "Epitech"
+    },
+    {
+      "id": "supbiotech",
+      "name": "Sup'biotech"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

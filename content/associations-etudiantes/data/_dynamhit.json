@@ -8,5 +8,18 @@
   "schoolsId": [
     "kedge-bs"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle"
+    }
+  ],
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": []
 }

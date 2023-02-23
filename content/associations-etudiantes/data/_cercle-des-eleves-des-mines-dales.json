@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves"
+    }
+  ],
+  "schools": [
+    {
+      "id": "imt-mines-ales",
+      "name": "IMT Mines Alès"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

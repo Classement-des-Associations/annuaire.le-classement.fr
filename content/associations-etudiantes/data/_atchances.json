@@ -8,5 +8,18 @@
   "schoolsId": [
     "icn-business-school"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale"
+    }
+  ],
+  "schools": [
+    {
+      "id": "icn-business-school",
+      "name": "ICN Business School"
+    }
+  ],
+  "participations": []
 }

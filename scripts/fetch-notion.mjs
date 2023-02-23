@@ -145,7 +145,10 @@ async function main () {
       website,
       categoryId: relatedCategories.map(({ id }) => id)[0],
       schoolsId: relatedSchools.map(({ id }) => id),
-      participationsId: relatedParticipations.map(({ id }) => id)
+      participationsId: relatedParticipations.map(({ id }) => id),
+      categories: relatedCategories,
+      schools: relatedSchools,
+      participations: relatedParticipations
     })
   }
 }

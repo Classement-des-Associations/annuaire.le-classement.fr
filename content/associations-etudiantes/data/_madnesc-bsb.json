@@ -9,5 +9,18 @@
   "schoolsId": [
     "burgundy-business-school"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive"
+    }
+  ],
+  "schools": [
+    {
+      "id": "burgundy-business-school",
+      "name": "Burgundy Business School"
+    }
+  ],
+  "participations": []
 }

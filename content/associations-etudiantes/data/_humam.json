@@ -11,5 +11,23 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire"
+    }
+  ],
+  "schools": [
+    {
+      "id": "arts-et-metiers-paristech",
+      "name": "Arts et Métiers ParisTech"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

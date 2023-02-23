@@ -8,5 +8,18 @@
   "schoolsId": [
     "emlyon"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "geopolitique",
+      "name": "Géopolitique"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "participations": []
 }
