@@ -17,7 +17,8 @@ export const useAssociationById = (associationId: string) => {
       _partial: true,
       _extension: 'json',
       id: associationId
-    }).findOne()
+    })
+      .findOne()
   )
 }
 
@@ -29,7 +30,9 @@ export const useAssociationsByCategoryId = (categoryId: string) => {
       categoriesId: {
         $contains: categoryId
       }
-    }).find()
+    })
+      .only(['id', 'name', 'categories'])
+      .find()
   )
 }
 
@@ -55,11 +58,14 @@ export const useAssociationsByParticipationId = (participationId: string) => {
       participationsId: {
         $contains: participationId
       }
-    }).find()
+    })
+      .only(['id', 'name', 'categories'])
+      .find()
   )
 }
 
 export const useRelatedAssociations = (associationId: string, categoriesId: string[]) => {
+  console.log(categoriesId)
   return useAsyncData(`content:associations:related:${associationId}`, () =>
     queryContent<Association>().where({
       _partial: true,
@@ -69,7 +75,7 @@ export const useRelatedAssociations = (associationId: string, categoriesId: stri
       }
     }).only(['id', 'name', 'categories'])
       .findSurround(`/associations-etudiantes/data/_${associationId}`, {
-        before: 0,
+        before: 0, // @see seems to be broken
         after: 3
       })
   )
@@ -92,7 +98,9 @@ export const useCategoryById = (categoryId: string) => {
       _partial: true,
       _extension: 'json',
       id: categoryId
-    }).findOne()
+    })
+      .only(['id', 'name', 'icon', 'color'])
+      .findOne()
   )
 }
 
@@ -115,7 +123,9 @@ export const useSchoolsById = (schoolsId: string[]) => {
       id: {
         $in: schoolsId
       }
-    }).find()
+    })
+      .only(['id', 'name'])
+      .find()
   )
 }
 
@@ -125,7 +135,9 @@ export const useSchoolById = (schoolId: string) => {
       _partial: true,
       _extension: 'json',
       id: schoolId
-    }).findOne()
+    })
+      .only(['id', 'name'])
+      .findOne()
   )
 }
 
@@ -146,7 +158,9 @@ export const useParticipationById = (participationId: string) => {
       _partial: true,
       _extension: 'json',
       id: participationId
-    }).findOne()
+    })
+      .only(['id', 'name'])
+      .findOne()
   )
 }
 
