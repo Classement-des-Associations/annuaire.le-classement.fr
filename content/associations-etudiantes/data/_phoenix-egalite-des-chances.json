@@ -10,7 +10,10 @@
   "schoolsId": [
     "kedge-bs"
   ],
-  "participationsId": [],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
       "id": "sociale",
@@ -25,5 +28,11 @@
       "name": "Kedge BS"
     }
   ],
-  "participations": []
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }

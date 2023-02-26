@@ -11,9 +11,10 @@
   "schoolsId": [
     "isara-lyon"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "environnementale",
@@ -28,10 +29,11 @@
       "name": "Isara Lyon"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

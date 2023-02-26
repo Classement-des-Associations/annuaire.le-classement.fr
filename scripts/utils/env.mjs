@@ -8,7 +8,8 @@ dotenv.config()
  * @property {string} notionKey
  * @property {string} associationsDatabaseId
  * @property {string} schoolsDatabaseId
- * @property {string} participationsDatabaseId
+ * @property {string} contestParticipationsDatabaseId
+ * @property {string} battleParticipationsDatabaseId
  * @property {string} categoriesDatabaseId
  * @returns {Env}
  * @throws {Error}
@@ -29,9 +30,14 @@ export const useEnv = function () {
     throw new Error('No school database ID found')
   }
 
-  const participationsDatabaseId = process.env.NOTION_PARTICIPATIONS_DATABASE_ID
-  if (!participationsDatabaseId) {
-    throw new Error('No participation database ID found')
+  const contestParticipationsDatabaseId = process.env.NOTION_CONTEST_PARTICIPATIONS_DATABASE_ID
+  if (!contestParticipationsDatabaseId) {
+    throw new Error('No contest participation database ID found')
+  }
+
+  const battleParticipationsDatabaseId = process.env.NOTION_BATTLE_PARTICIPATIONS_DATABASE_ID
+  if (!battleParticipationsDatabaseId) {
+    throw new Error('No battle participation database ID found')
   }
 
   const categoriesDatabaseId = process.env.NOTION_CATEGORIES_DATABASE_ID
@@ -43,7 +49,8 @@ export const useEnv = function () {
     notionKey,
     associationsDatabaseId,
     schoolsDatabaseId,
-    participationsDatabaseId,
+    contestParticipationsDatabaseId,
+    battleParticipationsDatabaseId,
     categoriesDatabaseId
   }
 }

@@ -11,9 +11,10 @@
   "schoolsId": [
     "sigma-clermont-ferrand"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "culturelle",
@@ -28,10 +29,11 @@
       "name": "Sigma Clermont-Ferrand"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

@@ -11,9 +11,10 @@
   "schoolsId": [
     "estaca"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "professionnalisante",
@@ -28,10 +29,11 @@
       "name": "ESTACA"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

@@ -11,9 +11,10 @@
   "schoolsId": [
     "insa-strasbourg"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "artistique",
@@ -28,10 +29,11 @@
       "name": "INSA Strasbourg"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

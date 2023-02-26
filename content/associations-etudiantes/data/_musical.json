@@ -11,9 +11,10 @@
   "schoolsId": [
     "essec"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "artistique",
@@ -28,10 +29,11 @@
       "name": "ESSEC"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

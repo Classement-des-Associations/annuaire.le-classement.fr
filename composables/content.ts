@@ -55,7 +55,7 @@ export const useAssociationsByParticipationId = (participationId: string) => {
     queryContent<Association>('/associations-etudiantes/data').where({
       _partial: true,
       _extension: 'json',
-      participationsId: {
+      contestParticipationsId: {
         $contains: participationId
       }
     })

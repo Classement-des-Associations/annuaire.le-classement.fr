@@ -11,9 +11,10 @@
   "schoolsId": [
     "epf-ecole-dingenieurs-generalistes"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "culturelle",
@@ -28,10 +29,11 @@
       "name": "epf - ecole d'ingénieurs généralistes"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

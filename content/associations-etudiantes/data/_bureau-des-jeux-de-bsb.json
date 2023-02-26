@@ -11,9 +11,10 @@
   "schoolsId": [
     "burgundy-business-school"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "culturelle",
@@ -28,10 +29,11 @@
       "name": "Burgundy Business School"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

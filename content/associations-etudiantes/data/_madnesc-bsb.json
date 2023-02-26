@@ -11,7 +11,10 @@
   "schoolsId": [
     "burgundy-business-school"
   ],
-  "participationsId": [],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
       "id": "sportive",
@@ -26,5 +29,11 @@
       "name": "Burgundy Business School"
     }
   ],
-  "participations": []
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }

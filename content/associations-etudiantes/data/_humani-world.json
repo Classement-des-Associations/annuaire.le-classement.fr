@@ -11,9 +11,10 @@
   "schoolsId": [
     "polytech-orleans"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "sociale",
@@ -28,10 +29,11 @@
       "name": "Polytech Orléans"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

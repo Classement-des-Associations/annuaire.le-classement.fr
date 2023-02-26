@@ -10,7 +10,10 @@
   "schoolsId": [
     "audencia-business-school"
   ],
-  "participationsId": [],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
       "id": "artistique",
@@ -25,5 +28,11 @@
       "name": "Audencia Business School"
     }
   ],
-  "participations": []
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }

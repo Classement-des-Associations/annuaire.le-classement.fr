@@ -11,8 +11,11 @@
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
+  ],
+  "battleParticipationsId": [
+    "2023"
   ],
   "categories": [
     {
@@ -28,10 +31,16 @@
       "name": "Grenoble Ecole de Maganement"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
+    }
+  ],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ]
 }

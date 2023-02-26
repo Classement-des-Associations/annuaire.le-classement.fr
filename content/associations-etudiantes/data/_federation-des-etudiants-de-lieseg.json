@@ -10,7 +10,10 @@
   "schoolsId": [
     "ieseg"
   ],
-  "participationsId": [],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
       "id": "bureau-des-eleves",
@@ -25,5 +28,11 @@
       "name": "IESEG"
     }
   ],
-  "participations": []
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }

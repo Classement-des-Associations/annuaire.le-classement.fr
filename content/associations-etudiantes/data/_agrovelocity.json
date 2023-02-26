@@ -11,9 +11,10 @@
   "schoolsId": [
     "agroparistech"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "environnementale",
@@ -28,10 +29,11 @@
       "name": "AgroParisTech"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

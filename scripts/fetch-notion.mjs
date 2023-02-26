@@ -14,6 +14,7 @@ async function main () {
 
   const paths = [
     resolve('content/participations-concours/data'),
+    resolve('content/participations-battle/data'),
     resolve('content/categories/data'),
     resolve('content/ecoles/data'),
     resolve('content/associations-etudiantes/data')
@@ -22,7 +23,7 @@ async function main () {
     paths.map(path => clearDir(path, { extensions: ['json'] }))
   ])
 
-  const { categoriesDatabaseId, participationsDatabaseId, schoolsDatabaseId, associationsDatabaseId, notionKey } = useEnv()
+  const { categoriesDatabaseId, battleParticipationsDatabaseId, contestParticipationsDatabaseId, schoolsDatabaseId, associationsDatabaseId, notionKey } = useEnv()
   const client = createNotionClient(notionKey)
 
   // Fetch associations
@@ -35,21 +36,36 @@ async function main () {
   const schools = await fetchSchoolsDatabase(client, schoolsDatabaseId)
   consola.info(`Schools fetched in ${Date.now() - startTimeFetchSchools}ms`)
 
-  // Fetch participations
-  const startTimeFetchParticipations = Date.now()
-  const participations = await fetchParticipationsDatabase(client, participationsDatabaseId)
-  consola.info(`Participations fetched in ${Date.now() - startTimeFetchParticipations}ms`)
+  // Fetch contest participations
+  const startTimeFetchContestParticipations = Date.now()
+  const contestParticipations = await fetchParticipationsDatabase(client, contestParticipationsDatabaseId)
+  consola.info(`Contest Participations fetched in ${Date.now() - startTimeFetchContestParticipations}ms`)
+
+  // Fetch battle participations
+  const startTimeFetchBattleParticipations = Date.now()
+  const battleParticipations = await fetchParticipationsDatabase(client, battleParticipationsDatabaseId)
+  consola.info(`Battle participations fetched in ${Date.now() - startTimeFetchBattleParticipations}ms`)
 
   // Fetch categories
   const startTimeFetchCategories = Date.now()
   const categories = await fetchCategoriesDatabase(client, categoriesDatabaseId)
   consola.info(`Categories fetched in ${Date.now() - startTimeFetchCategories}ms`)
 
-  // Extract participations
-  for (const { properties } of participations) {
+  // Extract contest participations
+  for (const { properties } of contestParticipations) {
     const name = useExtractContent(properties.Nom)
 
     await writeFile(name, 'participations-concours/data', {
+      id: useSlugify(name),
+      name
+    })
+  }
+
+  // Extract battle participations
+  for (const { properties } of battleParticipations) {
+    const name = useExtractContent(properties.Nom)
+
+    await writeFile(name, 'participations-battle/data', {
       id: useSlugify(name),
       name
     })
@@ -88,7 +104,8 @@ async function main () {
     const website = useExtractContent(properties['Site web'])
     const categoriesId = useExtractContent(properties['Catégorie 1'])
     const schoolsPagesId = useExtractContent(properties.Ecoles)
-    const participationsPagesId = useExtractContent(properties['Participations Concours'])
+    const contestParticipationsPagesId = useExtractContent(properties['Participations Concours'])
+    const battleParticipationsPagesId = useExtractContent(properties['Participations Battle'])
 
     const relatedCategories = []
     for (const pageId of categoriesId) {
@@ -124,9 +141,9 @@ async function main () {
       })
     }
 
-    const relatedParticipations = []
-    for (const pageId of participationsPagesId) {
-      const participation = participations.find(({ id }) => id === pageId)
+    const relatedContestParticipations = []
+    for (const pageId of contestParticipationsPagesId) {
+      const participation = contestParticipations.find(({ id }) => id === pageId)
 
       if (!participation) {
         continue
@@ -134,7 +151,23 @@ async function main () {
 
       const participationName = useExtractContent(participation.properties.Nom)
 
-      relatedParticipations.push({
+      relatedContestParticipations.push({
+        id: useSlugify(participationName),
+        name: participationName
+      })
+    }
+
+    const relatedBattleParticipations = []
+    for (const pageId of battleParticipationsPagesId) {
+      const participation = battleParticipations.find(({ id }) => id === pageId)
+
+      if (!participation) {
+        continue
+      }
+
+      const participationName = useExtractContent(participation.properties.Nom)
+
+      relatedBattleParticipations.push({
         id: useSlugify(participationName),
         name: participationName
       })
@@ -149,10 +182,12 @@ async function main () {
       website,
       categoriesId: relatedCategories.map(({ id }) => id),
       schoolsId: relatedSchools.map(({ id }) => id),
-      participationsId: relatedParticipations.map(({ id }) => id),
+      contestParticipationsId: relatedContestParticipations.map(({ id }) => id),
+      battleParticipationsId: relatedBattleParticipations.map(({ id }) => id),
       categories: relatedCategories,
       schools: relatedSchools,
-      participations: relatedParticipations
+      contestParticipations: relatedContestParticipations,
+      battleParticipations: relatedBattleParticipations
     })
   }
 }

@@ -11,9 +11,10 @@
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "bureau-des-eleves",
@@ -28,10 +29,11 @@
       "name": "Grenoble Ecole de Maganement"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }

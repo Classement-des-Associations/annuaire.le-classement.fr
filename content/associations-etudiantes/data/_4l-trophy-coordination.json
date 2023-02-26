@@ -11,9 +11,10 @@
   "schoolsId": [
     "rennes-school-of-business"
   ],
-  "participationsId": [
+  "contestParticipationsId": [
     "2022"
   ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "sportive",
@@ -28,10 +29,11 @@
       "name": "Rennes School of Business"
     }
   ],
-  "participations": [
+  "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
     }
-  ]
+  ],
+  "battleParticipations": []
 }
