@@ -2,6 +2,16 @@
 export default defineNuxtConfig({
   extends: ['@classement-des-associations/website-theme'],
 
+  runtimeConfig: {
+    public: {
+      titleSeparator: '·',
+      siteUrl: 'https://annuaire.le-classement.fr',
+      siteName: 'L\'Annuaire du Classement',
+      siteDescription: 'L\'annuaire de référence qui rassemble l\'ensemble de la vie associative étudiante.',
+      language: 'fr-FR'
+    }
+  },
+
   content: {
     documentDriven: {
       host: 'https://le-classement.fr',
