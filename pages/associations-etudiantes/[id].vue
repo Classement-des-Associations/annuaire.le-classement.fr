@@ -32,7 +32,7 @@ useSeoMeta({
           {{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
         </dt>
         <dd class="text-2xl text-black font-medium">
-          <Sentence route="/ecoles/" :data="association.schools" />
+          <Sentence route="/ecoles" :data="association.schools" />
         </dd>
       </dl>
     </div>
