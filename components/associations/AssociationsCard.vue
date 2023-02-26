@@ -18,7 +18,7 @@ defineProps<{
         </NuxtLink>
       </h3>
       <template v-if="association.categories">
-        <NuxtLink v-for="category in association.categories" :key="category.id" class="z-10 order-first" :to="`/categories/${category.id}`">
+        <NuxtLink v-for="category in association.categories" :key="category.id" class="z-10 order-first" :to="`/categories/${category.id}/`">
           <CategoriesItem :category="category" />
         </NuxtLink>
       </template>

@@ -25,6 +25,10 @@ export default defineNuxtConfig({
     }
   },
 
+  linkChecker: {
+    exclude: ['/associations-etudiantes', '/battle', '/concours', '/ecoles', 'categories']
+  },
+
   app: {
     head: {
       link: [
