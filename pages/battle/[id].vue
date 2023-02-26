@@ -18,7 +18,7 @@ useSeoMeta({
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
       Associations participantes à la Battle
     </AssociationsRelatedListSection>
-    <NuxtLink to="/battle" class="block mt-24 text-lg font-lig">
+    <NuxtLink to="/battle/" class="block mt-24 text-lg font-lig">
       Revenir aux années de la Battle
     </NuxtLink>
   </BaseSection>

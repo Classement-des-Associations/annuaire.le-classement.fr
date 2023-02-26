@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      trailingSlash: true,
       titleSeparator: '·',
       siteUrl: 'https://annuaire.le-classement.fr',
       siteName: 'L\'Annuaire du Classement',
@@ -14,6 +15,7 @@ export default defineNuxtConfig({
 
   content: {
     documentDriven: {
+      trailingSlash: true,
       host: 'https://le-classement.fr',
       surround: false
     },

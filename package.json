@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare",
     "fetch-notion": "node ./scripts/fetch-notion.mjs"
   },
-  "devDependencies": {
+  "dependencies": {
     "@classement-des-associations/website-theme": "^0.2.0",
     "@notionhq/client": "^2.2.3",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",

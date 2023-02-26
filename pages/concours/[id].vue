@@ -18,7 +18,7 @@ useSeoMeta({
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
       Associations participantes au Concours
     </AssociationsRelatedListSection>
-    <NuxtLink to="/concours" class="block mt-24 text-lg font-lig">
+    <NuxtLink to="/concours/" class="block mt-24 text-lg font-lig">
       Revenir aux années du Concours
     </NuxtLink>
   </BaseSection>
