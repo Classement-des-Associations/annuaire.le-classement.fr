@@ -45,7 +45,6 @@ export const useAssociationsBySchoolId = (schoolId: string) => {
         $contains: schoolId
       }
     })
-      .only(['id', 'name', 'categories'])
       .find()
   )
 }
