@@ -1,4 +1,4 @@
-import { Association, Category, Participation, School } from '@/types'
+import { Association, Category, ContestParticipation, School } from '@/types'
 
 export const useAssociations = () => {
   return useAsyncData('content:associations', () =>
@@ -65,7 +65,6 @@ export const useAssociationsByParticipationId = (participationId: string) => {
 }
 
 export const useRelatedAssociations = (associationId: string, categoriesId: string[]) => {
-  console.log(categoriesId)
   return useAsyncData(`content:associations:related:${associationId}`, () =>
     queryContent<Association>().where({
       _partial: true,
@@ -141,9 +140,9 @@ export const useSchoolById = (schoolId: string) => {
   )
 }
 
-export const useParticipations = () => {
-  return useAsyncData('content:participations', () =>
-    queryContent<Participation>('/participations-concours/data').where({
+export const useContestParticipations = () => {
+  return useAsyncData('content:contest-participations', () =>
+    queryContent<ContestParticipation>('/participations-concours/data').where({
       _partial: true,
       _extension: 'json'
     })
@@ -152,9 +151,9 @@ export const useParticipations = () => {
   )
 }
 
-export const useParticipationById = (participationId: string) => {
-  return useAsyncData(`content:participation:${participationId}`, () =>
-    queryContent<Participation>('/participations-concours/data').where({
+export const useContestParticipationById = (participationId: string) => {
+  return useAsyncData(`content:contest-participation:${participationId}`, () =>
+    queryContent<ContestParticipation>('/participations-concours/data').where({
       _partial: true,
       _extension: 'json',
       id: participationId
@@ -164,9 +163,9 @@ export const useParticipationById = (participationId: string) => {
   )
 }
 
-export const useParticipationsById = (participationsId: string[]) => {
-  return useAsyncData(`content:participations:${participationsId.join(':')}`, () =>
-    queryContent<Participation>('/participations-concours/data').where({
+export const useContestParticipationsById = (participationsId: string[]) => {
+  return useAsyncData(`content:contest-participations:${participationsId.join(':')}`, () =>
+    queryContent<ContestParticipation>('/participations-concours/data').where({
       _partial: true,
       _extension: 'json',
       id: {

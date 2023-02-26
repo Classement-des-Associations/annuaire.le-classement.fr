@@ -1,6 +1,6 @@
 export * from './association'
 export * from './category'
 export * from './color'
-export * from './participation'
+export * from './contest-participation'
 export * from './school'
 export * from './social'

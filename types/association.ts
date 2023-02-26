@@ -1,5 +1,5 @@
 import { Category } from './category'
-import { Participation } from './participation'
+import { Participation } from './contest-participation'
 import { School } from './school'
 
 export interface Association {
