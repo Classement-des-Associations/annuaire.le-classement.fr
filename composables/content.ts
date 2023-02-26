@@ -111,7 +111,6 @@ export const useCategoryById = (categoryId: string) => {
       _extension: 'json',
       id: categoryId
     })
-      .only(['id', 'name', 'icon', 'color'])
       .findOne()
   )
 }

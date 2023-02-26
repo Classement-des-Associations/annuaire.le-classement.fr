@@ -1,14 +1,19 @@
 <script lang="ts" setup>
 const route = useRoute()
 
-const { data: school } = await useBattleParticipationById(route.params.id as string)
+const { data: participation } = await useBattleParticipationById(route.params.id as string)
 const { data: associations } = await useAssociationsByBattleParticipationId(route.params.id as string)
+
+useSeoMeta({
+  title: participation?.value ? `Battle ${participation.value.name}` : 'Battle',
+  description: `Découvrez les associations participantes à la Battle ${participation?.value?.name ?? ''}`
+})
 </script>
 
 <template>
   <BaseSection class="my-20">
-    <BaseH1 v-if="school">
-      {{ school.name }}
+    <BaseH1 v-if="participation">
+      {{ participation.name }}
     </BaseH1>
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
       Associations participantes à la Battle

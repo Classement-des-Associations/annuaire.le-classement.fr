@@ -3,6 +3,11 @@ const route = useRoute()
 
 const { data: category } = await useCategoryById(route.params.id as string)
 const { data: associations } = await useAssociationsByCategoryId(route.params.id as string)
+
+useSeoMeta({
+  title: category?.value ? `Catégorie ${category.value.name}` : 'Catégorie',
+  description: `Découvrez les associations de la catégorie ${category?.value?.name ?? ''}`
+})
 </script>
 
 <template>

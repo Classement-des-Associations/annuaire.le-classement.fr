@@ -31,6 +31,11 @@ const pluralize = (value: number, name: string) => {
 
   return value > 1 ? `${name}s` : name
 }
+
+useSeoMeta({
+  title: school?.value ? `École ${school.value.name}` : 'École',
+  description: `Découvrez les associations de l'école ${school?.value?.name ?? ''}`
+})
 </script>
 
 <template>
