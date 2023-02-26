@@ -1,5 +1,6 @@
 import { Category } from './category'
-import { Participation } from './contest-participation'
+import { ContestParticipation } from './contest-participation'
+import { BattleParticipation } from './battle-participation'
 import { School } from './school'
 
 export interface Association {
@@ -9,10 +10,12 @@ export interface Association {
   linkedin: string
   instagram: string
   website: string,
-  categoriesId?: string[],
-  schoolsId?: string[]
-  participationsId?: string[],
-  categories?: Category[],
-  schools?: School[],
-  participations?: Participation[]
+  categoriesId: string[],
+  schoolsId: string[]
+  contestParticipationsId: string[],
+  battleParticipationsId: string[],
+  categories: Category[],
+  schools: School[],
+  contestParticipations: ContestParticipation[],
+  battleParticipations: BattleParticipation[]
 }

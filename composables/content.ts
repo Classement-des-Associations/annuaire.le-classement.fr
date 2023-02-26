@@ -1,4 +1,4 @@
-import { Association, Category, ContestParticipation, School } from '@/types'
+import { Association, BattleParticipation, Category, ContestParticipation, School } from '@/types'
 
 export const useAssociations = () => {
   return useAsyncData('content:associations', () =>
@@ -50,12 +50,26 @@ export const useAssociationsBySchoolId = (schoolId: string) => {
   )
 }
 
-export const useAssociationsByParticipationId = (participationId: string) => {
+export const useAssociationsByContestParticipationId = (participationId: string) => {
   return useAsyncData(`content:associations:${participationId}`, () =>
     queryContent<Association>('/associations-etudiantes/data').where({
       _partial: true,
       _extension: 'json',
       contestParticipationsId: {
+        $contains: participationId
+      }
+    })
+      .only(['id', 'name', 'categories'])
+      .find()
+  )
+}
+
+export const useAssociationsByBattleParticipationId = (participationId: string) => {
+  return useAsyncData(`content:associations:${participationId}`, () =>
+    queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true,
+      _extension: 'json',
+      battleParticipationsId: {
         $contains: participationId
       }
     })
@@ -142,7 +156,7 @@ export const useSchoolById = (schoolId: string) => {
 
 export const useContestParticipations = () => {
   return useAsyncData('content:contest-participations', () =>
-    queryContent<ContestParticipation>('/participations-concours/data').where({
+    queryContent<ContestParticipation>('/concours/data').where({
       _partial: true,
       _extension: 'json'
     })
@@ -153,7 +167,7 @@ export const useContestParticipations = () => {
 
 export const useContestParticipationById = (participationId: string) => {
   return useAsyncData(`content:contest-participation:${participationId}`, () =>
-    queryContent<ContestParticipation>('/participations-concours/data').where({
+    queryContent<ContestParticipation>('/concours/data').where({
       _partial: true,
       _extension: 'json',
       id: participationId
@@ -165,7 +179,7 @@ export const useContestParticipationById = (participationId: string) => {
 
 export const useContestParticipationsById = (participationsId: string[]) => {
   return useAsyncData(`content:contest-participations:${participationsId.join(':')}`, () =>
-    queryContent<ContestParticipation>('/participations-concours/data').where({
+    queryContent<ContestParticipation>('/concours/data').where({
       _partial: true,
       _extension: 'json',
       id: {
@@ -180,9 +194,35 @@ export const useContestParticipationsById = (participationsId: string[]) => {
 
 export const useBattleParticipations = () => {
   return useAsyncData('content:battle-participations', () =>
-    queryContent<BattleParticipation>('/participations-battle/data').where({
+    queryContent<BattleParticipation>('/battle/data').where({
       _partial: true,
       _extension: 'json'
+    })
+      .only(['id', 'name'])
+      .find()
+  )
+}
+
+export const useBattleParticipationById = (participationId: string) => {
+  return useAsyncData(`content:battle-participation:${participationId}`, () =>
+    queryContent<BattleParticipation>('/battle/data').where({
+      _partial: true,
+      _extension: 'json',
+      id: participationId
+    })
+      .only(['id', 'name'])
+      .findOne()
+  )
+}
+
+export const useBattleParticipationsById = (participationsId: string[]) => {
+  return useAsyncData(`content:battle-participations:${participationsId.join(':')}`, () =>
+    queryContent<BattleParticipation>('/battle/data').where({
+      _partial: true,
+      _extension: 'json',
+      id: {
+        $in: participationsId
+      }
     })
       .only(['id', 'name'])
       .find()

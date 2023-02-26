@@ -1,15 +1,15 @@
 <script lang="ts" setup>
-import { ContestParticipation } from '@/types'
+import { BattleParticipation } from '@/types'
 
 defineProps<{
-  participation: Pick<ContestParticipation, 'id' | 'name'>
+  participation: Pick<BattleParticipation, 'id' | 'name'>
 }>()
 </script>
 
 <template>
   <BaseCard class="relative h-full">
     <BaseCardTitle class="h-full">
-      <NuxtLink :to="`/concours/${participation.id}/`" class="h-full flex flex-col justify-center">
+      <NuxtLink :to="`/battle/${participation.id}/`" class="h-full flex flex-col justify-center">
         {{ participation.name }}
         <div class="absolute inset-0" />
       </NuxtLink>

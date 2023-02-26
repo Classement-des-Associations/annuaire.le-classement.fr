@@ -13,8 +13,8 @@ async function main () {
   consola.info('Cleaning directories')
 
   const paths = [
-    resolve('content/participations-concours/data'),
-    resolve('content/participations-battle/data'),
+    resolve('content/concours/data'),
+    resolve('content/battle/data'),
     resolve('content/categories/data'),
     resolve('content/ecoles/data'),
     resolve('content/associations-etudiantes/data')
@@ -55,7 +55,7 @@ async function main () {
   for (const { properties } of contestParticipations) {
     const name = useExtractContent(properties.Nom)
 
-    await writeFile(name, 'participations-concours/data', {
+    await writeFile(name, 'concours/data', {
       id: useSlugify(name),
       name
     })
@@ -65,7 +65,7 @@ async function main () {
   for (const { properties } of battleParticipations) {
     const name = useExtractContent(properties.Nom)
 
-    await writeFile(name, 'participations-battle/data', {
+    await writeFile(name, 'battle/data', {
       id: useSlugify(name),
       name
     })

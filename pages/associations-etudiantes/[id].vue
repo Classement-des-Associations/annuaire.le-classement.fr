@@ -39,11 +39,25 @@ useSeoMeta({
     <p class="mt-8 text-xl">
       {{ association.description }}
     </p>
-    <template v-if="association.participations">
-      <p v-if="association.participations.length > 0" class="mt-4 text-xl">
-        L'association {{ association.name }} a participé au Classement des Associations en <Sentence route="/participations-concours" :data="association.participations" nuxt-link-class="hover:underline" />.
-      </p>
-    </template>
+    <p class="mt-4 text-xl">
+      L'association {{ association.name }} a participé
+      <template v-if="association.battleParticipations.length">
+        à la <NuxtLink to="https://le-classement.fr/classement/battle" target="_blank" class="hover:underline inline-block">
+          Battle du Classement
+        </NuxtLink>
+        en <Sentence route="/battle" :data="association.battleParticipations" nuxt-link-class="hover:underline" />
+      </template>
+      <template v-if="association.battleParticipations.length && association.contestParticipations.length">
+        et
+      </template>
+      <template v-if="association.contestParticipations.length">
+        au
+        <NuxtLink to="https://le-classement.fr/classement/concours" target="_blank" class="hover:underline inline-block">
+          Concours du Classement
+        </NuxtLink>
+        en <Sentence route="/concours" :data="association.contestParticipations" nuxt-link-class="hover:underline" />
+      </template>
+    </p>
     <Socials :socials="socials" class="mt-8" />
     <template v-if="relatedAssociations">
       <AssociationsRelatedListSection v-if="relatedAssociations?.length > 0" :associations="relatedAssociations.filter(Boolean)" class="mt-24" />
