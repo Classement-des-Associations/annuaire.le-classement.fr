@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/bureaudesjeuxbsb/?hl=fr",
   "website": null,
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "burgundy-business-school"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "burgundy-business-school",
+      "name": "Burgundy Business School"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

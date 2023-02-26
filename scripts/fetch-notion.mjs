@@ -13,7 +13,7 @@ async function main () {
   consola.info('Cleaning directories')
 
   const paths = [
-    resolve('content/participations/data/2022'),
+    resolve('content/participations-concours/data/2022'),
     resolve('content/categories/data'),
     resolve('content/ecoles/data'),
     resolve('content/associations-etudiantes/data')
@@ -49,7 +49,7 @@ async function main () {
   for (const { properties } of participations) {
     const name = useExtractContent(properties.Nom)
 
-    await writeFile(name, 'participations/data/2022', {
+    await writeFile(name, 'participations-concours/data/2022', {
       id: useSlugify(name),
       name
     })
@@ -99,9 +99,13 @@ async function main () {
       }
 
       const categoryName = useExtractContent(category.properties.Nom)
+      const categoryIcon = useExtractContent(category.properties.Icon)
+      const categoryColor = useExtractContent(category.properties.Couleur)
       relatedCategories.push({
         id: useSlugify(categoryName),
-        name: categoryName
+        name: categoryName,
+        icon: categoryIcon,
+        color: useSlugify(categoryColor.name)
       })
     }
 
@@ -143,9 +147,12 @@ async function main () {
       linkedin,
       instagram,
       website,
-      categoryId: relatedCategories.map(({ id }) => id)[0],
+      categoriesId: relatedCategories.map(({ id }) => id),
       schoolsId: relatedSchools.map(({ id }) => id),
-      participationsId: relatedParticipations.map(({ id }) => id)
+      participationsId: relatedParticipations.map(({ id }) => id),
+      categories: relatedCategories,
+      schools: relatedSchools,
+      participations: relatedParticipations
     })
   }
 }

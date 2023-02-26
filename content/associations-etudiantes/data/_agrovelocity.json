@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/in/agrovelocity/",
   "instagram": "https://www.instagram.com/explore/tags/agrov%C3%A9locity/",
   "website": "https://www.agrovelocity.org/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "agroparistech"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "agroparistech",
+      "name": "AgroParisTech"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

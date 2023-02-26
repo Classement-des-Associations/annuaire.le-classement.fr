@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/leviking/",
   "instagram": "https://www.instagram.com/levikingrouen/",
   "website": "https://www.le-viking.com/",
-  "categoryId": "city-guide",
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "neoma-business-school"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "city-guide",
+      "name": "City-Guide",
+      "icon": "fluent-emoji:notebook-with-decorative-cover",
+      "color": "purple"
+    }
+  ],
+  "schools": [
+    {
+      "id": "neoma-business-school",
+      "name": "Neoma Business School"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

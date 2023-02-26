@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/tuonglai_essec/",
   "website": null,
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "essec"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "essec",
+      "name": "ESSEC"
+    }
+  ],
+  "participations": []
 }

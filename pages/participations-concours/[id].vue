@@ -13,7 +13,7 @@ const { data: associations } = await useAssociationsByParticipationId(route.para
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
       Associations participantes
     </AssociationsRelatedListSection>
-    <NuxtLink to="/participations/" class="block mt-24 text-lg font-lig">
+    <NuxtLink to="/participations-concours" class="block mt-24 text-lg font-lig">
       Revenir aux participations
     </NuxtLink>
   </BaseSection>

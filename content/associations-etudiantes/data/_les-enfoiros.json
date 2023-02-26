@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/les-enfoiros-de-l-insa/",
   "instagram": "https://www.instagram.com/enfoirosdelinsa/",
   "website": null,
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "insa-toulouse"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "insa-toulouse",
+      "name": "INSA Toulouse"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

@@ -4,9 +4,26 @@
   "linkedin": "https://www.linkedin.com/company/association-vive-les-vacances-/",
   "instagram": "https://www.instagram.com/vivelesvacances_association/?hl=fr",
   "website": "https://www.vive-les-vacances.org/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "edhec"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": []
 }

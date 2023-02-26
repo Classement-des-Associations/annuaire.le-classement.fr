@@ -5,9 +5,26 @@
   "linkedin": "https://fr.linkedin.com/in/madn-esc-bsb-15852ab7",
   "instagram": "https://www.instagram.com/madnesc_2021/",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "burgundy-business-school"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "burgundy-business-school",
+      "name": "Burgundy Business School"
+    }
+  ],
+  "participations": []
 }

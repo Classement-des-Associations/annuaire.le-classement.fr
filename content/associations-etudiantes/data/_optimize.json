@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/optimize-tbs/",
   "instagram": "https://www.instagram.com/optimizetbs/",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "tbs-education"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

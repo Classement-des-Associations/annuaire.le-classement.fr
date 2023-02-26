@@ -4,11 +4,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/accede_provence_entrepreneurs/",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

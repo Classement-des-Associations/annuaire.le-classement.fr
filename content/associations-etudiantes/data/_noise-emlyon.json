@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/noise-emlyon/",
   "instagram": "https://instagram.com/noise_emlyon",
   "website": "https://www.noise-emlyon.org/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "emlyon"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

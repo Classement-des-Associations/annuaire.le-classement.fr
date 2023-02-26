@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/musical.essec/",
   "website": "https://www.musical-essec.com/",
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "essec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "essec",
+      "name": "ESSEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

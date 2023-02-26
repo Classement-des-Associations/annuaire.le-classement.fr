@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/humaniworld/",
   "instagram": "https://www.instagram.com/humaniworld2022/?hl=fr",
   "website": null,
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "polytech-orleans"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "polytech-orleans",
+      "name": "Polytech Orléans"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": null,
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-maganement"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-maganement",
+      "name": "Grenoble Ecole de Maganement"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

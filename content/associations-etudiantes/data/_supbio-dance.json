@@ -5,7 +5,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/supbiodance/",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "epita",
     "epitech",
@@ -13,5 +15,33 @@
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "epita",
+      "name": "Epita"
+    },
+    {
+      "id": "epitech",
+      "name": "Epitech"
+    },
+    {
+      "id": "supbiotech",
+      "name": "Sup'biotech"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

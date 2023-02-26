@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "https://instagram.com/atchances",
   "website": null,
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "icn-business-school"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "icn-business-school",
+      "name": "ICN Business School"
+    }
+  ],
+  "participations": []
 }

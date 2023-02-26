@@ -4,9 +4,26 @@
   "linkedin": "https://www.linkedin.com/company/helloworld-edhec",
   "instagram": "https://www.instagram.com/helloworldedhec/",
   "website": "https://helloworldedhec.com/",
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "edhec"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": []
 }

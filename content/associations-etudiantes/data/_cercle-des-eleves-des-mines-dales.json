@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/bdeimtminesales/?hl=fr",
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "imt-mines-ales"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "imt-mines-ales",
+      "name": "IMT Mines Alès"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

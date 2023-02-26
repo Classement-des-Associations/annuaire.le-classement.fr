@@ -4,9 +4,26 @@
   "linkedin": "https://www.linkedin.com/company/diplo-mates-emlyon/mycompany/",
   "instagram": "https://www.instagram.com/diplo.mates/",
   "website": "www.diplo-mates.com",
-  "categoryId": "geopolitique",
+  "categoriesId": [
+    "geopolitique"
+  ],
   "schoolsId": [
     "emlyon"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "geopolitique",
+      "name": "Géopolitique",
+      "icon": "fluent-emoji:world-map",
+      "color": "teal"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "participations": []
 }

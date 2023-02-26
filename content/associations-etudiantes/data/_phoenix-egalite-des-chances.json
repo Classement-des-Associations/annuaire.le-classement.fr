@@ -4,9 +4,26 @@
   "linkedin": "https://www.linkedin.com/company/phoenix-egalite-des-chances/",
   "instagram": "https://www.instagram.com/phoenixedc/",
   "website": "https://www.phoenix-egalite-des-chances.com/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": []
 }

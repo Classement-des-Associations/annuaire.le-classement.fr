@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/sports_business_consulting/",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "edhec"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": []
 }

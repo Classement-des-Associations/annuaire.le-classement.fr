@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/bureau-de-l-humanitaire/",
   "instagram": "https://www.instagram.com/bdh.tbs/?hl=fr",
   "website": "https://bdh.tbs.fr/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "tbs-education"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

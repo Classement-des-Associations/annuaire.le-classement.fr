@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/idrogen_estaca",
   "website": null,
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "estaca"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "estaca",
+      "name": "ESTACA"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

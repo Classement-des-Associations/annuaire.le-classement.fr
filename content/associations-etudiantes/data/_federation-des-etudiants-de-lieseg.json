@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "www.instagram/fede_ieseg.com",
   "website": null,
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "ieseg"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ieseg",
+      "name": "IESEG"
+    }
+  ],
+  "participations": []
 }

@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/hum-am/",
   "instagram": "https://www.instagram.com/humam_ensam/?hl=fr",
   "website": "https://humam2022.wixsite.com/humam2022",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "hec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "hec",
+      "name": "HEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

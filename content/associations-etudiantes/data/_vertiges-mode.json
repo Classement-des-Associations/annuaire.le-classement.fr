@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/vertiges_mode/",
   "website": null,
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "icn-business-school"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "icn-business-school",
+      "name": "ICN Business School"
+    }
+  ],
+  "participations": []
 }

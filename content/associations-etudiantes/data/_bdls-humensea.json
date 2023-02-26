@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "https://www.linkedin.com/company/11158564/",
   "website": "https://bdls.asso-ensea.fr",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "ensea"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensea",
+      "name": "ENSEA"
+    }
+  ],
+  "participations": []
 }

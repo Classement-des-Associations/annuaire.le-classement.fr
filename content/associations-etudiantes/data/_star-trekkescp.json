@@ -4,9 +4,26 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/startrekkescp/",
   "website": "https://www.startrekk-escpeurope.com/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "escp"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "escp",
+      "name": "ESCP"
+    }
+  ],
+  "participations": []
 }

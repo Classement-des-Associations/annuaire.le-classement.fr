@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/festival-du-cin-ma-europ-en/",
   "instagram": "https://www.instagram.com/eurofilmfest/",
   "website": "https://eurofilmfest-lille.com",
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "edhec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

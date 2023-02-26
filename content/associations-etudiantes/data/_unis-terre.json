@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/unis-terre/",
   "instagram": "https://www.instagram.com/unisterre/?hl=fr",
   "website": "https://www.unis-terre.com/",
-  "categoryId": "environnementale",
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "kedge-bs"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

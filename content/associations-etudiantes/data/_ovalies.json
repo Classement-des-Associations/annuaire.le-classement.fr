@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/in/ovalies-unilasalle/",
   "instagram": "https://www.instagram.com/ovaliesunilasalle/",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "unilasalle"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "unilasalle",
+      "name": "UniLaSalle"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

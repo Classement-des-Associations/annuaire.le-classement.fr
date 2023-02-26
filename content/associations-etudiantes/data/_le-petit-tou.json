@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/le-petit-tou/",
   "instagram": "https://www.instagram.com/lepetittou/",
   "website": "https://www.lepetittou.com/",
-  "categoryId": "city-guide",
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "tbs-education"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "city-guide",
+      "name": "City-Guide",
+      "icon": "fluent-emoji:notebook-with-decorative-cover",
+      "color": "purple"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

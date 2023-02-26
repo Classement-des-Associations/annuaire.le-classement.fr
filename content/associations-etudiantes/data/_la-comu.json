@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/comu.gram/",
   "website": "https://comuescpeu.wixsite.com/comu-escp",
-  "categoryId": "culturelle",
+  "categoriesId": [
+    "culturelle"
+  ],
   "schoolsId": [
     "escp"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "escp",
+      "name": "ESCP"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

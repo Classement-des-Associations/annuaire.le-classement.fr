@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/union_des_eleves_artsetmetiers/",
   "website": "ueam.org",
-  "categoryId": "bureau-des-eleves",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
   "schoolsId": [
     "arts-et-metiers-paristech"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "arts-et-metiers-paristech",
+      "name": "Arts et Métiers ParisTech"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

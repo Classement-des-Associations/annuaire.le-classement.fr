@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/humacs/",
   "instagram": null,
   "website": "https://huma.cs-campus.fr/",
-  "categoryId": "sociale",
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [
     "centralesupelec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "centralesupelec",
+      "name": "CentraleSupélec"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

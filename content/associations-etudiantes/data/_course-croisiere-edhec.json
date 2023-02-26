@@ -5,11 +5,33 @@
   "linkedin": "https://fr.linkedin.com/company/ccedhec",
   "instagram": "https://www.instagram.com/ccedhec/",
   "website": "https://cce.fr/",
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "edhec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

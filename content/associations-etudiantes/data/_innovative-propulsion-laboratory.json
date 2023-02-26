@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/innovative-propulsion-laboratory/",
   "instagram": "https://www.instagram.com/innovative_ipl/",
   "website": null,
-  "categoryId": "technique",
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "ipsa"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

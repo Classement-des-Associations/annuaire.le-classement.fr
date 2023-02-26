@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/schola-africa/",
   "instagram": "https://www.instagram.com/scholaafrica/",
   "website": null,
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "edhec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

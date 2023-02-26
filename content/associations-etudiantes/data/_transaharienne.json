@@ -4,9 +4,26 @@
   "linkedin": "https://www.linkedin.com/company/transaharienne",
   "instagram": "https://www.instagram.com/transaharienne",
   "website": "https://transaharienne.fr",
-  "categoryId": "humanitaire",
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "isep"
   ],
-  "participationsId": []
+  "participationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "isep",
+      "name": "ISEP"
+    }
+  ],
+  "participations": []
 }

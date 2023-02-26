@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/le-chti-grand-lille/",
   "instagram": "https://www.instagram.com/lechtigrandlille/",
   "website": "https://lechti.com/",
-  "categoryId": "city-guide",
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "edhec"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "city-guide",
+      "name": "City-Guide",
+      "icon": "fluent-emoji:notebook-with-decorative-cover",
+      "color": "purple"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://instagram.com/4ltrophy_coordination",
   "website": null,
-  "categoryId": "sportive",
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "rennes-school-of-business"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "rennes-school-of-business",
+      "name": "Rennes School of Business"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

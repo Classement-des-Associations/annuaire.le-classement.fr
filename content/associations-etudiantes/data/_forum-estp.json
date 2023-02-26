@@ -5,11 +5,33 @@
   "linkedin": "https://www.linkedin.com/company/forum-etp/",
   "instagram": "https://www.instagram.com/forumestp/?hl=fr",
   "website": null,
-  "categoryId": "professionnalisante",
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "estp"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "estp",
+      "name": "ESTP"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }

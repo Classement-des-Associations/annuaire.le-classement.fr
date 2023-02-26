@@ -5,11 +5,33 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/club_dj_insastrasbourg/?hl=fr",
   "website": "https://www.clubdj-insastrasbourg.fr/",
-  "categoryId": "artistique",
+  "categoriesId": [
+    "artistique"
+  ],
   "schoolsId": [
     "insa-strasbourg"
   ],
   "participationsId": [
     "2022"
+  ],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "insa-strasbourg",
+      "name": "INSA Strasbourg"
+    }
+  ],
+  "participations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
   ]
 }
