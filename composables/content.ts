@@ -177,3 +177,14 @@ export const useContestParticipationsById = (participationsId: string[]) => {
       .find()
   )
 }
+
+export const useBattleParticipations = () => {
+  return useAsyncData('content:battle-participations', () =>
+    queryContent<BattleParticipation>('/participations-battle/data').where({
+      _partial: true,
+      _extension: 'json'
+    })
+      .only(['id', 'name'])
+      .find()
+  )
+}
