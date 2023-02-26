@@ -4,9 +4,6 @@ title: Les Participations au Concours
 ---
 
 ::hero
----
-part: classement
----
 #title
 Les Participations au Concours
 ::

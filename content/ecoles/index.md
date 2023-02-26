@@ -4,9 +4,6 @@ title: Les Écoles
 ---
 
 ::hero
----
-part: classement
----
 #title
 Les Écoles
 ::

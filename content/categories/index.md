@@ -4,9 +4,6 @@ title: Les Catégories
 ---
 
 ::hero
----
-part: classement
----
 #title
 Les Catégories
 ::
