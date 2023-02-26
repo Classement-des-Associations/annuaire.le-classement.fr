@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import { Participation } from '@/types'
+import { ContestParticipation } from '@/types'
 
 defineProps<{
-  participation: Participation;
+  participation: Pick<ContestParticipation, 'id' | 'name'>
 }>()
 </script>
 

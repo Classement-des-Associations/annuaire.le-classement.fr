@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const route = useRoute()
 
-const { data: school } = await useParticipationById(route.params.id as string)
+const { data: school } = await useContestParticipationById(route.params.id as string)
 const { data: associations } = await useAssociationsByParticipationId(route.params.id as string)
 </script>
 

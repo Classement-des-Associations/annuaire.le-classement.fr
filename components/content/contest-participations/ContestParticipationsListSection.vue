@@ -9,6 +9,6 @@ defineProps<{
     <h2 class="sr-only">
       <ContentSlot :use="$slots.srTitle" unwrap="p" />
     </h2>
-    <ParticipationsList />
+    <ContestParticipationsList />
   </BaseSection>
 </template>

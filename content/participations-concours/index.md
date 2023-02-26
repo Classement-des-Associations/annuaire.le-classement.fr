@@ -8,7 +8,7 @@ title: Les Participations au Concours
 Les Participations au Concours
 ::
 
-::participations-list-section
+::contest-participations-list-section
 ---
 sectionClass: my-20
 ---

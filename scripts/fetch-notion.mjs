@@ -13,7 +13,7 @@ async function main () {
   consola.info('Cleaning directories')
 
   const paths = [
-    resolve('content/participations-concours/data/2022'),
+    resolve('content/participations-concours/data'),
     resolve('content/categories/data'),
     resolve('content/ecoles/data'),
     resolve('content/associations-etudiantes/data')
@@ -49,7 +49,7 @@ async function main () {
   for (const { properties } of participations) {
     const name = useExtractContent(properties.Nom)
 
-    await writeFile(name, 'participations-concours/data/2022', {
+    await writeFile(name, 'participations-concours/data', {
       id: useSlugify(name),
       name
     })
