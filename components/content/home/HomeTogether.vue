@@ -22,7 +22,7 @@ const toImg = (association: Pick<Association, 'id' | 'name'>) => {
     alt: `Logo de l'association ${association.name}`,
     width: 400,
     height: 400,
-    to: `/associations-etudiantes/${association.id}`
+    to: `/associations-etudiantes/${association.id}/`
   }
 }
 
