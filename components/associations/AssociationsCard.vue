@@ -8,9 +8,8 @@ defineProps<{
 
 <template>
   <BaseCard class="relative">
-    <!-- For the image, use a hardcoded path and the id -->
-    <!-- <img :src="" :alt="association.image.alt" loading="lazy" /> -->
-    <div class="flex flex-col gap-4 items-center">
+    <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="h-24 w-auto mx-auto">
+    <div class=" mt-3 flex flex-col gap-4 items-center">
       <h3 class="text-xl lg:text-2xl font-bold text-center">
         <NuxtLink :to="`/associations-etudiantes/${association.id}/`">
           {{ association.name }}
