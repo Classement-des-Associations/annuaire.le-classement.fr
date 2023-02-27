@@ -1,0 +1,29 @@
+{
+  "id": "ovalies-unilasalle",
+  "name": "Ovalies UniLaSalle",
+  "linkedin": "https://www.linkedin.com/in/ovalies-unilasalle/",
+  "instagram": "https://www.instagram.com/ovaliesunilasalle/?hl=fr",
+  "website": "https://ovalies-unilasalle.com/",
+  "categoriesId": [],
+  "schoolsId": [
+    "unilasalle"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "unilasalle",
+      "name": "UniLaSalle"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

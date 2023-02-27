@@ -9,7 +9,7 @@
     "bureau-des-eleves"
   ],
   "schoolsId": [
-    "grenoble-ecole-de-maganement"
+    "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
     "2022"
@@ -25,8 +25,8 @@
   ],
   "schools": [
     {
-      "id": "grenoble-ecole-de-maganement",
-      "name": "Grenoble Ecole de Maganement"
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
     }
   ],
   "contestParticipations": [

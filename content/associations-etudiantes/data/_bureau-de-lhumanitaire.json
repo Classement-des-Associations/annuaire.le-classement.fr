@@ -1,0 +1,29 @@
+{
+  "id": "bureau-de-lhumanitaire",
+  "name": "Bureau de l’Humanitaire",
+  "linkedin": null,
+  "instagram": "Bureau de l’Humanitaire (@bdh.tbs) • Instagram photos and videos",
+  "website": null,
+  "categoriesId": [],
+  "schoolsId": [
+    "tbs-education"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

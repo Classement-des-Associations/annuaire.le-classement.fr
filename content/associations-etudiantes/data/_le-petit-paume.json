@@ -1,0 +1,29 @@
+{
+  "id": "le-petit-paume",
+  "name": "Le Petit Paumé",
+  "linkedin": "https://www.linkedin.com/company/le-petit-paume/mycompany/",
+  "instagram": "https://www.instagram.com/lepetitpaume/",
+  "website": "petitpaume.com",
+  "categoriesId": [],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

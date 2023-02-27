@@ -1,0 +1,29 @@
+{
+  "id": "total-edhec-entreprendre",
+  "name": "Total Edhec Entreprendre",
+  "linkedin": "https://www.linkedin.com/company/total-edhec-entreprendre/",
+  "instagram": "https://www.instagram.com/concourstee/",
+  "website": "https://www.concourstee.fr",
+  "categoriesId": [],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

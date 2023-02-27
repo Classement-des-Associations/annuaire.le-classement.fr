@@ -1,0 +1,29 @@
+{
+  "id": "raid-edhec",
+  "name": "Raid EDHEC",
+  "linkedin": "https://fr.linkedin.com/company/raid-edhec",
+  "instagram": "https://www.instagram.com/raid_edhec/?hl=fr",
+  "website": "https://raidedhec.com",
+  "categoriesId": [],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

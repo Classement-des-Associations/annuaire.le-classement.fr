@@ -1,0 +1,29 @@
+{
+  "id": "association-sportive-centrale-marseille",
+  "name": "Association Sportive Centrale Marseille",
+  "linkedin": "https://www.linkedin.com/company/bds-centrale-marseille/",
+  "instagram": "https://www.instagram.com/bds_ecm",
+  "website": "bds.asso.centrale-marseille.fr",
+  "categoriesId": [],
+  "schoolsId": [
+    "centrale-marseille"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "centrale-marseille",
+      "name": "Centrale Marseille"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}
