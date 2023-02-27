@@ -1,0 +1,29 @@
+{
+  "id": "toulouse-motors-club",
+  "name": "Toulouse Motors Club",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/toulousemotorsclub/",
+  "website": null,
+  "categoriesId": [],
+  "schoolsId": [
+    "tbs-education"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

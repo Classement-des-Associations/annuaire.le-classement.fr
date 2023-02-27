@@ -1,0 +1,22 @@
+{
+  "id": "lequipage-solidaire",
+  "name": "L’équipage solidaire",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/equipagesolidaire/",
+  "website": null,
+  "categoriesId": [],
+  "schoolsId": [],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

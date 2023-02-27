@@ -1,0 +1,29 @@
+{
+  "id": "ternco",
+  "name": "Ter'N'Co",
+  "linkedin": null,
+  "instagram": null,
+  "website": "https://www.instagram.com/terncoasso/?igshid=YmMyMTA2M2Y%3D",
+  "categoriesId": [],
+  "schoolsId": [
+    "rennes-school-of-business"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "rennes-school-of-business",
+      "name": "Rennes School of Business"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

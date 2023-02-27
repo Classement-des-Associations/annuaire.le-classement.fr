@@ -1,0 +1,29 @@
+{
+  "id": "rallye-aerien-etudiant",
+  "name": "Rallye Aerien Etudiant",
+  "linkedin": "https://www.linkedin.com/company/rallye-aérien-etudiant/",
+  "instagram": "https://www.instagram.com/rallye.aerien.etudiant",
+  "website": "https://rallye-aerien-etudiant.fr",
+  "categoriesId": [],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

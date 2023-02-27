@@ -1,0 +1,22 @@
+{
+  "id": "they-act-for-women",
+  "name": "They Act for Women",
+  "linkedin": "https://www.linkedin.com/company/they-act-for-women/about/",
+  "instagram": "http://www.instagram.com/they.act.for.women/",
+  "website": "https://www.theyactforwomen.org/",
+  "categoriesId": [],
+  "schoolsId": [],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

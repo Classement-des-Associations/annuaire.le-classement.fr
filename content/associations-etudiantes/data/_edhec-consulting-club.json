@@ -1,0 +1,29 @@
+{
+  "id": "edhec-consulting-club",
+  "name": "EDHEC Consulting Club",
+  "linkedin": "https://www.linkedin.com/company/edhecconsultingclub/?originalSubdomain=fr",
+  "instagram": "https://www.instagram.com/edhec.consultingclub/?hl=fr",
+  "website": "edhec-consultingclub.com",
+  "categoriesId": [],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

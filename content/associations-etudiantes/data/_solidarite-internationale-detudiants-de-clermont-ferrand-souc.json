@@ -1,0 +1,29 @@
+{
+  "id": "solidarite-internationale-detudiants-de-clermont-ferrand-souc",
+  "name": "SOLIDARITÉ INTERNATIONALE D’ÉTUDIANTS DE CLERMONT-FERRAND (SOUC)",
+  "linkedin": null,
+  "instagram": "https://instagram.com/soucsigma?igshid=YmMyMTA2M2Y=",
+  "website": null,
+  "categoriesId": [],
+  "schoolsId": [
+    "sigma-clermont-ferrand"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "sigma-clermont-ferrand",
+      "name": "Sigma Clermont-Ferrand"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "solidariterre",
+  "name": "Solidari'Terre",
+  "linkedin": "https://www.linkedin.com/company/solidari'terre/",
+  "instagram": null,
+  "website": "https://www.solidari-terre.org/",
+  "categoriesId": [],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

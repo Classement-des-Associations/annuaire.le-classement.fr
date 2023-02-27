@@ -1,0 +1,29 @@
+{
+  "id": "citecom",
+  "name": "Citécom",
+  "linkedin": "https://www.linkedin.com/company/citecom-junior-agence",
+  "instagram": "https://www.instagram.com/citecom_ja/",
+  "website": "https://www.jacitecom.com/",
+  "categoriesId": [],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

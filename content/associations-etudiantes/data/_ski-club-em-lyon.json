@@ -1,0 +1,29 @@
+{
+  "id": "ski-club-em-lyon",
+  "name": "SKI CLUB EM LYON",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/skiclubemlyon2023_/",
+  "website": null,
+  "categoriesId": [],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
+  "categories": [],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
+}

@@ -1,12 +1,10 @@
 {
-  "id": "le-dahu",
-  "name": "Le Dahu",
-  "linkedin": null,
-  "instagram": "https://www.instagram.com/_dahu/",
-  "website": "http://www.ledahu.net/",
-  "categoriesId": [
-    "city-guide"
-  ],
+  "id": "ico-ici-commence-locean",
+  "name": "I.C.O (Ici Commence L’océan)",
+  "linkedin": "https://www.linkedin.com/company/ico---ici-commence-l'oc-an/?originalSubdomain=fr",
+  "instagram": "https://www.instagram.com/icogem/",
+  "website": "www.icicommencelocean.com",
+  "categoriesId": [],
   "schoolsId": [
     "grenoble-ecole-de-management"
   ],
@@ -14,14 +12,7 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [
-    {
-      "id": "city-guide",
-      "name": "City-Guide",
-      "icon": "fluent-emoji:notebook-with-decorative-cover",
-      "color": "purple"
-    }
-  ],
+  "categories": [],
   "schools": [
     {
       "id": "grenoble-ecole-de-management",
