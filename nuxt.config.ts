@@ -8,6 +8,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      newsletterSubscriptionLink: 'https://example.com',
       trailingSlash: true,
       titleSeparator: '·',
       siteUrl: 'https://annuaire.le-classement.fr',

@@ -7,6 +7,10 @@ const logo = {
 
 <template>
   <Html dir="ltr">
+    <Head>
+      <SeoKit />
+    </Head>
+
     <Body>
       <TheHeader
         sr-navigation-title="Navigation Primaire"
