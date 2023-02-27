@@ -8,7 +8,9 @@
     "preview": "nuxt preview",
     "lint": "eslint .",
     "postinstall": "nuxt prepare",
-    "fetch-notion": "node ./scripts/fetch-notion.mjs"
+    "fetch-notion": "node ./scripts/fetch-notion.mjs",
+    "check-images": "node ./scripts/check-images.mjs",
+    "check-associations": "node ./scripts/check-associations.mjs"
   },
   "dependencies": {
     "@classement-des-associations/website-theme": "^0.3.0",
