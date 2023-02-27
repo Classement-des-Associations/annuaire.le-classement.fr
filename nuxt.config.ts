@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   extends: ['@classement-des-associations/website-theme'],
 
+  modules: [
+    '@vueuse/nuxt'
+  ],
+
   runtimeConfig: {
     public: {
       trailingSlash: true,

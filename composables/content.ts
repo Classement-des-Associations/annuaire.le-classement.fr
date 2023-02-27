@@ -11,6 +11,18 @@ export const useAssociations = () => {
   )
 }
 
+export const useAssociationsSlider = (skip: number, limit: number) => {
+  return useAsyncData(`content:associations:slider:${skip}:${limit}`, () => {
+    return queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true
+    })
+      .only(['name', 'id'])
+      .skip(skip)
+      .limit(limit)
+      .find()
+  })
+}
+
 export const useAssociationById = (associationId: string) => {
   return useAsyncData(`content:association:${associationId}`, () =>
     queryContent<Association>('/associations-etudiantes/data').where({
