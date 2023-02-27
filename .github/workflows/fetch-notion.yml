@@ -17,6 +17,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - run: npm i -g pnpm @antfu/ni
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -24,15 +26,17 @@ jobs:
           cache: pnpm
 
       - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
+        run: nci
 
       - name: Fetch Associations
         env:
           NOTION_KEY: ${{ secrets.NOTION_KEY }}
           NOTION_ASSOCIATIONS_DATABASE_ID: ${{ secrets.NOTION_ASSOCIATIONS_DATABASE_ID }}
           NOTION_SCHOOLS_DATABASE_ID: ${{ secrets.NOTION_SCHOOLS_DATABASE_ID }}
-          NOTION_PARTICIPATIONS_DATABASE_ID: ${{ secrets.NOTION_PARTICIPATIONS_DATABASE_ID }}
-        run: pnpm run fetch-notion
+          NOTION_CONTEST_PARTICIPATIONS_DATABASE_ID: ${{ secrets.NOTION_CONTEST_PARTICIPATIONS_DATABASE_ID }}
+          NOTION_BATTLE_PARTICIPATIONS_DATABASE_ID: ${{ secrets.NOTION_BATTLE_PARTICIPATIONS_DATABASE_ID }}
+
+        run: nr fetch-notion
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
