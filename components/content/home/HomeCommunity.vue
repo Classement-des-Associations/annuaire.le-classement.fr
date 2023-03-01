@@ -44,6 +44,8 @@ const items = ref<Item[]>([
     isExternal: true
   }
 ])
+
+const buttonLink = useClassementLink('linkedin-group')
 </script>
 
 <template>
@@ -62,7 +64,7 @@ const items = ref<Item[]>([
     </template>
   </ul>
   <div class="mt-10 flex flex-row justify-center">
-    <NewsletterLink :button-text="buttonText" />
+    <ClassementLink :button-text="buttonText" :button-link="buttonLink" part="classement" />
   </div>
 </template>
 

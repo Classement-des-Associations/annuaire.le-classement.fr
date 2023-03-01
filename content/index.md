@@ -21,9 +21,9 @@ l'ensemble de la vie associative étudiante
 sectionClass: mt-32 relative z-10
 ---
 #title
-Devenez meilleures [ensemble]{.text-transparent.bg-clip-text.bg-classement}
+Devenir meilleures [ensemble]{.text-transparent.bg-clip-text.bg-classement}
 #subtitle
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed faucibus turpis in eu mi bibendum neque egestas.
+Découvrez d'autres associations étudiantes, inspirez-vous de leurs projets, partagez vos idées et collaborez pour créer des initiatives ambitieuses et communes et explorer de nouvelles possibilités.
 #extra
   ::home-together
   ---
@@ -40,7 +40,7 @@ sectionClass: mt-32
 #title
 Une communauté de [passionnés]{.text-transparent.bg-clip-text.bg-classement}
 #subtitle
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed faucibus turpis in eu mi bibendum neque egestas.
+Trouvez des réponses à vos questions, partagez vos expériences et vos idées, et échangez avec d'autres membres de la communauté.
 #extra
   ::home-community
   ---
