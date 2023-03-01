@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@classement-des-associations/website-theme': ^0.4.1
+  '@classement-des-associations/website-theme': ^0.5.1
   '@notionhq/client': ^2.2.3
   '@nuxtjs/eslint-config-typescript': ^12.0.0
   '@vueuse/core': ^9.13.0
@@ -11,7 +11,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  '@classement-des-associations/website-theme': 0.4.1_ycpbpc6yetojsgtrx3mwntkhsu
+  '@classement-des-associations/website-theme': 0.5.1_ycpbpc6yetojsgtrx3mwntkhsu
   '@notionhq/client': 2.2.3
   '@nuxtjs/eslint-config-typescript': 12.0.0_ycpbpc6yetojsgtrx3mwntkhsu
   '@vueuse/core': 9.13.0
@@ -348,8 +348,8 @@ packages:
       - encoding
     dev: false
 
-  /@classement-des-associations/website-theme/0.4.1_ycpbpc6yetojsgtrx3mwntkhsu:
-    resolution: {integrity: sha512-yMfWe+VC6cJq6V8b+bs3df7f9+S2M4Qx+XT3ZiTYGPuZWWiOQwNXHeZ5A6Zj25Pb8p7CZ8FjtZqJD16HbMWL9w==}
+  /@classement-des-associations/website-theme/0.5.1_ycpbpc6yetojsgtrx3mwntkhsu:
+    resolution: {integrity: sha512-rRUk9Wj80Vk++xpwIKT/cl5IXvrl20vvSt6B20MiF8yrzdwbUhrU+iwh98VDNfrzPMyHMdP2673M6o9qvduZcg==}
     dependencies:
       '@headlessui/vue': 1.7.11
       '@nuxt/content': 2.4.3
@@ -1037,7 +1037,7 @@ packages:
       shiki-es: 0.2.0
       slugify: 1.6.5
       socket.io-client: 4.6.1
-      ufo: 1.1.0
+      ufo: 1.1.1
       unified: 10.1.2
       unist-builder: 3.0.1
       unist-util-position: 4.0.4
@@ -1262,7 +1262,7 @@ packages:
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
       std-env: 3.3.2
-      ufo: 1.1.0
+      ufo: 1.1.1
       unimport: 2.2.4
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -1452,7 +1452,7 @@ packages:
       fontaine: 0.2.3
       magic-string: 0.27.0
       pathe: 1.1.0
-      ufo: 1.1.0
+      ufo: 1.1.1
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -1462,7 +1462,7 @@ packages:
   /@nuxtjs/tailwindcss/6.4.1:
     resolution: {integrity: sha512-b8c6h+iiHJJ/rw/IirmYlF0RaIGVIVFmZXdHYPuDW/Mf6WAEz8IkAicyO5gRL3jYKp98kld067XPGsumDhaVVg==}
     dependencies:
-      '@nuxt/kit': 3.2.2
+      '@nuxt/kit': 3.2.3
       '@nuxt/postcss8': 1.1.3
       autoprefixer: 10.4.13_postcss@8.4.21
       chalk: 5.2.0
@@ -1476,7 +1476,7 @@ packages:
       postcss-nesting: 11.2.1_postcss@8.4.21
       tailwind-config-viewer: 1.7.2_tailwindcss@3.2.7
       tailwindcss: 3.2.7
-      ufo: 1.1.0
+      ufo: 1.1.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -6519,7 +6519,7 @@ packages:
     resolution: {integrity: sha512-066pfova2nE9GZDvHE9oMkqJCwsnJvOZKU2FOSzRpjfXupH3UPtP9Zw8+C2wvZ82Nel6fuRoIUNQh5Sx8ZeQrQ==}
     dependencies:
       '@iconify/vue': 4.1.0
-      '@nuxt/kit': 3.2.2
+      '@nuxt/kit': 3.2.3
       nuxt-config-schema: 0.4.4
     transitivePeerDependencies:
       - rollup
@@ -6588,7 +6588,7 @@ packages:
   /nuxt-seo-kit/1.3.1:
     resolution: {integrity: sha512-4S+vmaxNmLC+BBqhiJzmTdvG1VZNUdMNjfnT8BmGMMABPUQ3DqEfcPr3nnwInBN01/KxzEU74SZC2eW/Dd4kDQ==}
     dependencies:
-      '@nuxt/kit': 3.2.2
+      '@nuxt/kit': 3.2.3
       defu: 6.1.2
       nuxt-link-checker: 1.0.3
       nuxt-og-image: 1.4.21
@@ -8704,10 +8704,6 @@ packages:
 
   /ufo/0.8.6:
     resolution: {integrity: sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==}
-    dev: false
-
-  /ufo/1.1.0:
-    resolution: {integrity: sha512-LQc2s/ZDMaCN3QLpa+uzHUOQ7SdV0qgv3VBXOolQGXTaaZpIur6PwUclF5nN2hNkiTRcUugXd1zFOW3FLJ135Q==}
     dev: false
 
   /ufo/1.1.1:
