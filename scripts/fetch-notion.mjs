@@ -13,8 +13,8 @@ async function main () {
   consola.info('Cleaning directories')
 
   const paths = [
-    resolve('content/concours/data'),
-    resolve('content/battle/data'),
+    resolve('content/1.battle/data'),
+    resolve('content/2.concours/data'),
     resolve('content/categories/data'),
     resolve('content/ecoles/data'),
     resolve('content/associations-etudiantes/data')
@@ -51,21 +51,21 @@ async function main () {
   const categories = await fetchCategoriesDatabase(client, categoriesDatabaseId)
   consola.info(`Categories fetched in ${Date.now() - startTimeFetchCategories}ms`)
 
-  // Extract contest participations
-  for (const { properties } of contestParticipations) {
+  // Extract battle participations
+  for (const { properties } of battleParticipations) {
     const name = useExtractContent(properties.Nom)
 
-    await writeFile(name, 'concours/data', {
+    await writeFile(name, '1.battle/data', {
       id: useSlugify(name),
       name
     })
   }
 
-  // Extract battle participations
-  for (const { properties } of battleParticipations) {
+  // Extract contest participations
+  for (const { properties } of contestParticipations) {
     const name = useExtractContent(properties.Nom)
 
-    await writeFile(name, 'battle/data', {
+    await writeFile(name, '2.concours/data', {
       id: useSlugify(name),
       name
     })
