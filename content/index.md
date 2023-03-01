@@ -18,22 +18,6 @@ l'ensemble de la vie associative étudiante
 
 ::home-section
 ---
-sectionClass: mt-32
----
-#title
-Une communauté de [passionnés]{.text-transparent.bg-clip-text.bg-classement}
-#subtitle
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed faucibus turpis in eu mi bibendum neque egestas.
-#extra
-  ::home-community
-  ---
-  buttonText: Rejoindre la communauté
-  ---
-  ::
-::
-
-::home-section
----
 sectionClass: mt-32 relative z-10
 ---
 #title
@@ -45,6 +29,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   ---
   buttonText: Parcourir les associations
   buttonLink: /associations-etudiantes/
+  ---
+  ::
+::
+
+::home-section
+---
+sectionClass: mt-32
+---
+#title
+Une communauté de [passionnés]{.text-transparent.bg-clip-text.bg-classement}
+#subtitle
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed faucibus turpis in eu mi bibendum neque egestas.
+#extra
+  ::home-community
+  ---
+  buttonText: Rejoindre la communauté
   ---
   ::
 ::
