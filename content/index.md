@@ -69,6 +69,7 @@ Que vous soyez une association, une école ou une entreprise
 ---
 sectionClass: my-32
 buttonText: S'abonner
+buttonLink: newsletterSubscriptionLink
 ---
 #title
 S'abonner au Classement
