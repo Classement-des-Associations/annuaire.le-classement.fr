@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   extends: ['@classement-des-associations/website-theme'],
 
   modules: [
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    'nuxt-clarity-analytics'
   ],
 
   runtimeConfig: {
