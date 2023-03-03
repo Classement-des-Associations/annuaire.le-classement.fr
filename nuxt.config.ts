@@ -40,6 +40,12 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      ],
+      meta: [
+        {
+          name: 'google-site-verification',
+          content: 'TdbVQQq00musVnOqyiFS2ulrIvi29dUNAhPXtGXWags'
+        }
       ]
     }
   },
