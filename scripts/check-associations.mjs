@@ -16,17 +16,24 @@ function main () {
   // Read all the images
   const images = fs.readdirSync('./public/assets/associations/images')
 
-  let linked = 0
+  const unlinked = []
   // Check if all the images are used by an association
   for (const image of images) {
     const name = image.replace('.png', '')
     if (!associations.includes(`_${name}.json`)) {
-      linked++
-      consola.warn(`Unused image ${name} (${resolve('./public/assets/associations/images', image)})`)
+      unlinked.push(name)
     }
   }
 
-  if (linked === 0) { consola.success('Each image is used by an association 🎉') } else { consola.fatal(`${linked} images are not used by any association`) }
+  let logs = ''
+  for (const name of unlinked) {
+    const isLast = unlinked.indexOf(name) === unlinked.length - 1
+    logs += `  ${isLast ? '└─' : '├─'} ${name}\n`
+  }
+
+  if (unlinked.length === 0) { consola.success('Each image have an association 🎉') } else {
+    consola.fatal(`${unlinked.length} images are not used by any association:\n${logs}`)
+  }
 }
 
 main()

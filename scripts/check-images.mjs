@@ -16,17 +16,24 @@ function main () {
   // Read all the images
   const images = fs.readdirSync('./public/assets/associations/images')
 
-  let linked = 0
+  const unlinked = []
   // Check if all the associations have an image
   for (const association of associations) {
     const name = association.replace('.json', '').replace(/_/g, '')
     if (!images.includes(`${name}.png`)) {
-      linked++
-      consola.warn(`Missing image for ${name} (${resolve(associationsPath, association)})`)
+      unlinked.push(name)
     }
   }
 
-  if (linked === 0) { consola.success('Each association have an image 🎉') } else { consola.fatal(`${linked} associations does not have an image`) }
+  let logs = ''
+  for (const name of unlinked) {
+    const isLast = unlinked.indexOf(name) === unlinked.length - 1
+    logs += `  ${isLast ? '└─' : '├─'} ${name}\n`
+  }
+
+  if (unlinked.length === 0) { consola.success('Each association have an image 🎉') } else {
+    consola.fatal(`${unlinked.length} associations does not have an image:\n${logs}`)
+  }
 }
 
 main()
