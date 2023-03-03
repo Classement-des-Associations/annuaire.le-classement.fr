@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://instagram.com/soucsigma?igshid=YmMyMTA2M2Y=",
   "website": null,
-  "categoriesId": [],
+  "categoriesId": [
+    "humanitaire"
+  ],
   "schoolsId": [
     "sigma-clermont-ferrand"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
   "schools": [
     {
       "id": "sigma-clermont-ferrand",

@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/ico---ici-commence-l'oc-an/?originalSubdomain=fr",
   "instagram": "https://www.instagram.com/icogem/",
   "website": "www.icicommencelocean.com",
-  "categoriesId": [],
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "grenoble-ecole-de-management"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
   "schools": [
     {
       "id": "grenoble-ecole-de-management",

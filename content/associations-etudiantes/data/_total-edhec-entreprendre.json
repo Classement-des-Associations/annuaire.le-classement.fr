@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/total-edhec-entreprendre/",
   "instagram": "https://www.instagram.com/concourstee/",
   "website": "https://www.concourstee.fr",
-  "categoriesId": [],
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "edhec"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
   "schools": [
     {
       "id": "edhec",

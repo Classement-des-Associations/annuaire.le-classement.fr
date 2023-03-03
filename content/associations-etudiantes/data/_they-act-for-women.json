@@ -4,13 +4,22 @@
   "linkedin": "https://www.linkedin.com/company/they-act-for-women/about/",
   "instagram": "http://www.instagram.com/they.act.for.women/",
   "website": "https://www.theyactforwomen.org/",
-  "categoriesId": [],
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [],
   "contestParticipationsId": [],
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
   "schools": [],
   "contestParticipations": [],
   "battleParticipations": [

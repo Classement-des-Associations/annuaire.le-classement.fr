@@ -2,9 +2,9 @@
   "id": "optimize",
   "name": "Optimize",
   "description": "Innovation et entrepreneuriat, ça te dit quelque chose ? Évidemment, c’est l’essence même d’Optimize !\nMotivées, engagées et volontaires, nos équipes sont prêtes à te faire voyager dans cet univers à travers des TEDx, des Startup Weekend et bien d’autres. \nNous ne t’en disons pas plus et nous te laissons découvrir notre Association !\nL’optibise 💙💛",
-  "linkedin": "https://www.linkedin.com/company/optimize-tbs/",
+  "linkedin": "https://www.linkedin.com/company/optimize-tbs/mycompany",
   "instagram": "https://www.instagram.com/optimizetbs/",
-  "website": null,
+  "website": "https://optimize-tbs.com/",
   "categoriesId": [
     "professionnalisante"
   ],
@@ -14,7 +14,9 @@
   "contestParticipationsId": [
     "2022"
   ],
-  "battleParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
       "id": "professionnalisante",
@@ -35,5 +37,10 @@
       "name": "2022"
     }
   ],
-  "battleParticipations": []
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }

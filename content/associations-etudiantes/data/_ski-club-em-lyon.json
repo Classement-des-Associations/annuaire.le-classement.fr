@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/skiclubemlyon2023_/",
   "website": null,
-  "categoriesId": [],
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "emlyon"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
   "schools": [
     {
       "id": "emlyon",

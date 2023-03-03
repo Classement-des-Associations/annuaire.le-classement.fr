@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/le-petit-paume/mycompany/",
   "instagram": "https://www.instagram.com/lepetitpaume/",
   "website": "petitpaume.com",
-  "categoriesId": [],
+  "categoriesId": [
+    "city-guide"
+  ],
   "schoolsId": [
     "emlyon"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "city-guide",
+      "name": "City-Guide",
+      "icon": "fluent-emoji:notebook-with-decorative-cover",
+      "color": "purple"
+    }
+  ],
   "schools": [
     {
       "id": "emlyon",

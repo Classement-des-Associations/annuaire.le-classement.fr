@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/bds-centrale-marseille/",
   "instagram": "https://www.instagram.com/bds_ecm",
   "website": "bds.asso.centrale-marseille.fr",
-  "categoriesId": [],
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "centrale-marseille"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
   "schools": [
     {
       "id": "centrale-marseille",

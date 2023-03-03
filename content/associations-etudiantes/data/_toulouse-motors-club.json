@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/toulousemotorsclub/",
   "website": null,
-  "categoriesId": [],
+  "categoriesId": [
+    "technique"
+  ],
   "schoolsId": [
     "tbs-education"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
   "schools": [
     {
       "id": "tbs-education",

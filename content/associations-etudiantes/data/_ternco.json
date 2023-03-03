@@ -4,7 +4,9 @@
   "linkedin": null,
   "instagram": null,
   "website": "https://www.instagram.com/terncoasso/?igshid=YmMyMTA2M2Y%3D",
-  "categoriesId": [],
+  "categoriesId": [
+    "environnementale"
+  ],
   "schoolsId": [
     "rennes-school-of-business"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
   "schools": [
     {
       "id": "rennes-school-of-business",

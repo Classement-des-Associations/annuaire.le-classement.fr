@@ -4,7 +4,9 @@
   "linkedin": "https://www.linkedin.com/company/citecom-junior-agence",
   "instagram": "https://www.instagram.com/citecom_ja/",
   "website": "https://www.jacitecom.com/",
-  "categoriesId": [],
+  "categoriesId": [
+    "professionnalisante"
+  ],
   "schoolsId": [
     "edhec"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
   "schools": [
     {
       "id": "edhec",

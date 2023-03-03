@@ -14,7 +14,9 @@
   "contestParticipationsId": [
     "2022"
   ],
-  "battleParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
       "id": "city-guide",
@@ -35,5 +37,10 @@
       "name": "2022"
     }
   ],
-  "battleParticipations": []
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }

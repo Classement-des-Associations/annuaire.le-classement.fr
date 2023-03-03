@@ -4,7 +4,9 @@
   "linkedin": "https://fr.linkedin.com/company/raid-edhec",
   "instagram": "https://www.instagram.com/raid_edhec/?hl=fr",
   "website": "https://raidedhec.com",
-  "categoriesId": [],
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "edhec"
   ],
@@ -12,7 +14,14 @@
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
   "schools": [
     {
       "id": "edhec",

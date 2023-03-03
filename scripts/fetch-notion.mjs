@@ -214,7 +214,7 @@ async function fetchAssociationsDatabase (client, databaseId) {
 
 async function fetchSchoolsDatabase (client, databaseId) {
   const schools = await queryDatabase(client, databaseId, {
-    property: 'Le Classement',
+    property: "Nombre d'associations",
     rollup: {
       number: {
         greater_than: 0

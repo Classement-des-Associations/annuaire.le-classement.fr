@@ -4,13 +4,22 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/equipagesolidaire/",
   "website": null,
-  "categoriesId": [],
+  "categoriesId": [
+    "sociale"
+  ],
   "schoolsId": [],
   "contestParticipationsId": [],
   "battleParticipationsId": [
     "2023"
   ],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
   "schools": [],
   "contestParticipations": [],
   "battleParticipations": [
