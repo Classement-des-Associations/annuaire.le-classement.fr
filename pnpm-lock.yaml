@@ -8,7 +8,7 @@ specifiers:
   '@vueuse/nuxt': ^9.13.0
   eslint: ^8.35.0
   nuxt: ^3.2.3
-  nuxt-clarity-analytics: ^0.0.2
+  nuxt-clarity-analytics: ^0.0.1
   typescript: ^4.9.5
 
 dependencies:
@@ -19,7 +19,7 @@ dependencies:
   '@vueuse/nuxt': 9.13.0_nuxt@3.2.3
   eslint: 8.35.0
   nuxt: 3.2.3_ycpbpc6yetojsgtrx3mwntkhsu
-  nuxt-clarity-analytics: 0.0.2
+  nuxt-clarity-analytics: 0.0.1
   typescript: 4.9.5
 
 packages:
@@ -6482,8 +6482,8 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /nuxt-clarity-analytics/0.0.2:
-    resolution: {integrity: sha512-6X25k+A6OxlvYm9WFofrjkK/TeTNTX8B4MHXk3jrAeGLDBMRm4vhuBF0Mxri/fjLtkTKoeEM1vIOeAmyUyGQ1A==}
+  /nuxt-clarity-analytics/0.0.1:
+    resolution: {integrity: sha512-OmaVdZd+4NfJny0B7+RR0y9/HlHwR3gnQIUd3ET507U4BBbO21ASCFUmGZG0KTRYZk5tumPIhjuaYUonVkExKQ==}
     dependencies:
       '@nuxt/kit': 3.2.3
     transitivePeerDependencies:
