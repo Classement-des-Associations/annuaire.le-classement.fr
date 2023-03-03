@@ -45,7 +45,7 @@ const items = ref<Item[]>([
   }
 ])
 
-const buttonLink = useClassementLink('linkedin-group')
+const buttonLink = useClassementLink('linkedinGroupLink')
 </script>
 
 <template>

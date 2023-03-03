@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     public: {
       contributeFormLink: 'https://example.com',
       newsletterSubscriptionLink: 'https://example.com',
+      linkedinGroupLink: 'https://example.com',
       trailingSlash: true,
       titleSeparator: '·',
       siteUrl: 'https://annuaire.le-classement.fr',
