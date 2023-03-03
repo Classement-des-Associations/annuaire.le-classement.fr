@@ -1,5 +1,6 @@
 import { promises as fsp } from 'fs'
 import { resolve } from 'pathe'
+import consola from 'consola'
 import { useSlugify } from './slugify.mjs'
 
 /**

@@ -6,7 +6,7 @@
   "instagram": "https://www.instagram.com/bdh.tbs/?hl=fr",
   "website": "https://bdh.tbs.fr/",
   "categoriesId": [
-    "sociale"
+    "humanitaire"
   ],
   "schoolsId": [
     "tbs-education"
@@ -14,13 +14,15 @@
   "contestParticipationsId": [
     "2022"
   ],
-  "battleParticipationsId": [],
+  "battleParticipationsId": [
+    "2023"
+  ],
   "categories": [
     {
-      "id": "sociale",
-      "name": "Sociale",
-      "icon": "fluent-emoji:teddy-bear",
-      "color": "orange"
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
     }
   ],
   "schools": [
@@ -35,5 +37,10 @@
       "name": "2022"
     }
   ],
-  "battleParticipations": []
+  "battleParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ]
 }
