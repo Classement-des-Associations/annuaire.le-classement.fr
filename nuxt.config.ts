@@ -22,6 +22,9 @@ export default defineNuxtConfig({
   },
 
   content: {
+    ignores: [
+      'blog:index.md'
+    ],
     documentDriven: {
       trailingSlash: true,
       host: 'https://annuaire.le-classement.fr',
