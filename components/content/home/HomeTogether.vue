@@ -14,7 +14,7 @@ const xs = smaller('md')
 const limit = 10
 const { data: associations10 } = await useAssociationsSlider(0, limit)
 const { data: associations20 } = await useAssociationsSlider(40, limit)
-const { data: associations30 } = await useAssociationsSlider(80, limit)
+const { data: associations30 } = await useAssociationsSlider(70, limit)
 
 const toImg = (association: Pick<Association, 'id' | 'name'>) => {
   return {
@@ -34,9 +34,17 @@ const lines = [images10.value, images20.value, images30.value]
 
 const slidesPerView = limit
 const slideWidth = computed(() => {
+  if (xs.value) {
+    return '160px'
+  }
+
   return '250px'
 })
 const imageWidth = computed(() => {
+  if (xs.value) {
+    return '80px'
+  }
+
   return '100px'
 })
 const imageHeight = computed(() => {
@@ -64,7 +72,7 @@ const timing = computed(() => {
       :image-height="imageHeight"
       :timing="timing"
     >
-      <template #default="{image}">
+      <template #default="{ image }">
         <NuxtLink :to="(image as any).to" class="w-fit flex flex-row justify-center items-center h-full rounded-lg bg-ultra-light-grey">
           <img :src="image.src" :alt="image.alt" :width="image.width" :height="image.height" class="p-2 rounded-xl w-full h-auto">
         </NuxtLink>

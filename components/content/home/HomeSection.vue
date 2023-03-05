@@ -6,10 +6,10 @@ defineProps<{
 
 <template>
   <BaseSection :class="sectionClass">
-    <h2 class="text-5xl font-bold">
+    <h2 class="text-3xl md:text-5xl leading-tight font-bold">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>
-    <p class="mt-5 max-w-4xl text-zinc-600 text-2xl">
+    <p class="mt-3 md:mt-5 max-w-4xl text-zinc-600 text-xl md:text-2xl">
       <ContentSlot :use="$slots.subtitle" unwrap="p" />
     </p>
     <div class="mt-10">

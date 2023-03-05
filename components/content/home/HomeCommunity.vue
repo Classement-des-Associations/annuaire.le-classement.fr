@@ -54,8 +54,8 @@ const buttonLink = useClassementLink('linkedinGroupLink')
       <li class="group h-full">
         <NuxtLink :to="item.to" class="h-full relative flex flex-col p-6 rounded-3xl gradient-border gradient-border-classement">
           <Icon :name="item.icon" class="w-6 h-6" />
-          <span class="mt-4 text-5xl font-bold">{{ item.value }}</span>
-          <span class="mt-4 text-lg text-zinc-600 font-medium">{{ item.label }}</span>
+          <span class="mt-2 md:mt-4 text-4xl md:text-5xl font-bold">{{ item.value }}</span>
+          <span class="mt-2 md:mt-4 text-lg text-zinc-600 font-medium">{{ item.label }}</span>
           <div class="opacity-0 group-hover:opacity-100 transition ease-in">
             <Icon v-if="item.isExternal" name="heroicons-outline:external-link" class="absolute top-4 right-4 w-4 h-4 text-zinc-600" />
           </div>
