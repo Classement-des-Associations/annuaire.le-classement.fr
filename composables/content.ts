@@ -238,3 +238,17 @@ export const useBattleParticipationsById = (participationsId: string[]) => {
       .find()
   )
 }
+
+export const useBlogLastArticles = () => {
+  return useAsyncData('content:blog:last-articles', () =>
+    queryContent('/blog/')
+      .where({
+        categories: {
+          $containsAny: ['tour asso']
+        }
+      })
+      .sort({ datePublished: -1 })
+      .limit(3)
+      .find()
+  )
+}

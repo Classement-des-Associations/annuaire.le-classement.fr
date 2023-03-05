@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@classement-des-associations/website-theme': ^0.5.3
+  '@classement-des-associations/website-theme': ^0.6.3
   '@notionhq/client': ^2.2.3
   '@nuxtjs/eslint-config-typescript': ^12.0.0
   '@vueuse/core': ^9.13.0
@@ -12,7 +12,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  '@classement-des-associations/website-theme': 0.5.3_ycpbpc6yetojsgtrx3mwntkhsu
+  '@classement-des-associations/website-theme': 0.6.3_ycpbpc6yetojsgtrx3mwntkhsu
   '@notionhq/client': 2.2.3
   '@nuxtjs/eslint-config-typescript': 12.0.0_ycpbpc6yetojsgtrx3mwntkhsu
   '@vueuse/core': 9.13.0
@@ -350,8 +350,8 @@ packages:
       - encoding
     dev: false
 
-  /@classement-des-associations/website-theme/0.5.3_ycpbpc6yetojsgtrx3mwntkhsu:
-    resolution: {integrity: sha512-wAo2UEJz2w20sUP7Hlhei+m8mmgpsnp/Qd6aqmaSCgFSw3UBt89V1qpJHOMfpQ2+a+DPViZ1lLeIl69cQsKOeg==}
+  /@classement-des-associations/website-theme/0.6.3_ycpbpc6yetojsgtrx3mwntkhsu:
+    resolution: {integrity: sha512-jOgLy7JrbIHHBTraD08AUkuPJy1LvkyeTqBESDKv98nUE3PzfQPx83gx0hrYZi89RXIyBkSF89vVUboLuzQ91A==}
     dependencies:
       '@headlessui/vue': 1.7.11
       '@nuxt/content': 2.4.3

@@ -30,6 +30,15 @@ export default defineNuxtConfig({
     defaultLocale: 'fr',
     navigation: {
       fields: ['for', 'dropdown']
+    },
+    sources: {
+      github: {
+        prefix: '/blog',
+        driver: 'github',
+        repo: 'Classement-des-Associations/le-classement.fr',
+        branch: 'main',
+        dir: '/content/5.blog'
+      }
     }
   },
 

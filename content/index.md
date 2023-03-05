@@ -38,6 +38,19 @@ Découvrez d'autres associations étudiantes, inspirez-vous de leurs projets, pa
 sectionClass: mt-32
 ---
 #title
+Des projets à [explorer]{.text-transparent.bg-clip-text.bg-classement}
+#subtitle
+Des projets d'associations étudiantes mis en lumière par le Classement, pour vous inspirer et vous aider à trouver des idées pour vos propres projets.
+#extra
+  ::home-blog-last-articles
+  ::
+::
+
+::home-section
+---
+sectionClass: mt-32
+---
+#title
 Une communauté de [passionnés]{.text-transparent.bg-clip-text.bg-classement}
 #subtitle
 Trouvez des réponses à vos questions, partagez vos expériences et vos idées, et échangez avec d'autres membres de la communauté.
