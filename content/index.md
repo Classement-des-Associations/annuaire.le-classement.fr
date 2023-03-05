@@ -21,7 +21,7 @@ l'ensemble de la vie associative étudiante
 sectionClass: mt-32 relative z-10
 ---
 #title
-Devenir meilleures [ensemble]{.text-transparent.bg-clip-text.bg-classement}
+Devenir meilleur [ensemble]{.text-transparent.bg-clip-text.bg-classement}
 #subtitle
 Découvrez d'autres associations étudiantes, inspirez-vous de leurs projets, partagez vos idées et collaborez pour créer des initiatives ambitieuses et communes et explorer de nouvelles possibilités.
 #extra
