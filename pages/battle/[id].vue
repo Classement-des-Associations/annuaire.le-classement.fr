@@ -6,7 +6,9 @@ const { data: associations } = await useAssociationsByBattleParticipationId(rout
 
 useSeoMeta({
   title: participation?.value ? `Battle ${participation.value.name}` : 'Battle',
-  description: `Découvrez les associations participantes à la Battle ${participation?.value?.name ?? ''}`
+  ogTitle: participation?.value ? `Battle ${participation.value.name}` : 'Battle',
+  description: `Découvrez les associations participantes à la Battle ${participation?.value?.name ?? ''}`,
+  ogImage: 'https://annuaire.le-classement.fr/socials/index.jpg'
 })
 </script>
 

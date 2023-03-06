@@ -1,6 +1,7 @@
 ---
 head.title: 
 title:
+image: /socials/index.jpg
 ---
 
 

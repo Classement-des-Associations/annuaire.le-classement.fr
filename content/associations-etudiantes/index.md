@@ -1,6 +1,7 @@
 ---
 for: header
 title: Les Associations Étudiantes
+image: /socials/associations-etudiantes.jpg
 ---
 
 ::hero

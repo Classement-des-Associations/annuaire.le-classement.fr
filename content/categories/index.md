@@ -1,6 +1,7 @@
 ---
 for: header
 title: Les Catégories
+image: /socials/categories.jpg
 ---
 
 ::hero

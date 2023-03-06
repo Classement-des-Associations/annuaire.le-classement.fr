@@ -1,6 +1,7 @@
 ---
 for: header
 title: Les Écoles
+image: /socials/ecoles.jpg
 ---
 
 ::hero

@@ -6,7 +6,9 @@ const { data: associations } = await useAssociationsByCategoryId(route.params.id
 
 useSeoMeta({
   title: category?.value ? `Catégorie ${category.value.name}` : 'Catégorie',
-  description: `Découvrez les associations de la catégorie ${category?.value?.name ?? ''}`
+  ogTitle: category?.value ? `Catégorie ${category.value.name}` : 'Catégorie',
+  description: `Découvrez les associations de la catégorie ${category?.value?.name ?? ''}`,
+  ogImage: 'https://annuaire.le-classement.fr/socials/index.jpg'
 })
 </script>
 

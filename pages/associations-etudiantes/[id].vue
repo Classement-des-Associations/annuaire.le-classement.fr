@@ -12,7 +12,9 @@ const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}
 
 useSeoMeta({
   title: association.value?.name,
-  description: association.value?.description
+  ogTitle: association.value?.name,
+  description: association.value?.description,
+  ogImage: 'https://annuaire.le-classement.fr/socials/index.jpg'
 })
 </script>
 

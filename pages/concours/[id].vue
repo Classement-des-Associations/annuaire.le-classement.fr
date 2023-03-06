@@ -6,7 +6,9 @@ const { data: associations } = await useAssociationsByContestParticipationId(rou
 
 useSeoMeta({
   title: school?.value ? `Concours ${school.value.name}` : 'Concours',
-  description: `Découvrez les associations participantes au Concours ${school?.value?.name ?? ''}`
+  ogTitle: school?.value ? `Concours ${school.value.name}` : 'Concours',
+  description: `Découvrez les associations participantes au Concours ${school?.value?.name ?? ''}`,
+  ogImage: 'https://annuaire.le-classement.fr/socials/index.jpg'
 })
 </script>
 

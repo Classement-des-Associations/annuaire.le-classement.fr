@@ -1,6 +1,7 @@
 ---
 for: footer
 title: La Battle
+image: /socials/battle.jpg
 ---
 
 ::hero

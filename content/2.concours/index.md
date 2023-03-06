@@ -1,6 +1,7 @@
 ---
 for: footer
 title: Le Concours
+image: /socials/concours.jpg
 ---
 
 ::hero

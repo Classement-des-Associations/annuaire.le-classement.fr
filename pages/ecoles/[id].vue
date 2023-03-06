@@ -34,7 +34,9 @@ const pluralize = (value: number, name: string) => {
 
 useSeoMeta({
   title: school?.value ? `L'École ${school.value.name} et ses associations` : 'Une École',
-  description: `Découvrez les associations de l'école ${school?.value?.name ?? ''}`
+  ogTitle: school?.value ? `L'École ${school.value.name} et ses associations` : 'Une École',
+  description: `Découvrez les associations de l'école ${school?.value?.name ?? ''}`,
+  ogImage: 'https://annuaire.le-classement.fr/socials/index.jpg'
 })
 </script>
 
