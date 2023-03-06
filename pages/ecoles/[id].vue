@@ -43,30 +43,28 @@ useSeoMeta({
     <BaseH1 v-if="school">
       {{ school.name }}
     </BaseH1>
-    <p v-if="associations" class="mt-8 text-lg">
-      L'école possède
-      <strong class="font-semibold">{{ associations.length }}</strong>
-      {{ pluralize(associations.length, 'association') }} dans
-      <strong class="font-semibold">
-        {{ associationsByCategory.size }}
-      </strong>
-      {{ pluralize(associationsByCategory.size, 'catégorie') }}.
+    <template v-if="associations">
+      <p class="mt-8 text-lg">
+        L'école possède
+        <strong class="font-semibold">{{ associations.length }}</strong>
+        {{ pluralize(associations.length, 'association') }} dans
+        <strong class="font-semibold">
+          {{ associationsByCategory.size }}
+        </strong>
+        {{ pluralize(associationsByCategory.size, 'catégorie') }}.
+      </p>
       <ul class="ml-8 mt-4 list-disc">
         <li v-for="([categoryName, schoolAssociations]) in associationsByCategory" :key="categoryName">
-          <ul>
-            <li>
-              <strong class="font-semibold">
-                {{ schoolAssociations.length }}
-              </strong>
-              {{ pluralize(schoolAssociations.length, categoryName) }}
-            </li>
-          </ul>
+          <strong class="font-semibold">
+            {{ schoolAssociations.length }}
+          </strong>
+          {{ pluralize(schoolAssociations.length, categoryName) }}
         </li>
       </ul>
-    </p>
-    <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
-      Associations de l'école
-    </AssociationsRelatedListSection>
+      <AssociationsRelatedListSection :associations="associations" class="mt-12">
+        Associations de l'école
+      </AssociationsRelatedListSection>
+    </template>
     <NuxtLink to="/ecoles/" class="block mt-24 text-lg font-lig">
       Revenir aux écoles
     </NuxtLink>
