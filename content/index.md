@@ -43,6 +43,10 @@ Des projets à [explorer]{.text-transparent.bg-clip-text.bg-classement}
 Des projets d'associations étudiantes mis en lumière par le Classement, pour vous inspirer et vous aider à trouver des idées pour vos propres projets.
 #extra
   ::home-blog-last-articles
+  ---
+  buttonText: Explorer les projets
+  buttonLink: https://le-classement.fr/blog/
+  ---
   ::
 ::
 
