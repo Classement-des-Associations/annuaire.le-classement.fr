@@ -33,7 +33,7 @@ const pluralize = (value: number, name: string) => {
 }
 
 useSeoMeta({
-  title: school?.value ? `École ${school.value.name}` : 'École',
+  title: school?.value ? `L'École ${school.value.name} et ses associations` : 'Une École',
   description: `Découvrez les associations de l'école ${school?.value?.name ?? ''}`
 })
 </script>
@@ -44,12 +44,21 @@ useSeoMeta({
       {{ school.name }}
     </BaseH1>
     <p v-if="associations" class="mt-8 text-lg">
-      L'école possède <strong class="font-semibold">{{ associations.length }}</strong> {{ pluralize(associations.length, 'association') }} dans <strong class="font-semibold">{{ associationsByCategory.size }}</strong> {{ pluralize(associationsByCategory.size, 'catégorie') }}.
+      L'école possède
+      <strong class="font-semibold">{{ associations.length }}</strong>
+      {{ pluralize(associations.length, 'association') }} dans
+      <strong class="font-semibold">
+        {{ associationsByCategory.size }}
+      </strong>
+      {{ pluralize(associationsByCategory.size, 'catégorie') }}.
       <ul class="ml-8 mt-4 list-disc">
         <li v-for="([categoryName, schoolAssociations]) in associationsByCategory" :key="categoryName">
           <ul>
             <li>
-              <strong class="font-semibold">{{ schoolAssociations.length }}</strong> {{ pluralize(schoolAssociations.length, categoryName) }}
+              <strong class="font-semibold">
+                {{ schoolAssociations.length }}
+              </strong>
+              {{ pluralize(schoolAssociations.length, categoryName) }}
             </li>
           </ul>
         </li>
