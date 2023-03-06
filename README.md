@@ -1,42 +1,79 @@
-# Nuxt 3 Minimal Starter
+# annuaire.le-classement.fr
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A website to display every french student association.
 
-## Setup
+*Created by [Le Classement](https://le-classement.fr)*
 
-Make sure to install the dependencies:
+## Tech Stack
 
-```bash
-# yarn
-yarn install
+**Client:** Nuxt3, Nuxt Content, TailwindCSS
 
-# npm
-npm install
+**Server:** Netlify
 
-# pnpm
-pnpm install
-```
 
-## Development Server
+## Run Locally
 
-Start the development server on http://localhost:3000
+Clone the project
 
 ```bash
-npm run dev
+  git clone https://github.com/Classement-des-Associations/annuaire.le-classement.fr.git
 ```
 
-## Production
-
-Build the application for production:
+Go to the project directory
 
 ```bash
-npm run build
+  cd annuaire.le-classement.fr
 ```
 
-Locally preview production build:
+Install dependencies
 
 ```bash
-npm run preview
+  pnpm install
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Start the server
+
+```bash
+  pnpm run dev
+```
+
+## Deployment
+
+First, you need to build this project.
+
+```bash
+  pnpm run generate
+```
+
+This website is statically. generated. You can deploy it on Netlify or any other static hosting service.
+
+Then, you can preview the result.
+
+```bash
+  pnpm run preview
+```
+
+## CI
+
+Periodically, a GitHub Action will run to fetch the latest data from our API. If new data are available, a PR will be created to update the data.
+
+In order to know which images are missing or which images are not used anymore, we use two scripts that also run in the CI. Please, verify logs in the CI in order to add or remove images.
+
+You can run these scripts locally with:
+
+```bash
+pnpm run check-images
+pnpm run check-images-usage
+```
+
+## Handle images
+
+Each association must have an image. They are stored in the `public/associations/images` folder.
+
+The image name must be the slug of the association.
+The image extension must be `.png`.
+The image must be a 400x400 square (but it can be a rectangle where one side is 400px and the other is less than 400px).
+
+## Authors
+
+- [@barbapapazes](https://www.github.com/barbapapazes)
