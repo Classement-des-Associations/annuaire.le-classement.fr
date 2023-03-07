@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <section>
-    <h2 class="text-2xl font-semibold">
+    <h2 class="text-xl md:text-2xl font-semibold">
       <slot>
         Associations similaires
       </slot>

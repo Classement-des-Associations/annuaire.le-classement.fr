@@ -20,7 +20,7 @@ useSeoMeta({
 <template>
   <BaseSection v-if="association" class="my-20">
     <div class="flex flex-col items-start">
-      <h1 class="text-5xl text-black font-bold">
+      <h1 class="text-3xl md:text-5xl text-black font-bold">
         {{ association.name }}
       </h1>
       <template v-if="association.categories">
@@ -32,21 +32,21 @@ useSeoMeta({
         <dt class="sr-only">
           {{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
         </dt>
-        <dd class="text-2xl text-black font-medium">
+        <dd class="text-xl md:text-2xl text-black font-medium">
           <Sentence route="/ecoles" :data="association.schools" />
         </dd>
       </dl>
     </div>
-    <p class="mt-8 text-xl">
+    <p class="mt-8 text-lg md:text-xl md:leading-8">
       {{ association.description }}
     </p>
-    <p class="mt-4 text-xl">
+    <p class="mt-4 text-lg md:text-xl md:leading-8">
       L'association {{ association.name }} a participé
       <template v-if="association.battleParticipations.length">
         à la <NuxtLink to="https://le-classement.fr/classement/battle" target="_blank" class="hover:underline inline-block">
           Battle du Classement
         </NuxtLink>
-        en <Sentence route="/battle" :data="association.battleParticipations" nuxt-link-class="hover:underline" />
+        en <Sentence route="/battle" :data="association.battleParticipations" nuxt-link-class="hover:underline" />.
       </template>
       <template v-if="association.battleParticipations.length && association.contestParticipations.length">
         et
@@ -56,7 +56,7 @@ useSeoMeta({
         <NuxtLink to="https://le-classement.fr/classement/concours" target="_blank" class="hover:underline inline-block">
           Concours du Classement
         </NuxtLink>
-        en <Sentence route="/concours" :data="association.contestParticipations" nuxt-link-class="hover:underline" />
+        en <Sentence route="/concours" :data="association.contestParticipations" nuxt-link-class="hover:underline" />.
       </template>
     </p>
     <Socials :socials="socials" class="mt-8" />
