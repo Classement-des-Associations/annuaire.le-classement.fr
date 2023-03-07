@@ -14,6 +14,6 @@ defineProps<{
         Associations similaires
       </slot>
     </h2>
-    <AssociationsList :associations="associations" class="mt-4" />
+    <AssociationsList :associations="associations" disable-two-columns class="mt-4" />
   </section>
 </template>
