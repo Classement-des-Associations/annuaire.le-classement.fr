@@ -1,0 +1,39 @@
+{
+  "id": "student-port-nantes-saint-nazaire",
+  "name": "Student Port Nantes Saint-Nazaire",
+  "description": "Le Student Port, unique association étudiante représentée dans l’ensemble des écoles à vocation maritime autour du monde, se tourne vers les enjeux de demain !\nOrganisation de colloques et de conférences sur la décarbonation et les énergies nouvelles, tout cela en représentant les étudiants à l’international et dans le milieu professionnel !",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/student_port_nantes/",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "ensm-nantes"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensm-nantes",
+      "name": "ENSM Nantes"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

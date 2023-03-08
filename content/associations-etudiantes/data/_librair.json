@@ -1,0 +1,39 @@
+{
+  "id": "librair",
+  "name": "Libr’air",
+  "description": "Libr’air décomplexe la littérature de façon innovante à l’emlyon : amateurs de Tintin et de Proust, venez brillez lors de leurs soirées concours !",
+  "linkedin": "https://www.linkedin.com/company/libr-air-emlyon-business-school/",
+  "instagram": "https://www.instagram.com/assolibrair/",
+  "website": "https://librair-emlyon.fr/",
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

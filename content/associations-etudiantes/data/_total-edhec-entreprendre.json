@@ -1,6 +1,7 @@
 {
   "id": "total-edhec-entreprendre",
   "name": "Total Edhec Entreprendre",
+  "description": "Total EDHEC Entreprendre promeut l’entrepreneuriat pour tous, sous toutes ses formes. Leur couleur, le bleu, est le symbole du regard tourné vers l’horizon des entrepreneurs qu’elle aide, depuis 28 ans, grâce au premier concours de startup organisé par des étudiants. En 2022, 400 startups ont participé, pour 14 finalistes à Station F.",
   "linkedin": "https://www.linkedin.com/company/total-edhec-entreprendre/",
   "instagram": "https://www.instagram.com/concourstee/",
   "website": "https://www.concourstee.fr",
@@ -10,7 +11,9 @@
   "schoolsId": [
     "edhec"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "EDHEC"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

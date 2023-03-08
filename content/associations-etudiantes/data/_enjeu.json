@@ -1,0 +1,38 @@
+{
+  "id": "enjeu",
+  "name": "ENJEU",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/enjeu_gem/",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

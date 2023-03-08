@@ -1,0 +1,39 @@
+{
+  "id": "le-pere-noel-est-il-un-rocker",
+  "name": "Le Père Noël est-il un rocker ?",
+  "description": "Le Père Noël est-il un Rocker ?\nC’est la question que se posent depuis 28 ans les 4000 festivaliers et les 1500 enfants qui reçoivent un cadeau de Noël financé par les recettes du festival solidaire qui comportent 5 soirées et 5 thèmes.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/lepernofestival/",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

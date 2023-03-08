@@ -1,0 +1,39 @@
+{
+  "id": "sigma-telethon",
+  "name": "SIGMA Téléthon",
+  "description": "SIGMA Téléthon est l’association qui donne tout pour organiser chaque année le Téléthon d’Aubière. La preuve, 2 700 € ont été récoltés l’an passé pour le combat contre les maladies neuromusculaires. L’association a pour but de sensibiliser les étudiants et de les faire participer à notre cause à travers plusieurs événements.",
+  "linkedin": "https://www.linkedin.com/company/sigma-t%C3%A9l%C3%A9thon",
+  "instagram": "https://www.instagram.com/sigma_telethon/",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "sigma-clermont-ferrand"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "sigma-clermont-ferrand",
+      "name": "Sigma Clermont-Ferrand"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

@@ -1,6 +1,7 @@
 {
   "id": "solidarite-internationale-detudiants-de-clermont-ferrand-souc",
   "name": "Solidarité Internationale d’Étudiants de Clermont-Ferrand (SOUC)",
+  "description": "Le SOUC (Solidarité internatiOnale d’étUdiants de Clermont) est l’association humanitaire de l’école d’ingénieurs de SIGMA Clermont. Son but est d’aider notre prochain en réalisant des actions à l’échelle locale et internationale comme son voyage au Togo afin de construire une école dans le village de Tchalo en partenariat avec HSF Togo.",
   "linkedin": null,
   "instagram": "https://instagram.com/soucsigma?igshid=YmMyMTA2M2Y=",
   "website": null,
@@ -10,7 +11,9 @@
   "schoolsId": [
     "sigma-clermont-ferrand"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "Sigma Clermont-Ferrand"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",
