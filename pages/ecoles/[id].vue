@@ -45,7 +45,8 @@ useSeoMeta({
       {{ school.name }}
     </BaseH1>
     <template v-if="associations">
-      <p class="mt-8 text-lg">
+      <!-- Update text size -->
+      <p class="mt-8 text-lg md:text-xl md:leading-8">
         L'école possède
         <strong class="font-semibold">{{ associations.length }}</strong>
         {{ pluralize(associations.length, 'association') }} dans
@@ -54,7 +55,7 @@ useSeoMeta({
         </strong>
         {{ pluralize(associationsByCategory.size, 'catégorie') }}.
       </p>
-      <ul class="ml-8 mt-4 list-disc">
+      <ul class="ml-8 mt-4 list-disc text-lg md:text-xl md:leading-8">
         <li v-for="([categoryName, schoolAssociations]) in associationsByCategory" :key="categoryName">
           <strong class="font-semibold">
             {{ schoolAssociations.length }}
