@@ -1,0 +1,38 @@
+{
+  "id": "sea-essec-and-sun",
+  "name": "Sea ESSEC and Sun",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/sea_essec_and_sun/",
+  "website": null,
+  "categoriesId": [
+    "environnementale"
+  ],
+  "schoolsId": [
+    "essec"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "essec",
+      "name": "ESSEC"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

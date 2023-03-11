@@ -1,0 +1,39 @@
+{
+  "id": "isaramap",
+  "name": "ISAR'AMAP",
+  "description": "ISAR'AMAP est une AMAP qui se démarque par sa gestion avec dynamisme et enthousiasme par des étudiants de l'ISARA ! En plus de permettre aux étudiants de profiter d'un accès facile à une alimentation raisonnée, elle participe à des événements de sensibilisation à l'agriculture durable et paysanne.",
+  "linkedin": "https://www.linkedin.com/company/isar-amap/",
+  "instagram": "https://www.instagram.com/isaramap/",
+  "website": null,
+  "categoriesId": [
+    "gastronomie"
+  ],
+  "schoolsId": [
+    "isara-lyon"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "gastronomie",
+      "name": "Gastronomie",
+      "icon": "fluent-emoji:baguette-bread",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "isara-lyon",
+      "name": "Isara Lyon"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "star-in-saclay",
+  "name": "Star in Saclay",
+  "description": "Start in Saclay est une association créée en 2014, ouverte à toute personne qui s’intéresse à l’entrepreneuriat et souhaitant découvrir l’écosystème de Paris-Saclay. Ils organisent différents évènements pour sensibiliser les étudiants et accompagner les entrepreneurs dans la création de leur start-up.",
+  "linkedin": "https://www.linkedin.com/company/start-in-saclay",
+  "instagram": null,
+  "website": "https://startinsaclay.fr/",
+  "categoriesId": [
+    "professionnalisante"
+  ],
+  "schoolsId": [
+    "universite-paris-saclay"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "universite-paris-saclay",
+      "name": "Université Paris Saclay"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

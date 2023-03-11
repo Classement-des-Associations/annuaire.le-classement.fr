@@ -1,9 +1,9 @@
 {
-  "id": "phoenix-egalite-des-chances",
-  "name": "Phoenix Égalité des chances",
-  "linkedin": "https://www.linkedin.com/company/phoenix-egalite-des-chances/",
-  "instagram": "https://www.instagram.com/phoenixedc/",
-  "website": "https://www.phoenix-egalite-des-chances.com/",
+  "id": "kids-solidarity",
+  "name": "Kids Solidarity",
+  "linkedin": "https://www.linkedin.com/company/kids-solidarity/",
+  "instagram": "https://www.instagram.com/kidssolidarity/",
+  "website": null,
   "categoriesId": [
     "sociale"
   ],
@@ -13,9 +13,7 @@
   "contestParticipationsId": [
     "2022"
   ],
-  "battleParticipationsId": [
-    "2023"
-  ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "sociale",
@@ -36,10 +34,5 @@
       "name": "2022"
     }
   ],
-  "battleParticipations": [
-    {
-      "id": "2023",
-      "name": "2023"
-    }
-  ]
+  "battleParticipations": []
 }

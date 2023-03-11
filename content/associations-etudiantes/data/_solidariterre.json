@@ -1,8 +1,9 @@
 {
   "id": "solidariterre",
   "name": "Solidari'Terre",
+  "description": "Solidari'Terre est une association caritative qui a vocation à apporter une aide concrète et durable aux communautés en difficulté en région lyonnaise et à l'international. L'initiative est née en 1993 sous le nom “Centrale Sup de Co Humanitaire” et change de nom en 2001 pour devenir Solidari'Terre.",
   "linkedin": "https://www.linkedin.com/company/solidari'terre/",
-  "instagram": null,
+  "instagram": "https://www.instagram.com/solidari.terre/",
   "website": "https://www.solidari-terre.org/",
   "categoriesId": [
     "humanitaire"
@@ -10,7 +11,9 @@
   "schoolsId": [
     "emlyon"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "emlyon"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

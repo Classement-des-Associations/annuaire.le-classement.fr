@@ -1,0 +1,39 @@
+{
+  "id": "verbatem",
+  "name": "Verbatem",
+  "description": "S’exprimant sur une tribune ou à travers un article, Verbat'em promeut la liberté d’expression peu importe le support via son journal « Le M » et des concours d’éloquence. Elle s’engage aussi à développer les talents de chacun, en initiant à l’art oratoire étudiants et actifs.",
+  "linkedin": null,
+  "instagram": "https://instagram.com/verbatem_emlyon",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "gasole",
+  "name": "GaSole",
+  "description": "GaSole est une association solidaire et humanitaire de l’école des Arts et Métiers. Elle rassemble presque 300 étudiants afin de sensibiliser et d’agir pour la solidarité dans la ville d’Angers et à l’étranger. Cette association est aussi belle par ses actions que par le nombre d’étudiants bénévoles qu’elle rassemble.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/gasole_angers/",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "arts-et-metiers-paristech"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "arts-et-metiers-paristech",
+      "name": "Arts et Métiers ParisTech"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}
