@@ -3,6 +3,7 @@ const route = useRoute()
 
 const { data: association } = await useAssociationById(route.params.id as string)
 const { data: relatedAssociations } = await useRelatedAssociations(association.value?.id ?? '', association.value?.categoriesId ?? [])
+const hasRelatedAssociations = computed(() => relatedAssociations.value && relatedAssociations.value.filter(Boolean))
 
 const socials = useSocials(`%s de l'association ${association.value?.name ?? ''}`, {
   linkedin: association.value?.linkedin,
@@ -60,7 +61,7 @@ useSeoMeta({
       </template>
     </p>
     <Socials :socials="socials" class="mt-8" />
-    <template v-if="relatedAssociations">
+    <template v-if="relatedAssociations && hasRelatedAssociations?.length">
       <AssociationsRelatedListSection v-if="relatedAssociations?.length > 0" :associations="relatedAssociations.filter(Boolean)" class="mt-24" />
     </template>
     <NuxtLink to="/associations-etudiantes/" class="block mt-24 text-lg font-light">
