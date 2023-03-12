@@ -1,21 +1,19 @@
 {
-  "id": "preparemois",
-  "name": "Prépa'Rémois",
+  "id": "diambars-med",
+  "name": "Diambars MED",
   "linkedin": null,
-  "instagram": "https://www.instagram.com/preparemois/",
-  "website": "https://www.preparemois.com",
+  "instagram": "https://www.instagram.com/diambarsmed/",
+  "website": null,
   "categoriesId": [
     "sociale"
   ],
   "schoolsId": [
-    "neoma-business-school"
+    "kedge-bs"
   ],
   "contestParticipationsId": [
     "2022"
   ],
-  "battleParticipationsId": [
-    "2023"
-  ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "sociale",
@@ -26,8 +24,8 @@
   ],
   "schools": [
     {
-      "id": "neoma-business-school",
-      "name": "Neoma Business School"
+      "id": "kedge-bs",
+      "name": "Kedge BS"
     }
   ],
   "contestParticipations": [
@@ -36,10 +34,5 @@
       "name": "2022"
     }
   ],
-  "battleParticipations": [
-    {
-      "id": "2023",
-      "name": "2023"
-    }
-  ]
+  "battleParticipations": []
 }

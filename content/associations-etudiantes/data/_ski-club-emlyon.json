@@ -1,6 +1,7 @@
 {
-  "id": "ski-club-em-lyon",
-  "name": "Ski Club em lyon",
+  "id": "ski-club-emlyon",
+  "name": "Ski Club emlyon",
+  "description": "Le Ski Club de l’emlyon c’est : 13 évènements autour de la montagne, une des plus grandes compétitions de ski étudiante en France, un projet solidaire pour emmener des enfants défavorisés à la montagne et une volonté de faire rayonner les valeurs du sport et le respect de la nature !",
   "linkedin": null,
   "instagram": "https://www.instagram.com/skiclubemlyon2023_/",
   "website": null,
@@ -10,7 +11,9 @@
   "schoolsId": [
     "emlyon"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "emlyon"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

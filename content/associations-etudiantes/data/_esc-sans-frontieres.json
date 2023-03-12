@@ -1,6 +1,7 @@
 {
   "id": "esc-sans-frontieres",
   "name": "ESC Sans Frontières",
+  "description": "ESC Sans Frontières intervient dans 5 pays, Sénégal, Pérou, Cambodge, Philippines et Arménie dans le but de promouvoir l’éducation dans des milieux défavorisés. Cela passe par la rénovation de bâtiments liés à l’éducation comme des gymnases, apport de fournitures scolaires au Sénégal, mise en place d’activités ludiques…",
   "linkedin": null,
   "instagram": "https://www.instagram.com/esc_sansfrontieres/",
   "website": "https://esc-sans-frontieres.wixsite.com/website",
@@ -10,7 +11,9 @@
   "schoolsId": [
     "neoma-business-school"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "Neoma Business School"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

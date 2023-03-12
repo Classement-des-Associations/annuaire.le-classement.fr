@@ -1,0 +1,39 @@
+{
+  "id": "echanges-phoceens",
+  "name": "Echanges Phocéens",
+  "description": "Echanges Phocéens propose bénévolement à des centaines d'élèves de la 4eme à la Tale de Marseille des séances hebdomadaires de 2h encadrées par des étudiants de Centrale Marseille, pour travailler en petits groupes sur une thématique, s’intéresser à l’actualité, renforcer sa culture générale. Des sorties culturelles (en soirée ou week-end), des excursions ou voyages en fin d’année, des stages créatifs pendant les vacances scolaires sont aussi organisés pour ces jeunes",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/echanges_phoceens/",
+  "website": "https://echangesphoceens.fr/",
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "centrale-marseille"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "centrale-marseille",
+      "name": "Centrale Marseille"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

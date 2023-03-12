@@ -1,0 +1,39 @@
+{
+  "id": "e",
+  "name": "É",
+  "description": "Équilibre est l’association de Sigma Clermont qui œuvre pour mettre en place des projets centrés sur les valeurs du développement durable. Ils ont à cœur de valoriser les comportements que tout ingénieur se doit d’adopter dès aujourd’hui, et pour demain, dans sa profession comme dans son quotidien.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/equilibre.sigma/",
+  "website": null,
+  "categoriesId": [
+    "environnementale"
+  ],
+  "schoolsId": [
+    "sigma-clermont-ferrand"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "sigma-clermont-ferrand",
+      "name": "Sigma Clermont-Ferrand"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

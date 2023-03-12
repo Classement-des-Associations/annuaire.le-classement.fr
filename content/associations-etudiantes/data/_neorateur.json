@@ -1,0 +1,39 @@
+{
+  "id": "neorateur",
+  "name": "Neorateur",
+  "description": "Neorateur oeuvre à promouvoir la parole sous toutes ses formes.",
+  "linkedin": "https://www.linkedin.com/company/neorateur/",
+  "instagram": "https://www.instagram.com/neorateurneomareims/",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "neoma-business-school"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "neoma-business-school",
+      "name": "Neoma Business School"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

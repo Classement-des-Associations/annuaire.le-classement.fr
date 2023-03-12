@@ -1,6 +1,6 @@
 {
-  "id": "bureau-des-sports-gem",
-  "name": "Bureau des Sports GEM",
+  "id": "bureau-des-sports-de-gem",
+  "name": "Bureau des Sports de GEM",
   "linkedin": null,
   "instagram": "https://www.instagram.com/bdsgem/",
   "website": "https://bdsgemfr.wordpress.com",
@@ -10,7 +10,9 @@
   "schoolsId": [
     "grenoble-ecole-de-management"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +30,12 @@
       "name": "Grenoble École de Management"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

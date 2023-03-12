@@ -1,0 +1,39 @@
+{
+  "id": "bureau-de-lhumanitaire-et-de-lenvironnement-de-polytech-nice-sophia",
+  "name": "Bureau de l’humanitaire et de l’environnement de Polytech Nice Sophia",
+  "description": "Le Bureau de l’Humanitaire et de l’Environnement est une association étudiante qui prône l'engagement et la responsabilité citoyenne. Avec ses trois pôles : Humanitaire, Environnement et Protection animale, ils cherchent à lutter contre des problématiques actuelles au travers d'actions permettant aux étudiants d’agir à leur échelle.",
+  "linkedin": "https://www.linkedin.com/company/bhe-polytech-nice-sophia/",
+  "instagram": "https://www.instagram.com/bhe_pns/",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "polytech-nice-sophia"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "polytech-nice-sophia",
+      "name": "Polytech Nice Sophia"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}
