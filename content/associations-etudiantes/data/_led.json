@@ -1,0 +1,39 @@
+{
+  "id": "led",
+  "name": "L.E.D",
+  "description": "L.E.D est une association humanitaire tournée vers ceux qui voient leur vie s’arrêter lorsque le soleil se couche. Née en 2015 avec l’envoi de bouteilles en plastiques, elle envoie aujourd’hui et depuis deux ans des lampes à énergie solaire dans des établissements scolaires où l’accès à l’électricité se fait rare.",
+  "linkedin": "https://www.linkedin.com/company/l-e-d-lumi%C3%A8re-energie-d%C3%A9veloppement/",
+  "instagram": "https://www.instagram.com/led_bba_edhec/",
+  "website": null,
+  "categoriesId": [
+    "humanitaire"
+  ],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

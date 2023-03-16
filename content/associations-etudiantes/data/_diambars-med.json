@@ -1,0 +1,38 @@
+{
+  "id": "diambars-med",
+  "name": "Diambars MED",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/diambarsmed/",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "kedge-bs"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "kedge-bs",
+      "name": "Kedge BS"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

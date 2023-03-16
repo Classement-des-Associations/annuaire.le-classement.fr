@@ -1,0 +1,38 @@
+{
+  "id": "cheer-up-daudencia",
+  "name": "Cheer Up d’Audencia",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/cheerup.audencia/",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "audencia-business-school"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "audencia-business-school",
+      "name": "Audencia Business School"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

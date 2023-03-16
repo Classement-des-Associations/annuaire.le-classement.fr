@@ -1,0 +1,39 @@
+{
+  "id": "gem-store",
+  "name": "GEM Store",
+  "description": "Le GEM Store est la boutique officielle de leur école. Ils proposent une gamme de produits personnalisés à l'effigie de l’école. Aussi, ils sont une centrale d'achats ; autrement dit, ils facilitent l'achats de produits personnalisés pour tout type d'associations, de clubs sportifs ou même d'entreprises.",
+  "linkedin": "https://www.linkedin.com/company/gemstore/",
+  "instagram": "https://www.instagram.com/legemstore/",
+  "website": "https://gemstore.fr/",
+  "categoriesId": [
+    "professionnalisante"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "organisation-des-jeux-omnisports-ojo",
+  "name": "Organisation des Jeux Omnisports - OJO",
+  "description": "OJO : trois lettres, une famille soudée, un projet ambitieux, des valeurs inestimables, des émotions tellement intenses... Les Jeux Omnisports ont vocation à réunir les écoles de commerce autour du sport et de la fête dans une ambiance de partage. Leur événement, hymne au fair-play, plonge sportive comme supporters au cœur d’un tourbillon de rencontres.",
+  "linkedin": "https://www.linkedin.com/company/ojo-organisation-des-jeux-omnisports-/",
+  "instagram": "https://www.instagram.com/ojojeuxomnisports/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "edhec"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec",
+      "name": "EDHEC"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "polytechsport-filles",
+  "name": "Polytech’Sport Filles",
+  "description": "Polytech Sport Filles vise à promouvoir la place de la femme dans le secteur de l’ingénierie. L'association organise notamment le Tournoi des Tigresses, plus grand tournoi sportif universitaire 100% féminin de France, inversant les codes classiques de notre époque afin de se questionner sur le bien-fondé de cette répartition susmentionnée.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/polytechsportfilles/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "polytech-orleans"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "polytech-orleans",
+      "name": "Polytech Orléans"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

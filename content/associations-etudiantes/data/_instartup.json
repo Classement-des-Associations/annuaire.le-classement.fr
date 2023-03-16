@@ -1,0 +1,39 @@
+{
+  "id": "instartup",
+  "name": "INStart'Up",
+  "description": "INStart'Up sensibilise les étudiants à l'entrepreneuriat et l'innovation, leur partage des évènements d'intérêt, et leur accompagne dans leur projet entrepreneurial.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/instart_up/",
+  "website": "https://www.youtube.com/watch?v=vKFqEo2E5yI",
+  "categoriesId": [
+    "professionnalisante"
+  ],
+  "schoolsId": [
+    "insa-strasbourg"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "insa-strasbourg",
+      "name": "INSA Strasbourg"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

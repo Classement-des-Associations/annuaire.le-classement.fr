@@ -1,0 +1,39 @@
+{
+  "id": "raid-isae",
+  "name": "RAID ISAE",
+  "description": "Guidés par leur créativité, leur rigueur et leur investissement, le RAID ISAE se veut sportif et innovant. Forts de retours très positifs des participants et des partenaires, ils ont également reçu la norme événementielle ISO 20121 qui atteste de leur engagement environnemental.",
+  "linkedin": null,
+  "instagram": null,
+  "website": "https://www.raidisae.fr/",
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "isae-supaero"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "isae-supaero",
+      "name": "ISAE Supaero"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

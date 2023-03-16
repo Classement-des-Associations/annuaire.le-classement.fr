@@ -1,0 +1,39 @@
+{
+  "id": "le-gala",
+  "name": "Le Gala",
+  "description": "Le Gala est l'association d'évènementiel de Grenoble Ecole de Management. Créée en 1999, elle organise chaque année la cérémonie de remise des diplômes. Elle organise également d'autres évènements, comme le bal de fin d'année, le YearBook, et elle dispose d'une agence d'évènementiel pour les entreprises.",
+  "linkedin": "https://www.linkedin.com/company/gemgala/",
+  "instagram": "https://www.instagram.com/gem.gala/",
+  "website": null,
+  "categoriesId": [
+    "professionnalisante"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}
