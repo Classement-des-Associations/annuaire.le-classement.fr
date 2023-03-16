@@ -1,0 +1,38 @@
+{
+  "id": "impact-gem",
+  "name": "IMPACT-GEM",
+  "linkedin": "https://www.linkedin.com/company/impact-gem/",
+  "instagram": "https://www.instagram.com/impactgem/",
+  "website": "https://www.impact-gem.org/",
+  "categoriesId": [
+    "environnementale"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

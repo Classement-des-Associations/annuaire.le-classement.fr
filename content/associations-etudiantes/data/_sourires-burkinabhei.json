@@ -1,0 +1,39 @@
+{
+  "id": "sourires-burkinabhei",
+  "name": "Sourires Burkinab'HEI",
+  "description": "Sourires Burkinab'HEI est une petite commission de solidarité internationale de l’école JUNIA HEI. Nous récoltons des fonds pour financer des projets aidant les enfants au Burkina Faso.",
+  "linkedin": "https://www.linkedin.com/company/sourires-burkinab-hei/",
+  "instagram": "https://www.instagram.com/souriresburkinabhei/",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "junia-hei"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "junia-hei",
+      "name": "Junia HEI"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

@@ -1,8 +1,9 @@
 {
   "id": "develop",
   "name": "Develop",
-  "linkedin": null,
-  "instagram": "https://www.instagram.com/developedhec/?hl=fr",
+  "description": "Develop EDHEC est une association qui promeut le développement durable à travers l'entrepreneuriat social et la microfinance auprès des étudiants et des habitants de la métropole lilloise.",
+  "linkedin": "https://www.linkedin.com/company/develop/",
+  "instagram": "https://www.instagram.com/developedhec/",
   "website": "https://www.developedhec.com/",
   "categoriesId": [
     "professionnalisante"
@@ -10,7 +11,9 @@
   "schoolsId": [
     "edhec"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "EDHEC"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

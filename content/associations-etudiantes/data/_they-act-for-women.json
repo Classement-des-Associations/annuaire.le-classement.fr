@@ -1,14 +1,19 @@
 {
   "id": "they-act-for-women",
   "name": "They Act for Women",
+  "description": "\"Les Routes du Savoir\" c’est l’aventure imaginée par Elsa et Elise, deux étudiantes engagées au sein de l’association They Act for Women.\nPendant 8 mois, elles accompagneront 5 ONG qui œuvrent contre la déscolarisation des jeunes filles de manière innovante : lutte contre la précarité menstruelle, les violences sexuelles et les grossesses précoces.",
   "linkedin": "https://www.linkedin.com/company/they-act-for-women/about/",
   "instagram": "http://www.instagram.com/they.act.for.women/",
   "website": "https://www.theyactforwomen.org/",
   "categoriesId": [
     "sociale"
   ],
-  "schoolsId": [],
-  "contestParticipationsId": [],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -20,8 +25,18 @@
       "color": "orange"
     }
   ],
-  "schools": [],
-  "contestParticipations": [],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

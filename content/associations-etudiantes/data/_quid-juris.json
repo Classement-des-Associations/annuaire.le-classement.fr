@@ -1,0 +1,39 @@
+{
+  "id": "quid-juris",
+  "name": "Quid Juris",
+  "description": "Fondée en 2016, Quid Juris est une initiative étudiante visant à promouvoir le droit et la pratique juridique auprès des étudiants d’emlyon business school.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/quidjurisemlyon/",
+  "website": "https://cliniquejuridique-emlyon.fr/",
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "emlyon"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "emlyon",
+      "name": "emlyon"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}
