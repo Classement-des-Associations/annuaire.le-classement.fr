@@ -16,7 +16,7 @@ const absoluteArticles = articles.value?.map((article) => {
 <template>
   <ol v-if="articles" class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 md:gap-4 xl:gap-16">
     <li v-for="article in absoluteArticles" :key="article._path">
-      <BlogCard :article="article" rel="noopener" />
+      <BlogCard :article="article" rel="noopener" class="h-full" />
     </li>
   </ol>
   <div

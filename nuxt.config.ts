@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         driver: 'github',
         repo: 'Classement-des-Associations/le-classement.fr',
         branch: 'main',
-        dir: '/content/5.blog'
+        dir: '/content/2.blog'
       }
     }
   },
