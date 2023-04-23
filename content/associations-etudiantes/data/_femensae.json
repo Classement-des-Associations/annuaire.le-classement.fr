@@ -1,0 +1,32 @@
+{
+  "id": "femensae",
+  "name": "Fem’ENSAE",
+  "description": "Association féministe de l’ENSAE, Fem’ENSAE cherche avant tout à engager la conversation sur les rapports de genre et sur l’égalité entre les hommes et les femmes. Les temps changent, les écoles d’ingénieur se féminisent. En tant qu’association, nous cherchons à sensibiliser les acteurs et actrices de l’école à ce qui dans leur comportement pourrait comporter un caractère sexiste, être un espace sûr d’écoute et de discussion, animer le débat féministe sur le plateau de Saclay avec les autres associations étudiant·es féministes ou d’objectif semblable des écoles aux alentours.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

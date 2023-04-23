@@ -1,0 +1,31 @@
+{
+  "id": "sup-doeno",
+  "name": "Sup d’Oeno",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "oenologie"
+  ],
+  "schoolsId": [
+    "tbs-education"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "oenologie",
+      "name": "Oenologie",
+      "icon": "fluent-emoji:wine-glass",
+      "color": "rose"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

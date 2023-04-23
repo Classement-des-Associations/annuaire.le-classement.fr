@@ -1,0 +1,32 @@
+{
+  "id": "ipsastro",
+  "name": "IPSASTRO",
+  "description": "Association proposant des sorties où réaliser de l’astrophotographie avec un télescope de type Dobson.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsastro/",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

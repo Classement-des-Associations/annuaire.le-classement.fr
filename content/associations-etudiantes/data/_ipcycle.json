@@ -1,0 +1,23 @@
+{
+  "id": "ipcycle",
+  "name": "IP’CYCLE",
+  "description": "IP’CYCLE propose la pratique du vélo.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ip_cycle/",
+  "website": null,
+  "categoriesId": [],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

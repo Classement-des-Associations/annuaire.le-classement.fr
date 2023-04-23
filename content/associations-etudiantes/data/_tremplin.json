@@ -1,0 +1,32 @@
+{
+  "id": "tremplin",
+  "name": "Tremplin",
+  "description": "L’association promeut l’égalité des chances grâce au tutorat dans les lycées.",
+  "linkedin": null,
+  "instagram": null,
+  "website": "https://www.association-tremplin.org/",
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

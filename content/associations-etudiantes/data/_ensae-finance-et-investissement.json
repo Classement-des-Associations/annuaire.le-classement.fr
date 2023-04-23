@@ -1,0 +1,32 @@
+{
+  "id": "ensae-finance-et-investissement",
+  "name": "ENSAE Finance & Investissement",
+  "description": "Après 2 ans de prépa (ou quelques années fac), ton rêve – devenir structurer à la Défense ou obtenir un poste à Wall Street – est sur le point de se réaliser. L’ENSAE est souvent décrite comme une école de statistiques ou d’économie, mais c’est aussi une superbe école de finance. D’ailleurs, des événements multiples te prouveront au cours de l’année que la finance, ce n’est pas que des dividendes.\nGrâce à l’EF&I, quitte Palaiseau pour visiter des salons parisiens, voyage vers Londres et d’autres contrées, assiste à des conférences et enfin décroche d’excellents stages.\nTu auras en main toutes les astuces pour compléter ton carnets d’adresses, augmenter ton portefeuille ou choisir les meilleures offres !\nEntre deux pauses au K, visite des salles de marchés, entre deux soirées du BDE, apprend comment investir sur le CAC et entre deux amphis, rencontrez des grandes personnalités de la finance !",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "professionnalisante"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

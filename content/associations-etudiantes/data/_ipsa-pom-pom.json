@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-pom-pom",
+  "name": "IPSA POM POM",
+  "description": "IPSA Pom Pom : association de pom pom Girls du campus de Toulouse.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsapompom/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

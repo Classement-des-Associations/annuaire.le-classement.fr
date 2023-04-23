@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-debat",
+  "name": "IPSA DÉBAT",
+  "description": "Association proposant via Teams un sujet de débat pour développer son sens critique.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_debat_tlse/",
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

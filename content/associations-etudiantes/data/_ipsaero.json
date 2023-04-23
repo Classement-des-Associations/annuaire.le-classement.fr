@@ -1,0 +1,32 @@
+{
+  "id": "ipsaero",
+  "name": "IPS’AERO",
+  "description": "IPS’AERO est l’association d’aéromodélisme du campus de Toulouse.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ips_aero.tls/",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

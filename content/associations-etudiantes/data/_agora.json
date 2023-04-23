@@ -1,0 +1,32 @@
+{
+  "id": "agora",
+  "name": "Agora",
+  "description": "L’association organise des conférences au sein de l’école, élargissant et dépassant le cadre de son enseignement. Elle vise à ouvrir un espace de débat aux étudiant·es sur de nouveaux champs de réflexion.\r\n\r\nPlus généralement, le rôle d’Agora ENSAE est de faire vivre le débat d’idées sur le plateau de Saclay, avec le soutien des associations étudiant·es similaires des écoles environnantes (Tribune de l’X, Club Réflexions de SupOptique, etc.).",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

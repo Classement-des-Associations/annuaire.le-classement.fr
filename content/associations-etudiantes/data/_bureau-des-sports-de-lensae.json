@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-sports-de-lensae",
+  "name": "Bureau des Sports de l’ENSAE",
+  "description": "Au programme, des compétitions inter-écoles, des rencontres officielles (challenge centrale Lyon, coupe de l’X, TOSS, Raid, GOST, coupes de France étudiant·es), et d’autres qui le seront un peu moins (des nuits du sport, un weekend sportif, des tournois amicaux).",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

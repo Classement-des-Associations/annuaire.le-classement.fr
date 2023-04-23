@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-eleves-de-lensta-paris",
+  "name": "Bureau des Élèves de l’ENSTA Paris",
+  "description": "Elément essentiel et dynamique, le bureau des élèves ou ",
+  "linkedin": "htxs://www.linkedin.com/company/bde-ensta-paris/",
+  "instagram": null,
+  "website": "https://bde.ensta-paris.fr/",
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "ensta-paris"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensta-paris",
+      "name": "ENSTA Paris"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

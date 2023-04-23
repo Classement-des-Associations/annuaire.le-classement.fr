@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-arts-de-lensae",
+  "name": "Bureau Des Arts de l’ENSAE",
+  "description": "Le Bureau Des Arts exprime les sensibilités artistiques et culturelles des élèves de l’ENSAE.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

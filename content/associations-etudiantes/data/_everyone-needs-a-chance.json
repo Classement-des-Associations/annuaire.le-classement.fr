@@ -1,0 +1,32 @@
+{
+  "id": "everyone-needs-a-chance",
+  "name": "Everyone needs a chance",
+  "description": "Association à but humanitaire pour soutenir la scolarité des jeunes de pays africains.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "humanitaire"
+  ],
+  "schoolsId": [
+    "enac"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "enac",
+      "name": "ENAC"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

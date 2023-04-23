@@ -1,0 +1,31 @@
+{
+  "id": "amicale-des-eleves-de-linsa-toulouse",
+  "name": "Amicale des élèves de l’INSA Toulouse",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "insa-toulouse"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "insa-toulouse",
+      "name": "INSA Toulouse"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ipsarmy",
+  "name": "IPS’ARMY",
+  "description": "IPS’ARMY est une association d’airsoft et de paintball qui organise des parties le jeudi après-midi ou le week-end et met son matériel à disposition des membres.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsarmy.toulouse/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

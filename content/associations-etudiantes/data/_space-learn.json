@@ -1,0 +1,32 @@
+{
+  "id": "space-learn",
+  "name": "SPACE LEARN",
+  "description": "Association visant à traiter des données afin de produire des articles, codes, rapport, cours et modélisations.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/space.learn/",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

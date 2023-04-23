@@ -1,0 +1,32 @@
+{
+  "id": "lassociation-etudiante-toulouse-inp",
+  "name": "L'Association étudiante Toulouse INP",
+  "description": "L'Association étudiante Toulouse INP (AE) rassemble tous les clubs et les associations étudiantes des écoles de Toulouse INP. Elle anime la vie associative pour permettre le partage d'instants entre étudiants de toutes les écoles de Toulouse INP. La journée de cohésion en début d'année scolaire ou les INP'iades sont les deux événements majeurs organisés par l'AE.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "toulouse-inp"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "toulouse-inp",
+      "name": "Toulouse INP"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

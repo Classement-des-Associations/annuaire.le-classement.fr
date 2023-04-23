@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-hand",
+  "name": "IPSA HAND",
+  "description": "IPSA HAND propose la pratique du Handball.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_hand/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

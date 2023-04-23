@@ -1,0 +1,32 @@
+{
+  "id": "ensae-solidaire",
+  "name": "ENSAE Solidaire",
+  "description": "Être un shark de la finance n’est pas votre priorité ? En plus de donner du sens aux données, vous souhaitez donner du sens à vos actions ? ENSAE Solidaire met en place des projets permettant de s’impliquer pour une cause, dans l’humanitaire ou tout simplement pour donner un peu de son temps à celles et ceux qui en ont besoin.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "humanitaire"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

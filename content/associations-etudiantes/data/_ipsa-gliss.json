@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-gliss",
+  "name": "IPSA GLISS",
+  "description": "IPSA Glisse organise chaque année un séjour dans les Pyrénées françaises.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_gliss",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

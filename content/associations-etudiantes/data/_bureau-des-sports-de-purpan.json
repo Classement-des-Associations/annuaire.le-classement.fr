@@ -1,0 +1,31 @@
+{
+  "id": "bureau-des-sports-de-purpan",
+  "name": "Bureau Des Sports de Purpan",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ecole-dingenieurs-de-purpan"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ecole-dingenieurs-de-purpan",
+      "name": "École d’ingénieurs de Purpan"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

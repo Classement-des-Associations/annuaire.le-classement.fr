@@ -1,0 +1,32 @@
+{
+  "id": "reveailes",
+  "name": "Rêve’Ailes",
+  "description": "L'association indépendante Rêv'Ailes est composée d'une vingtaine d'étudiants de l'ISAE-SUPAERO dont le but est de construire un avion léger, muni d'un dispositif permettant aux personnes paraplégiques de voler de façon autonôme.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "isae-supaero"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "isae-supaero",
+      "name": "ISAE Supaero"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

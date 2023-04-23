@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-eleves-du-cesi-toulouse",
+  "name": "Bureau des Élèves du CESI Toulouse",
+  "description": "Le BDE de CESI du campus de Toulouse est une association d’étudiants ayant pour objectif de fédérer les projets étudiants de l’établissement.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/bda_cesi_nantes/",
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "cesi"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "cesi",
+      "name": "CESI"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

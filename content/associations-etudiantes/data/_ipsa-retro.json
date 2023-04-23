@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-retro",
+  "name": "IPSA RÉTRO",
+  "description": "La spécialité d’IPSA Rétro est la rénovation d’avions de légende avec les Ailes Anciennes de Toulouse et l’Aeroscopia.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_retro/",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

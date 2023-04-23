@@ -1,0 +1,32 @@
+{
+  "id": "oenologie",
+  "name": "Œnologie",
+  "description": "Fin esthète ou simple amateur de vin, expert ou néophyte, plutôt rouge ou plutôt blanc...\nQui que tu sois, le binet Œnologie t’ouvre les portes du fantastique monde du vin, au travers\nde dégustations de vins prestigieux et des incontournables soirées Vins & Fromages. Si tu\nsouhaites poursuivre ton voyage au pays où les larmes parlent d’alcool et non de douleur, où\nles robes pourpres et dorées subliment la danse des arômes, où l’ivrogne devient philosophe,\nalors n’hésite que très peu à rejoindre le binet Œnologie !",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "oenologie"
+  ],
+  "schoolsId": [
+    "ecole-polytechnique"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "oenologie",
+      "name": "Oenologie",
+      "icon": "fluent-emoji:wine-glass",
+      "color": "rose"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ecole-polytechnique",
+      "name": "Ecole Polytechnique"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

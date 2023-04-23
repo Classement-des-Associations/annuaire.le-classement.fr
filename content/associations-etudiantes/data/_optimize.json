@@ -1,11 +1,12 @@
 {
   "id": "optimize",
   "name": "Optimize",
-  "description": "Innovation et entrepreneuriat, ça te dit quelque chose ? Évidemment, c’est l’essence même d’Optimize !\nMotivées, engagées et volontaires, nos équipes sont prêtes à te faire voyager dans cet univers à travers des TEDx, des Startup Weekend et bien d’autres. \nNous ne t’en disons pas plus et nous te laissons découvrir notre Association !\nL’optibise 💙💛",
+  "description": "Optimize est l'association d'entrepreneuriat et d'innovation de TBS Education. Reconnue par la French Tech Toulouse, notre association a pour objectif de promouvoir l'entrepreneuriat auprès de l'écosystème toulousain et à l'international avec le programme Babson Collaborative 🚀",
   "linkedin": "https://www.linkedin.com/company/optimize-tbs/mycompany",
   "instagram": "https://www.instagram.com/optimizetbs/",
   "website": "https://optimize-tbs.com/",
   "categoriesId": [
+    "entrepreneuriale",
     "professionnalisante"
   ],
   "schoolsId": [
@@ -18,6 +19,12 @@
     "2023"
   ],
   "categories": [
+    {
+      "id": "entrepreneuriale",
+      "name": "Entrepreneuriale",
+      "icon": "fluent-emoji:high-voltage",
+      "color": "yellow"
+    },
     {
       "id": "professionnalisante",
       "name": "Professionnalisante",

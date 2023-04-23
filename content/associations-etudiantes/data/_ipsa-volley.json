@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-volley",
+  "name": "IPSA VOLLEY",
+  "description": "IPSA Volley propose la pratique du Volleyball.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsavolley/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

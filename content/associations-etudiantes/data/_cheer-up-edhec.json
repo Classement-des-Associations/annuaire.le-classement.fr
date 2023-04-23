@@ -1,14 +1,15 @@
 {
   "id": "cheer-up-edhec",
   "name": "Cheer Up! EDHEC",
-  "linkedin": null,
+  "description": "Cheer Up! EDHEC est l'une des antennes fondatrices de la fédération depuis 2003. C'est la plus grande association étudiante de lutte contre le cancer en France et la seule à cibler les jeunes, souvent délaissés par les autres associations de ce type. Leur objectif est d’accompagner les jeunes entre 15 et 25 ans atteints du cancer dans la réalisation de projets qui leur tiennent à cœur.",
+  "linkedin": "https://www.linkedin.com/company/cheer-up-edhec1/",
   "instagram": "https://www.instagram.com/cheerupedhec/",
   "website": null,
   "categoriesId": [
     "sociale"
   ],
   "schoolsId": [
-    "edhec"
+    "edhec-business-school"
   ],
   "contestParticipationsId": [],
   "battleParticipationsId": [
@@ -24,8 +25,8 @@
   ],
   "schools": [
     {
-      "id": "edhec",
-      "name": "EDHEC"
+      "id": "edhec-business-school",
+      "name": "EDHEC Business School"
     }
   ],
   "contestParticipations": [],

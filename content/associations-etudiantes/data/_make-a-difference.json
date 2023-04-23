@@ -1,0 +1,32 @@
+{
+  "id": "make-a-difference",
+  "name": "Make A Difference",
+  "description": "L’association MaD regroupe les étudiant·es engagé·es de Télécom Paris qui œuvrent pour la transition sociale et écologique de l’École et sensibilisent grâce à des évènements, des semaines à thèmes (écologie, diversité), des conférences, des ateliers, etc. Elles et ils travaillent également avec l’administration, le pôle Tsé (Transition sociale et écologique) et les autres écoles du plateau de Saclay.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "environnementale"
+  ],
+  "schoolsId": [
+    "telecom-paris"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    }
+  ],
+  "schools": [
+    {
+      "id": "telecom-paris",
+      "name": "Télécom Paris"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

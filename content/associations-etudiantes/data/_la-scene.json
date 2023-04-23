@@ -1,0 +1,32 @@
+{
+  "id": "la-scene",
+  "name": "La Scène",
+  "description": "La Scène est l'asso de musique de l'école. Elle possède un local dans lequel vous pouvez répéter, grâce aux nombreux instruments super quali ! Piano, guitares (électrique et acoustique), basse, batterie, sont à la disposition de tous les étudiants ! Un studio d'enregistrement et aussi disponible à quiconque pour pouvoir enregistrer vos meilleurs sons ! Enfin, la Scène organise des concerts, dans lequel tous les groupes étudiants du plateau sont les bienvenus.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "telecom-paris"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "telecom-paris",
+      "name": "Télécom Paris"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

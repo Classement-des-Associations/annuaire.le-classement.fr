@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-culture",
+  "name": "IPSA CULTURE",
+  "description": "Association visant à réunir des étudiants venant des 4 coins du monde afin de partager leur culture au travers de films, nourriture, musique, etc.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_culture/",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

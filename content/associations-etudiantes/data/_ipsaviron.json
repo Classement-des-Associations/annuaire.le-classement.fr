@@ -1,0 +1,32 @@
+{
+  "id": "ipsaviron",
+  "name": "IPS’AVIRON",
+  "description": "IPS’AVIRON propose la pratique de l’aviron.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsaviron/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "comete",
+  "name": "Comète",
+  "description": "Comète couvre tous les événements de la vie associative, afin que chacun·e en profite, et permet une plus grande ouverture artistique aux élèves, que ce soit par des initiatives et sorties photographiques, cinématographiques, avec comme point d’orgue la création d’un festival de court-métrages.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/comete_telecom_paris/",
+  "website": "https://www.comete-tp.fr/",
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "telecom-paris"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "telecom-paris",
+      "name": "Télécom Paris"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

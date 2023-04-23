@@ -1,0 +1,31 @@
+{
+  "id": "escadrille",
+  "name": "ESCadrille",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "professionnalisante"
+  ],
+  "schoolsId": [
+    "tbs-education"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "professionnalisante",
+      "name": "Professionnalisante",
+      "icon": "fluent-emoji:man-office-worker",
+      "color": "slate"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

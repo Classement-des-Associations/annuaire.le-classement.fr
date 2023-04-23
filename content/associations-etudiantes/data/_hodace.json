@@ -1,0 +1,31 @@
+{
+  "id": "hodace",
+  "name": "Hodace",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "humanitaire"
+  ],
+  "schoolsId": [
+    "ecole-dingenieurs-de-purpan"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "humanitaire",
+      "name": "Humanitaire",
+      "icon": "fluent-emoji:wrapped-gift",
+      "color": "lime"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ecole-dingenieurs-de-purpan",
+      "name": "École d’ingénieurs de Purpan"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}
