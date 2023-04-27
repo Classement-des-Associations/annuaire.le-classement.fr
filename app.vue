@@ -12,7 +12,7 @@ const logo = {
     </Head>
 
     <Body>
-      <NuxtLink target="_blank" to="https://le-classement.fr" class="block bg-primary-base text-sm hover:underline">
+      <NuxtLink target="_blank" to="https://le-classement.fr" class="block bg-primary-base text-sm hover:underline" rel="noopener">
         <BaseSection class="py-1 text-end">
           Retourner sur le-classement.fr
         </BaseSection>
