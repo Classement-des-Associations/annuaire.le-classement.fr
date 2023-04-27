@@ -3,12 +3,15 @@ const logo = {
   srTitle: 'Accueil',
   rightClickUrl: 'https://le-classement.fr/design-kit'
 }
+
+const sameAs = useSameAs()
 </script>
 
 <template>
   <Html dir="ltr">
     <Head>
       <SeoKit />
+      <SchemaOrgOrganization name="Le Classement des Associations" logo="/logo.png" :same-as="sameAs" />
     </Head>
 
     <Body>
