@@ -11,7 +11,7 @@ const sameAs = useSameAs()
   <Html dir="ltr">
     <Head>
       <SeoKit />
-      <SchemaOrgOrganization name="Le Classement des Associations" logo="/logo.png" :same-as="sameAs" />
+      <SchemaOrgOrganization name="Le Classement des Associations" logo="/logo.png" :same-as="sameAs" url="https://le-classement.fr" />
     </Head>
 
     <Body>
