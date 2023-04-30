@@ -3,12 +3,12 @@
   "name": "EDHEC Consulting Club",
   "linkedin": "https://www.linkedin.com/company/edhecconsultingclub/?originalSubdomain=fr",
   "instagram": "https://www.instagram.com/edhec.consultingclub/?hl=fr",
-  "website": "edhec-consultingclub.com",
+  "website": "https://edhec-consultingclub.com",
   "categoriesId": [
     "professionnalisante"
   ],
   "schoolsId": [
-    "edhec"
+    "edhec-business-school"
   ],
   "contestParticipationsId": [],
   "battleParticipationsId": [
@@ -24,8 +24,8 @@
   ],
   "schools": [
     {
-      "id": "edhec",
-      "name": "EDHEC"
+      "id": "edhec-business-school",
+      "name": "EDHEC Business School"
     }
   ],
   "contestParticipations": [],

@@ -1,0 +1,32 @@
+{
+  "id": "ipsairclub",
+  "name": "IPS’AIRCLUB",
+  "description": "Association visant à réunir les pilotes brevetés ou en cours, et organiser des journées de vols avec les Ipsaliens. L’association organise également des conférences avec des professionnels.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsairclub/",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

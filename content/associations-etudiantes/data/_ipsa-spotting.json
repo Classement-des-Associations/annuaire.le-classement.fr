@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-spotting",
+  "name": "IPSA SPOTTING",
+  "description": "Association de photographies d’avions dans des phases de décollages et atterrissages.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_spotting",
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

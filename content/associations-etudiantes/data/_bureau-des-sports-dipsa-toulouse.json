@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-sports-dipsa-toulouse",
+  "name": "Bureau des Sports d’IPSA Toulouse",
+  "description": "Basketball, aviron, football, handball, badminton, rugby, triathlon, volley, etc. font parties des sports pratiqués par les IPSAliens du site toulousain.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

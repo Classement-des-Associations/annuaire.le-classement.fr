@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-grimpe",
+  "name": "IPSA GRIMPE",
+  "description": "IPSA Grimpe est l’association dédiée à l’initiation et la pratique de l‘escalade.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

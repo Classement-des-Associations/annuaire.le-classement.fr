@@ -1,0 +1,32 @@
+{
+  "id": "aerosim",
+  "name": "AEROSIM",
+  "description": "Association ayant pour but de concevoir un simulateur de vol.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/aerosim.ipsa/",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

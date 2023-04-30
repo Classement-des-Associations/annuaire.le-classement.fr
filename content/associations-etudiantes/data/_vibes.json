@@ -1,0 +1,32 @@
+{
+  "id": "vibes",
+  "name": "Vibes",
+  "description": "Vibes c’est un binet qui réunit avant\ntout les passionnés de musique. Qu’il\ns’agisse de musique électro, techno,\nhip-hop, ou même rap, les membres\nde Vibes peuvent s’adonner à leur\npassion en toute liberté. Le binet\ndispose de platines, d’un mixeur, de\nmatos de prod ainsi que plusieurs\ncontrôleurs (APC 40, tablette\nAbleton Push...) qui lui permet de\ncomposer des morceaux, de mixer\nen live et de laisser libre cours à\nson imagination. Vibes partage ses\nsons avec la promo notamment lors\nd’afterworks : canapés, soleil pour\nse détendre... Mais Vibes est aussi\nprésent lors des événements de plus\ngrande ampleur comme le WEI ou\nle Point Gamma. De plus, quiconque\nsouhaite faire ses propres créations\ndans la promo, nous organisons des\ncours de mix. Bref, un max de sons\npour tout le monde !",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ecole-polytechnique"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ecole-polytechnique",
+      "name": "Ecole Polytechnique"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

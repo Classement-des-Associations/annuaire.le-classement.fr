@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-eleves-de-lensae",
+  "name": "Bureau des Élèves de l’ENSAE",
+  "description": "Association centrale de la vie associative de l’ENSAE Paris, le Bureau des Elèves (BDE) est chargé d’animer la vie de l’École sur le campus.\n",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/hakuna__madata/",
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "ensae"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ensae",
+      "name": "ENSAE"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

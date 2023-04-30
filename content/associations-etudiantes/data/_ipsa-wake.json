@@ -1,0 +1,31 @@
+{
+  "id": "ipsa-wake",
+  "name": "IPSA WAKE",
+  "linkedin": null,
+  "instagram": "IPSA WAKE propose la pratique du wakeboard.",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

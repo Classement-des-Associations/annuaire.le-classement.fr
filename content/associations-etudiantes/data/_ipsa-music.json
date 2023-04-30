@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-music",
+  "name": "IPSA MUSIC",
+  "description": "IPSA Musique propose à tous les mélomanes l’apprentissage d’un instrument musical\n et des concerts tout au long de l’année.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsamusic/",
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

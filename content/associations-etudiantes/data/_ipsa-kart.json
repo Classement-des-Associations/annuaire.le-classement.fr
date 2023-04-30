@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-kart",
+  "name": "IPSA KART",
+  "description": "IPSA KART permet la pratique du karting pour toucher de près au plaisir du pilotage entre amis pour le fun, ou en compétition pour plus d’adrénaline !",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_kart_toulouse",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

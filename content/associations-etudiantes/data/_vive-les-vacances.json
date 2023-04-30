@@ -9,7 +9,7 @@
     "sociale"
   ],
   "schoolsId": [
-    "edhec"
+    "edhec-business-school"
   ],
   "contestParticipationsId": [
     "2022"
@@ -27,8 +27,8 @@
   ],
   "schools": [
     {
-      "id": "edhec",
-      "name": "EDHEC"
+      "id": "edhec-business-school",
+      "name": "EDHEC Business School"
     }
   ],
   "contestParticipations": [

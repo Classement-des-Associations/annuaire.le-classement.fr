@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-arts-de-lecole-polytechnique",
+  "name": "Bureau des Arts de l’école Polytechnique",
+  "description": "Le BdA (Bureau des Arts) de l’École polytechnique fait vivre la culture sur le campus et autour. Il organise visites et sorties en région parisienne, et sa billetterie permet de profiter de nombreuses réductions dans les opéras, théâtres et expositions des plus grandes salles françaises. Sur le campus, le BdA propose des prêts de matériel artistique, et organise régulièrement des ateliers créatifs, cafés littéraires et autres activités. Son magazine, X-Passion, est écrit et réalisé entièrement par les élèves et anciens, et distribué trois fois par an aux élèves et au personnel. Tu y trouveras des essais, poèmes, commentaires artistiques, mais aussi des œuvres photographiques ou dessin de camarades, et des articles plus personnels ou engagés.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ecole-polytechnique"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ecole-polytechnique",
+      "name": "Ecole Polytechnique"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bureau-des-eleves-dipsa-toulouse",
+  "name": "Bureau des Élèves d’IPSA Toulouse",
+  "description": "Les membres du BDE se chargent de la vie étudiante de l’école à travers des soirées et week-end étudiants.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/bde__esquadron/",
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-rugby",
+  "name": "IPSA RUGBY",
+  "description": "IPSA RUGBY propose la pratique du rugby.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_rugby/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

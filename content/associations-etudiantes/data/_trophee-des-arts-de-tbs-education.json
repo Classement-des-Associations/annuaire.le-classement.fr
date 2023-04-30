@@ -1,0 +1,32 @@
+{
+  "id": "trophee-des-arts-de-tbs-education",
+  "name": "Trophée des Arts de TBS Education",
+  "description": "Le Trophée des Arts est une association indépendante depuis 6 ans ayant pour objectif d’organiser la plus grande compétition artistique inter écoles de commerce d’Europe.",
+  "linkedin": null,
+  "instagram": null,
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "tbs-education"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "tbs-education",
+      "name": "TBS Education"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

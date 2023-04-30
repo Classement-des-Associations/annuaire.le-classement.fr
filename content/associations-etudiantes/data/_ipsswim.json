@@ -1,0 +1,32 @@
+{
+  "id": "ipsswim",
+  "name": "IPS’SWIM",
+  "description": "IPS’SWIM propose la pratique de la natation.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsa_swim/",
+  "website": null,
+  "categoriesId": [
+    "sportive"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}

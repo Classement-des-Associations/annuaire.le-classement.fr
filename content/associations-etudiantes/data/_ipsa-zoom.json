@@ -1,0 +1,32 @@
+{
+  "id": "ipsa-zoom",
+  "name": "IPSA ZOOM",
+  "description": "IPSA ZOOM est l’association de photographie et vidéo qui se déplace sur l’ensemble des événements majeurs auxquels participent les IPSAliens pour les immortaliser.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/ipsazoom/",
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "ipsa"
+  ],
+  "contestParticipationsId": [],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "ipsa",
+      "name": "IPSA"
+    }
+  ],
+  "contestParticipations": [],
+  "battleParticipations": []
+}
