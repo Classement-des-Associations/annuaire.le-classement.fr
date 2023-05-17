@@ -5,13 +5,22 @@
   "linkedin": null,
   "instagram": "https://www.instagram.com/ip_cycle/",
   "website": null,
-  "categoriesId": [],
+  "categoriesId": [
+    "sportive"
+  ],
   "schoolsId": [
     "ipsa"
   ],
   "contestParticipationsId": [],
   "battleParticipationsId": [],
-  "categories": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    }
+  ],
   "schools": [
     {
       "id": "ipsa",
