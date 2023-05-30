@@ -19,7 +19,7 @@ const { socials: defaultSocials } = useAppConfig()
         <li
           class="text-black rounded-full p-3 hover:bg-black hover:text-white motion-safe:transition-all motion-safe:ease-in motion-safe:duration-200"
         >
-          <NuxtLink target="_blank" :to="social.to">
+          <NuxtLink target="_blank" :to="social.to" rel="noopener">
             <span class="sr-only">{{ social.name }}</span>
             <Icon :name="social.icon" size="40" />
           </NuxtLink>
