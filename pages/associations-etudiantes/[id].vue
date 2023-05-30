@@ -20,23 +20,26 @@ useSeoMeta({
 
 <template>
   <BaseSection v-if="association" class="my-20">
-    <div class="flex flex-col items-start">
-      <h1 class="text-3xl md:text-5xl text-black font-bold">
-        {{ association.name }}
-      </h1>
-      <template v-if="association.categories">
-        <NuxtLink v-for="category in association.categories" :key="category.id" :to="`/categories/${category.id}/`" class="order-first mb-6">
-          <CategoriesItem :category="category" icon />
-        </NuxtLink>
-      </template>
-      <dl v-if="association.schools" class="mt-2">
-        <dt class="sr-only">
-          {{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
-        </dt>
-        <dd class="text-xl md:text-2xl text-black font-medium">
-          <Sentence route="/ecoles" :data="association.schools" />
-        </dd>
-      </dl>
+    <div class="flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center">
+      <div class="mt-6 lg:mt-0 flex flex-col items-start">
+        <template v-if="association.categories">
+          <NuxtLink v-for="category in association.categories" :key="category.id" :to="`/categories/${category.id}/`" class="order-last lg:order-first mt-6 lg:mt-0 lg:mb-6">
+            <CategoriesItem :category="category" icon />
+          </NuxtLink>
+        </template>
+        <h1 class="text-3xl md:text-5xl text-black font-bold">
+          {{ association.name }}
+        </h1>
+        <dl v-if="association.schools" class="mt-2">
+          <dt class="sr-only">
+            {{ association.schools.length > 1 ? "Écoles de l'association" : "École de l'association" }}
+          </dt>
+          <dd class="text-xl md:text-2xl text-black font-medium">
+            <Sentence route="/ecoles" :data="association.schools" />
+          </dd>
+        </dl>
+      </div>
+      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] lg:max-h-[8rem] mx-auto md:mx-0" />
     </div>
     <p class="mt-8 text-lg md:text-xl md:leading-8">
       {{ association.description }}

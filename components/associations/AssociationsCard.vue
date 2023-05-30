@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <BaseCard class="relative">
     <div class="h-24 flex flex-col justify-center">
-      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] mx-auto">
+      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] mx-auto" />
     </div>
     <div class=" mt-3 flex flex-col gap-4 items-center">
       <h3 class="text-xl lg:text-2xl font-bold text-center">
