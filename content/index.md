@@ -1,5 +1,5 @@
 ---
-head.title: 
+head.title:
 title:
 image: /socials/index.jpg
 ---
@@ -69,7 +69,7 @@ Trouvez des réponses à vos questions, partagez vos expériences et vos idées,
 
 ::home-get-started
 ---
-sectionClass: mt-32
+sectionClass: my-32
 primaryButtonText: Explorer
 primaryButtonLink: /associations-etudiantes
 secondaryButtonText: En savoir plus
@@ -83,6 +83,7 @@ Découvrir les associations
 Que vous soyez une association, une école ou une entreprise
 ::
 
+<!--
 ::newsletter-section
 ---
 sectionClass: my-32
@@ -94,3 +95,4 @@ S'abonner au Classement
 #subtitle
 Une newsletter pour tous ceux qui veulent prolonger l’aventure du Classement avec des exclusivités et des actualités sur la vie associative étudiante.
 ::
+-->

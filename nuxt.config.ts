@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       contributeFormLink: 'https://example.com',
-      newsletterSubscriptionLink: 'https://example.com',
+      // newsletterSubscriptionLink: 'https://example.com',
       linkedinGroupLink: 'https://example.com',
       trailingSlash: true,
       titleSeparator: '·',
