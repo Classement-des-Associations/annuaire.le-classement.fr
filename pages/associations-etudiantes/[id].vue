@@ -39,7 +39,7 @@ useSeoMeta({
           </dd>
         </dl>
       </div>
-      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] lg:max-h-[8rem] mx-auto md:mx-0" />
+      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] lg:max-h-[8rem] mx-auto md:mx-0">
     </div>
     <p class="mt-8 text-lg md:text-xl md:leading-8">
       {{ association.description }}

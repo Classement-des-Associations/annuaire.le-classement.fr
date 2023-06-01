@@ -3,6 +3,7 @@ import { Association } from '@/types'
 
 const route = useRoute()
 
+const { data: battle } = await useBattleBySchoolId(route.params.id as string)
 const { data: school } = await useSchoolById(route.params.id as string)
 const { data: associations } = await useAssociationsBySchoolId(route.params.id as string)
 
@@ -24,6 +25,27 @@ const associationsByCategory = computed((): Map<string, Association[]> => {
   })
 
   return associationsByCategory
+})
+
+const uniqueBattle = computed(() => {
+  if (!battle) { return null }
+
+  if (!battle.value) { return null }
+
+  const data = new Set<string>()
+
+  battle.value.forEach((item) => {
+    (item.battleParticipationsId as string[]).forEach((id) => {
+      data.add(id)
+    })
+  })
+
+  return Array.from(data).map((item) => {
+    return {
+      id: item as string,
+      name: item as string
+    }
+  })
 })
 
 const pluralize = (value: number, name: string) => {
@@ -63,6 +85,12 @@ useSeoMeta({
           {{ pluralize(schoolAssociations.length, categoryName) }}
         </li>
       </ul>
+      <p v-if="uniqueBattle" class="mt-8 text-lg md:text-xl md:leading-8">
+        <span>
+          {{ uniqueBattle.length > 1 ? 'Les associations de l\'école ont participé aux battle ' : 'Les associations ont participé à la battle ' }}
+        </span>
+        <Sentence :route="`/ecoles/${route.params.id}/battle`" :data="uniqueBattle" />.
+      </p>
       <AssociationsRelatedListSection :associations="associations" class="mt-12">
         Associations de l'école
       </AssociationsRelatedListSection>
