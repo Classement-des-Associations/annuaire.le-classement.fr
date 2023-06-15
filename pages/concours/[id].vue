@@ -14,10 +14,10 @@ useSeoMeta({
 <template>
   <BaseSection class="my-20">
     <BaseH1 v-if="school">
-      {{ school.name }}
+      Concours {{ school.name }}
     </BaseH1>
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
-      Associations participantes au Concours
+      Toutes les associations
     </AssociationsRelatedListSection>
     <NuxtLink to="/concours/" class="block mt-24 text-lg font-lig">
       Revenir aux années du Concours

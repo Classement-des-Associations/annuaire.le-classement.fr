@@ -2,13 +2,13 @@
 const route = useRoute()
 
 const { data: school } = await useSchoolById(route.params.id as string)
-const { data: participation } = await useBattleParticipationById(route.params.year as string)
+const { data: participation } = await useContestParticipationById(route.params.year as string)
 
-const { data: associations } = await useAssociationsBySchoolIdAndBattleParticipationId(route.params.id as string, route.params.year as string)
+const { data: associations } = await useAssociationsBySchoolIdAndContestParticipationId(route.params.id as string, route.params.year as string)
 
 useSeoMeta({
-  title: participation?.value ? `Battle ${participation.value.name}, les associations de ${school?.value?.name ?? ''}` : 'Battle',
-  description: `Découvrez les associations participantes à la Battle ${participation?.value?.name ?? ''} de ${school?.value?.name ?? ''}`,
+  title: participation?.value ? `Concours ${participation.value.name}, les associations de ${school?.value?.name ?? ''}` : 'Concours',
+  description: `Découvrez les associations participantes au Concours ${participation?.value?.name ?? ''} de ${school?.value?.name ?? ''}`,
   ogImage: 'https://annuaire.le-classement.fr/socials/index.jpg'
 })
 </script>
@@ -16,7 +16,7 @@ useSeoMeta({
 <template>
   <BaseSection class="my-20">
     <BaseH1 v-if="participation">
-      Battle {{ participation.name }}
+      Concours {{ participation.name }}
     </BaseH1>
     <AssociationsRelatedListSection v-if="associations && school" :associations="associations" class="mt-12">
       Les associations de
@@ -27,8 +27,8 @@ useSeoMeta({
     <NuxtLink :to="`/ecoles/${route.params.id}`" class="block mt-24 text-lg font-lig">
       Revenir à l'établissement
     </NuxtLink>
-    <NuxtLink :to="`/battle/${route.params.year}`" class="block mt-8 text-lg font-lig">
-      Découvrir les autres associations de la Battle {{ route.params.year }}
+    <NuxtLink :to="`/concours/${route.params.year}`" class="block mt-8 text-lg font-lig">
+      Découvrir les autres associations du Concours {{ route.params.year }}
     </NuxtLink>
   </BaseSection>
 </template>
