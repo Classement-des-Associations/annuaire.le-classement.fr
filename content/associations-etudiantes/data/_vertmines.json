@@ -1,0 +1,46 @@
+{
+  "id": "vertmines",
+  "name": "VertMines",
+  "description": "On dit parfois des ingénieurs qu’ils sont la “vermine de l’industrie”, en particulier des ingénieurs des Écoles des Mines. VertMines a été fondée pour montrer que les ingénieurs des Mines sont sensibles à l’urgence climatique en mettant en lien les mondes de l’agriculture et de l'ingénierie.",
+  "linkedin": "https://www.linkedin.com/company/bdeimtminesales/",
+  "instagram": "https://www.instagram.com/vertmines_ales",
+  "website": null,
+  "categoriesId": [
+    "environnementale",
+    "sociale"
+  ],
+  "schoolsId": [
+    "imt-mines-ales"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "environnementale",
+      "name": "Environnementale",
+      "icon": "fluent-emoji:potted-plant",
+      "color": "green"
+    },
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "imt-mines-ales",
+      "name": "IMT Mines Alès"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

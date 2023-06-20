@@ -1,9 +1,9 @@
 {
-  "id": "cheer-up-edhec",
-  "name": "Cheer Up! EDHEC",
-  "description": "Cheer Up! EDHEC est une association qui aide les jeunes de 12 à 25 ans atteints d'un cancer à réaliser des projets qui leur tiennent à coeur.",
-  "linkedin": "https://www.linkedin.com/company/cheer-up-edhec1/",
-  "instagram": "https://www.instagram.com/cheerupedhec/",
+  "id": "edhec-protection-animale",
+  "name": "EDHEC Protection Animale",
+  "description": "EDHEC Protection Animale est une association solidaire regroupant des étudiants motivés derrière un projet unique et innovant : représenter et faire connaître la cause animale au sein des écoles de commerce.",
+  "linkedin": null,
+  "instagram": null,
   "website": null,
   "categoriesId": [
     "sociale"
@@ -14,9 +14,7 @@
   "contestParticipationsId": [
     "2023"
   ],
-  "battleParticipationsId": [
-    "2023"
-  ],
+  "battleParticipationsId": [],
   "categories": [
     {
       "id": "sociale",
@@ -37,10 +35,5 @@
       "name": "2023"
     }
   ],
-  "battleParticipations": [
-    {
-      "id": "2023",
-      "name": "2023"
-    }
-  ]
+  "battleParticipations": []
 }

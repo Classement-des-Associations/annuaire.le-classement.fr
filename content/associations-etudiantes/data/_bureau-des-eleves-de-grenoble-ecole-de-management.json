@@ -1,0 +1,39 @@
+{
+  "id": "bureau-des-eleves-de-grenoble-ecole-de-management",
+  "name": "Bureau des Élèves de Grenoble École de Management",
+  "description": "Le Bureau Des Élèves (BDE) est l'interlocuteur privilégié des étudiants et l'un des piliers de la vie étudiante au sein de Grenoble Ecole de Management (GEM). Son rôle est d'assurer le lien entre l'administration et les 21 associations de l'école et de coordonner les plus de 700 événements annuels qui s'y déroulent.",
+  "linkedin": "https://www.linkedin.com/company/bde-gem-hypno-tizz/",
+  "instagram": "https://www.instagram.com/bde_hypnotizz",
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

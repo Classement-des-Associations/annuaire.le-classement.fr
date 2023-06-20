@@ -6,13 +6,15 @@
   "instagram": null,
   "website": null,
   "categoriesId": [
-    "culturelle"
+    "culturelle",
+    "artistique"
   ],
   "schoolsId": [
     "sigma-clermont-ferrand"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [],
   "categories": [
@@ -21,18 +23,28 @@
       "name": "Culturelle",
       "icon": "fluent-emoji:framed-picture",
       "color": "yellow"
+    },
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
     }
   ],
   "schools": [
     {
       "id": "sigma-clermont-ferrand",
-      "name": "Sigma Clermont-Ferrand"
+      "name": "SIGMA Clermont-Ferrand"
     }
   ],
   "contestParticipations": [
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": []

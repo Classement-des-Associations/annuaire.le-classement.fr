@@ -1,8 +1,8 @@
 {
   "id": "idrogen",
   "name": "iDrogen",
-  "description": "Notre objectif ? Développer des véhicules hydrogène répondant aux enjeux environnementaux afin de contribuer à l'évolution vers un monde plus vert !",
-  "linkedin": null,
+  "description": "iDrogen est une association étudiante autour de la mobilité à base d'hydrogène. L'objectif de l'association est créé ou convertir des véhicules utilisant comme énergie l'hydrogène. iDrogen participe à la compétition Shell éco-marathon dans la catégorie Prototype.",
+  "linkedin": "https://www.linkedin.com/company/pv3e-laval/",
   "instagram": "https://www.instagram.com/idrogen_estaca",
   "website": null,
   "categoriesId": [
@@ -12,7 +12,8 @@
     "estaca"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -35,6 +36,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [

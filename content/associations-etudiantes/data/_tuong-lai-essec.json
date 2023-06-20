@@ -1,7 +1,8 @@
 {
   "id": "tuong-lai-essec",
   "name": "Tuong Laï Essec",
-  "linkedin": null,
+  "description": "Tuong Laï est une association étudiante de l’ESSEC Business School. Elle part en mission chaque année à Hué afin d’agir sur 3 axes différents : l’éducation, le microcrédit et l’entretien des bâtiments scolaires.",
+  "linkedin": "https://www.linkedin.com/company/tuong-lai",
   "instagram": "https://www.instagram.com/tuonglai_essec/",
   "website": null,
   "categoriesId": [
@@ -10,7 +11,9 @@
   "schoolsId": [
     "essec"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2023"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "ESSEC"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

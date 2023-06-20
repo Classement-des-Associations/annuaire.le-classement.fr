@@ -1,7 +1,8 @@
 {
   "id": "le-dahu",
   "name": "Le Dahu",
-  "linkedin": null,
+  "description": "Le Dahu c’est une famille friande : référencer tous les bons plans isérois. Deux guides : le Dahu qui répertorie restaurants, bars et autres activités culturelles et le Dahu des Neiges, son petit frère depuis maintenant 14 ans, qui fait de même dans les stations de ski alpines (de l’Alpe d’Huez à Serre Chevalier en passant par La Grave). Un total de 15 000 guides distribués gratuitement tout au long de l’année.",
+  "linkedin": "https://www.linkedin.com/company/le-dahu---guide-de-grenoble/",
   "instagram": "https://www.instagram.com/_dahu/",
   "website": "http://www.ledahu.net/",
   "categoriesId": [
@@ -10,7 +11,9 @@
   "schoolsId": [
     "grenoble-ecole-de-management"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2023"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "Grenoble École de Management"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

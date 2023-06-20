@@ -1,0 +1,46 @@
+{
+  "id": "eurotandem",
+  "name": "Eurotandem",
+  "description": "L’Eurotandem est un groupe de 32 étudiants qui réalise un tour de France en tandem, chaque année depuis plus de 30 ans. Ils s'arrêtent chaque jour dans une ville étape pour sensibiliser la population et promouvoir le don de sang. En plus du défi sportif, il s’agit d’une véritable aventure humaine au service d’un enjeu de santé publique 🩸🚲",
+  "linkedin": "https://www.linkedin.com/company/eurotandem2023/",
+  "instagram": "https://www.instagram.com/eurotandem2023",
+  "website": null,
+  "categoriesId": [
+    "sportive",
+    "sociale"
+  ],
+  "schoolsId": [
+    "imt-nord-europe"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    },
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "imt-nord-europe",
+      "name": "IMT Nord Europe"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

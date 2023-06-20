@@ -1,7 +1,8 @@
 {
   "id": "enjeu",
-  "name": "ENJEU",
-  "linkedin": null,
+  "name": "Enjeu",
+  "description": "Enjeu est spécialisée autour des thématiques du jeu et de la gamification. Elle participe à la vie de l’école et de Grenoble à travers l’organisation de nombreux événements : Tournois e-sport, Escape Games, Murder Parties, Tournois d’échecs, Serious game…",
+  "linkedin": "https://www.linkedin.com/company/enjeugem/",
   "instagram": "https://www.instagram.com/enjeu_gem/",
   "website": null,
   "categoriesId": [
@@ -11,7 +12,8 @@
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [],
   "categories": [
@@ -32,6 +34,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": []

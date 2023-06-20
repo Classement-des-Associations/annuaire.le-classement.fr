@@ -1,10 +1,10 @@
 {
-  "id": "le-gala",
-  "name": "Le Gala",
-  "description": "Le Gala, c'est l’association événementielle de Grenoble EM. Chaque année, ses 80 membres se démènent afin de mener à bien leurs projets, en reflétant au mieux les valeurs et l'ambiance de l'école. Le Gala est une association innovante et professionnelle au sein de laquelle règnent convivialité et sérieux.",
-  "linkedin": "https://www.linkedin.com/company/gemgala/",
-  "instagram": "https://www.instagram.com/gem.gala/",
-  "website": null,
+  "id": "gem-junior-conseil",
+  "name": "GEM Junior Conseil",
+  "description": "Créée en 1984, GEM Junior Conseil est la Junior-Entreprise de GEM. Cette Junior-Entreprise s’apparente à un cabinet de conseil en marketing. Elle réalise des prestations pour différents types de clients (entrepreneur, PME, TPE, Grand Compte...). Elle fait partie du Top 5 des JE de France en termes d’activité commerciale.",
+  "linkedin": "https://www.linkedin.com/company/gem-junior-conseil/",
+  "instagram": "https://www.instagram.com/gemjuniorconseil",
+  "website": "https://gemjuniorconseil.com/",
   "categoriesId": [
     "professionnalisante"
   ],
@@ -12,7 +12,6 @@
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022",
     "2023"
   ],
   "battleParticipationsId": [],
@@ -31,10 +30,6 @@
     }
   ],
   "contestParticipations": [
-    {
-      "id": "2022",
-      "name": "2022"
-    },
     {
       "id": "2023",
       "name": "2023"
