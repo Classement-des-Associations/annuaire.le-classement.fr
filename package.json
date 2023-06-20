@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@8.6.0",
+  "packageManager": "pnpm@8.6.3",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -16,11 +16,11 @@
     "@classement-des-associations/website-theme": "^0.10.6",
     "@notionhq/client": "^2.2.5",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@vueuse/core": "^10.1.2",
-    "@vueuse/nuxt": "^10.1.2",
-    "eslint": "^8.41.0",
-    "nuxt": "^3.5.2",
+    "@vueuse/core": "^10.2.0",
+    "@vueuse/nuxt": "^10.2.0",
+    "eslint": "^8.43.0",
+    "nuxt": "^3.5.3",
     "nuxt-clarity-analytics": "^0.0.2",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
