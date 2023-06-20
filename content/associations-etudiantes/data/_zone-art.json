@@ -1,0 +1,39 @@
+{
+  "id": "zone-art",
+  "name": "Zone Art",
+  "description": "La Zone Art est le bureau des arts de Grenoble Ecole de Management. Elle a pour but de promouvoir et faire rayonner l'art à GEM et au sein du bassin Grenoblois au travers de 8 pôles artistiques (arts graphiques, mode, théâtre, comédie musicale, musique généraliste, cinéma, radio, label de musique électronique).",
+  "linkedin": "https://www.linkedin.com/company/bdagem/",
+  "instagram": "https://www.instagram.com/la_zone_art_gem",
+  "website": null,
+  "categoriesId": [
+    "artistique"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "artistique",
+      "name": "Artistique",
+      "icon": "fluent-emoji:artist-palette",
+      "color": "emerald"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

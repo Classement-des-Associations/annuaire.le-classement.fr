@@ -1,18 +1,20 @@
 {
   "id": "savoir-oser-la-solidarite",
   "name": "Savoir Oser la Solidarité",
-  "description": "Savoir Oser la Solidarité est l’association solidaire et humanitaire de Grenoble Ecole de Management qui mobilise chaque année près de 150 étudiants répartis dans 11 projets. Nous agissons dans 7 pays pour faciliter l’accès des populations défavorisées à l’éducation, à la culture et aux loisirs. Initialement portés sur l’enfance, nous nous battons aussi pour sensibiliser les populations au thématiques actuelles cruciales et aux causes importantes. A nos yeux, toutes les actions, même la plus petite, comptent et nous sommes fiers de porter ce message. N’hésitez pas à visiter notre site, nos réseaux sociaux et à nous contacter pour en savoir plus ! Bring time, bring happiness 💚",
+  "description": "Savoir Oser la Solidarité est l’association solidaire et humanitaire de GEM. Elle agit localement au sein du bassin greneblois auprès des jeunes et internationalement dans 6 pays auprès des populations les plus défavorisées !",
   "linkedin": "https://www.linkedin.com/company/savoiroserlasolidarit%C3%A9/",
   "instagram": "https://www.instagram.com/savoir.oser.la.solidarite/",
   "website": "https://savoiroserlasolidarite.org/",
   "categoriesId": [
-    "humanitaire"
+    "humanitaire",
+    "sociale"
   ],
   "schoolsId": [
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -23,6 +25,12 @@
       "name": "Humanitaire",
       "icon": "fluent-emoji:wrapped-gift",
       "color": "lime"
+    },
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
     }
   ],
   "schools": [
@@ -35,6 +43,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [

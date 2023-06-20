@@ -1,0 +1,39 @@
+{
+  "id": "bureau-des-eleves-de-lesaip-angers",
+  "name": "Bureau des Élèves de l’ESAIP Angers",
+  "description": "C’est le BDE ayant pour but d'intégrer les nouveaux élèves et de proposer des activités de cohésion pour animer la vie de campus.",
+  "linkedin": null,
+  "instagram": "https://www.instagram.com/bde_esaip",
+  "website": null,
+  "categoriesId": [
+    "bureau-des-eleves"
+  ],
+  "schoolsId": [
+    "esaip"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "bureau-des-eleves",
+      "name": "Bureau des Élèves",
+      "icon": "fluent-emoji:school",
+      "color": "red"
+    }
+  ],
+  "schools": [
+    {
+      "id": "esaip",
+      "name": "ESAIP"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

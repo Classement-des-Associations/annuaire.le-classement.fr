@@ -1,9 +1,9 @@
 {
   "id": "tutorat-associatif-toulousain",
   "name": "Tutorat Associatif Toulousain",
-  "description": "Le Tutorat Associatif Toulousain est une association qui accompagne les étudiants en PASS et L.AS et oeuvre pour l’égalité des chances dans un milieu où de plus en plus de prépas onéreuses se développent.",
-  "linkedin": null,
-  "instagram": null,
+  "description": "Le TAT est une association gratuite, gérée par des étudiants toulousains en santé, aidant les étudiants en PASS et ",
+  "linkedin": "https://www.linkedin.com/company/tutorat-associatif-toulousain/",
+  "instagram": "https://www.instagram.com/tutoratassociatiftoulousain",
   "website": "https://tutoweb.org/",
   "categoriesId": [
     "sociale"
@@ -12,7 +12,8 @@
     "universite-paul-sabatier"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [],
   "categories": [
@@ -33,6 +34,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": []

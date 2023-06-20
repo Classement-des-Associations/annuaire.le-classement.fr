@@ -1,9 +1,9 @@
 {
   "id": "amd-job-service",
   "name": "AMD Job Service",
-  "description": "AMD Job Servie est la Job Service de l'école. Ils proposent aux étudiants de l'école des missions rémunérées. Ils organisent aussi des événements avec leurs partenaires, tels que des conférences et des collectes de nourriture avec les restos du cœur.",
-  "linkedin": "https://www.linkedin.com/company/amd-job-service/mycompany/",
-  "instagram": null,
+  "description": "AMD est la job service de GEM. C'est une association qui s'apparente à une agence d'intérim. Elle propose des missions professionnelles à visée pédagogique aux étudiants de l’école. C’est aussi un moyen d’arrondir leurs fins de mois et d’acquérir une expérience professionnelle ! Dans le même temps, l’association organise des conférences avec leurs partenaires.",
+  "linkedin": "https://www.linkedin.com/company/amd-job-service/",
+  "instagram": "https://instagram.com/amd.job.service",
   "website": null,
   "categoriesId": [
     "professionnalisante"
@@ -12,7 +12,8 @@
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [],
   "categories": [
@@ -33,6 +34,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": []

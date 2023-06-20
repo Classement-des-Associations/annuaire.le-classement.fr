@@ -1,0 +1,39 @@
+{
+  "id": "planetes",
+  "name": "Planètes",
+  "description": "De la vidéo à la photo en passant par le graphisme, les 50 membres de Planètes sont formés à l’utilisation de logiciels et de matériel professionnel afin de répondre aux besoins de leurs partenaires associatifs, qu’ils soient internes ou externes à leur école, ainsi qu’à différentes entreprises telles que Panzani, HP, Xbox, Lydia, St-Hubert, Schneider Electric…",
+  "linkedin": "https://www.linkedin.com/company/plan%C3%A8tes/",
+  "instagram": "https://www.instagram.com/planetes.gem",
+  "website": null,
+  "categoriesId": [
+    "communication"
+  ],
+  "schoolsId": [
+    "grenoble-ecole-de-management"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "communication",
+      "name": "Communication",
+      "icon": "fluent-emoji:megaphone",
+      "color": "fuchsia"
+    }
+  ],
+  "schools": [
+    {
+      "id": "grenoble-ecole-de-management",
+      "name": "Grenoble École de Management"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

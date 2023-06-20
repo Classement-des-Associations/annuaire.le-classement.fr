@@ -1,7 +1,7 @@
 {
   "id": "optimize",
   "name": "Optimize",
-  "description": "Optimize est l'association d'entrepreneuriat et d'innovation de TBS Education. Reconnue par la French Tech Toulouse, notre association a pour objectif de promouvoir l'entrepreneuriat auprès de l'écosystème toulousain et à l'international avec le programme Babson Collaborative 🚀",
+  "description": "Optimize est l'association d'entrepreneuriat et d'innovation de TBS Education. Reconnue par la French Tech Toulouse, l’association a pour objectif de promouvoir l'entrepreneuriat auprès de l'écosystème toulousain et à l'international avec le programme Babson Collaborative.",
   "linkedin": "https://www.linkedin.com/company/optimize-tbs/mycompany",
   "instagram": "https://www.instagram.com/optimizetbs/",
   "website": "https://optimize-tbs.com/",
@@ -13,7 +13,8 @@
     "tbs-education"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -42,6 +43,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [
