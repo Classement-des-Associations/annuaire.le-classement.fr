@@ -40,7 +40,8 @@ export default defineNuxtConfig({
         driver: 'github',
         repo: 'Classement-des-Associations/le-classement.fr',
         branch: 'main',
-        dir: '/content/3.blog'
+        dir: '/content/3.blog',
+        token: process.env.GITHUB_TOKEN
       }
     }
   },
@@ -70,7 +71,5 @@ export default defineNuxtConfig({
     }
   },
 
-  devtools: {
-    enabled: true
-  }
+  devtools: true
 })

@@ -1,18 +1,20 @@
 {
   "id": "aloha",
   "name": "Aloha",
-  "description": "Aloha c’est 80 membres, plus de 40 évènements à l’année, un Buddy Program, et des milliers d’étudiants internationaux intégrés à la vie de l’école depuis 1984. On s’occupe de promouvoir les différentes cultures au sein de GEM : curiosité, convivialité et ouverture d’esprit sont les valeurs qui nous rassemblent !",
-  "linkedin": null,
+  "description": "Aloha est le bureau de l’International de GEM. Son objectif est de faciliter l’installation des étudiants internationaux à Grenoble, de les intégrer au sein de l’école, d’encourager les échanges avec les étudiants français et de promouvoir les différentes cultures afin d’avoir un campus toujours plus international et ouvert à la diversité.",
+  "linkedin": "https://www.linkedin.com/company/aloha-gem/",
   "instagram": "https://www.instagram.com/deborahaloha/",
   "website": null,
   "categoriesId": [
-    "sociale"
+    "sociale",
+    "culturelle"
   ],
   "schoolsId": [
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -23,6 +25,12 @@
       "name": "Sociale",
       "icon": "fluent-emoji:teddy-bear",
       "color": "orange"
+    },
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
     }
   ],
   "schools": [
@@ -35,6 +43,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [

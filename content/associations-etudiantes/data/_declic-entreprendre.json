@@ -1,9 +1,9 @@
 {
   "id": "declic-entreprendre",
   "name": "Déclic Entreprendre",
-  "description": "Déclic Entreprendre est l'association d'entrepreneuriat et d'innovation de Neoma BS Rouen. Crée en 2005, l'association organise au cours de l'année des évènements d'ampleur nationale tels que le TEDX, les Open Innovation Games (1er hackaton étudiant français), des voyages entrepreneurials sur Paris et en Europe ainsi que des conférences thématiques business dans l'ère du temps.",
+  "description": "Élue première association entrepreneuriale française et top 10 meilleures associations toutes catégories confondues par Le Classement des Associations (édition 2022), Déclic Entreprendre est l'association d'entrepreneuriat et d'innovation de Neoma BS.",
   "linkedin": "https://www.linkedin.com/company/declicentreprendre/",
-  "instagram": "https://www.instagram.com/declic.entreprendre/?hl=fr",
+  "instagram": "https://www.instagram.com/declic.entreprendre/",
   "website": null,
   "categoriesId": [
     "professionnalisante"
@@ -12,7 +12,8 @@
     "neoma-business-school"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -35,6 +36,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [

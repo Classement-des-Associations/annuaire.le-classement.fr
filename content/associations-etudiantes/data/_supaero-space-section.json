@@ -1,0 +1,39 @@
+{
+  "id": "supaero-space-section",
+  "name": "Supaero Space Section",
+  "description": "Le SCUBE est le club fusée de l’Isae Supaero ! Club technique de référence de l’institut, il accueille tous les passionnés de conception de fusées expérimentales autour de 4 pôles : Aether, Scalar, Perseus et Sparrow 🚀",
+  "linkedin": "https://www.linkedin.com/company/supaerospacesection/",
+  "instagram": "https://www.instagram.com/scube.supaero",
+  "website": null,
+  "categoriesId": [
+    "technique"
+  ],
+  "schoolsId": [
+    "isae-supaero"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "isae-supaero",
+      "name": "ISAE Supaero"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

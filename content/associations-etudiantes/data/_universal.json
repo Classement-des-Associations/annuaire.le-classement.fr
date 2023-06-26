@@ -1,6 +1,7 @@
 {
   "id": "universal",
   "name": "UN'iversal",
+  "description": "UN'iversal, c'est une bande de copains unis par leur passion pour la géopolitique. Leur objectif est simple : transmettre cet intérêt commun. Pour ce faire, ils mènent différents types de projets : articles, revues de presse, magazines, conférences, MUN, fiches de révision …",
   "linkedin": "https://www.linkedin.com/company/universalneomabsreims/",
   "instagram": "https://www.instagram.com/universal_neoma/",
   "website": "www.universal-neoma.com",
@@ -10,7 +11,9 @@
   "schoolsId": [
     "neoma-business-school"
   ],
-  "contestParticipationsId": [],
+  "contestParticipationsId": [
+    "2023"
+  ],
   "battleParticipationsId": [
     "2023"
   ],
@@ -28,7 +31,12 @@
       "name": "Neoma Business School"
     }
   ],
-  "contestParticipations": [],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
   "battleParticipations": [
     {
       "id": "2023",

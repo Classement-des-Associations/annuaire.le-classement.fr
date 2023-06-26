@@ -1,0 +1,39 @@
+{
+  "id": "talons-aiguilles",
+  "name": "Talons Aiguilles",
+  "description": "Talons Aiguilles est aujourd’hui la première association étudiante de mode en France ayant pour but de mettre en lumière de jeunes créateurs talentueux et le nouveau monde de la mode durable. L’association s’engage pour une mode certifiée plus responsable et soutient de nombreuses initiatives éco-responsables.",
+  "linkedin": "https://www.linkedin.com/company/talons-aiguilles/",
+  "instagram": "https://instagram.com/talonsaiguillesedhec",
+  "website": "https://www.talonsaiguillesedhec.com",
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "edhec-business-school"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "edhec-business-school",
+      "name": "EDHEC Business School"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

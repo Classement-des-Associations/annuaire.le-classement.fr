@@ -1,7 +1,7 @@
 {
   "id": "transaharienne",
   "name": "Transaharienne",
-  "description": "Créée en 1999, la Transaharienne est une association humanitaire de l’ISEP, agissant aussi bien à l’échelle nationale qu’internationale. Elle a pour principale mission d’apporter un soutien matériel et humain aux enfants. Durant l’année en France, la Transaharienne organise des récoltes et participe à des missions pour l’éducation et pour venir en aide aux plus démunis.",
+  "description": "La Transaharienne est une association humanitaire qui lutte contre le décrochage scolaire dans les zones rurales et reculées du Maroc en organisant une mission de 10 jours chaque fin d’année scolaire.",
   "linkedin": "https://www.linkedin.com/company/transaharienne",
   "instagram": "https://www.instagram.com/transaharienne",
   "website": "https://transaharienne.fr",
@@ -12,7 +12,8 @@
     "isep"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -35,6 +36,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [

@@ -1,10 +1,10 @@
 {
-  "id": "le-gala",
-  "name": "Le Gala",
-  "description": "Le Gala, c'est l’association événementielle de Grenoble EM. Chaque année, ses 80 membres se démènent afin de mener à bien leurs projets, en reflétant au mieux les valeurs et l'ambiance de l'école. Le Gala est une association innovante et professionnelle au sein de laquelle règnent convivialité et sérieux.",
-  "linkedin": "https://www.linkedin.com/company/gemgala/",
-  "instagram": "https://www.instagram.com/gem.gala/",
-  "website": null,
+  "id": "gem-finance-society",
+  "name": "GEM Finance Society",
+  "description": "GFS est l’association de finance de GEM. C’est une famille de 70 membres passionnés de finance ou non répartis en 7 pôles.Pour résumer, GFS est une association très professionnalisante mais aussi fun qui permet de se retrouver autour de différents projets liés à la finance.",
+  "linkedin": "https://www.linkedin.com/company/gem_finance_society/",
+  "instagram": "https://www.instagram.com/gem_finance_society",
+  "website": "https://gemfinancesociety.com/",
   "categoriesId": [
     "professionnalisante"
   ],
@@ -12,7 +12,6 @@
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022",
     "2023"
   ],
   "battleParticipationsId": [],
@@ -31,10 +30,6 @@
     }
   ],
   "contestParticipations": [
-    {
-      "id": "2022",
-      "name": "2022"
-    },
     {
       "id": "2023",
       "name": "2023"

@@ -1,0 +1,46 @@
+{
+  "id": "sigmaracing",
+  "name": "SIGMARacing",
+  "description": "SigmaRacing est l'association de sport mécanique de l'école d'ingénieurs SIGMA Clermont située à Clermont-Ferrand. Elle rassemble différents projets dans le domaine du sport automobile allant du développement d'une monoplace de type formula student pour la compétition à l'engagement en rallye amateur d'une voiture.",
+  "linkedin": "https://www.linkedin.com/company/sigma-racing/",
+  "instagram": "https://www.instagram.com/ecurie_sigmaracing",
+  "website": null,
+  "categoriesId": [
+    "sportive",
+    "technique"
+  ],
+  "schoolsId": [
+    "sigma-clermont-ferrand"
+  ],
+  "contestParticipationsId": [
+    "2022"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sportive",
+      "name": "Sportive",
+      "icon": "fluent-emoji:sports-medal",
+      "color": "indigo"
+    },
+    {
+      "id": "technique",
+      "name": "Technique",
+      "icon": "fluent-emoji:hammer-and-wrench",
+      "color": "zinc"
+    }
+  ],
+  "schools": [
+    {
+      "id": "sigma-clermont-ferrand",
+      "name": "SIGMA Clermont-Ferrand"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2022",
+      "name": "2022"
+    }
+  ],
+  "battleParticipations": []
+}

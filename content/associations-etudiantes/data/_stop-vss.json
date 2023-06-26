@@ -1,0 +1,44 @@
+{
+  "id": "stop-vss",
+  "name": "STOP-VSS",
+  "description": "L’association STOP-VSS a pour but de lutter contre les violences sexistes et sexuelles (VSS) au sein de leurs écoles en prônant l’égalité et la sécurité de tous. Pour cela ils souhaitent mettre en place des dispositifs de prévention, un accompagnement des associations dans leurs projets d’évènement et former les étudiants.",
+  "linkedin": "https://www.linkedin.com/in/stop-vss-sup-biotech-818121270/",
+  "instagram": "https://www.instagram.com/stop.vss",
+  "website": null,
+  "categoriesId": [
+    "sociale"
+  ],
+  "schoolsId": [
+    "supbiotech",
+    "epita"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "sociale",
+      "name": "Sociale",
+      "icon": "fluent-emoji:teddy-bear",
+      "color": "orange"
+    }
+  ],
+  "schools": [
+    {
+      "id": "supbiotech",
+      "name": "Sup’Biotech"
+    },
+    {
+      "id": "epita",
+      "name": "EPITA"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

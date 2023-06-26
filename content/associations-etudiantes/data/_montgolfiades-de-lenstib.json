@@ -1,0 +1,39 @@
+{
+  "id": "montgolfiades-de-lenstib",
+  "name": "Montgolfiades de l’ENSTIB",
+  "description": "L'association des Montgolfiades est une association mythique de l'ENSTIB qui fête ses 30 ans cette année. L'objectif de l'association est de faire voler gratuitement un maximum d'étudiants de l'ENSTIB lors du dernier week-end de mai.",
+  "linkedin": null,
+  "instagram": "https://instagram.com/montgolfiades_enstib",
+  "website": null,
+  "categoriesId": [
+    "culturelle"
+  ],
+  "schoolsId": [
+    "enstib"
+  ],
+  "contestParticipationsId": [
+    "2023"
+  ],
+  "battleParticipationsId": [],
+  "categories": [
+    {
+      "id": "culturelle",
+      "name": "Culturelle",
+      "icon": "fluent-emoji:framed-picture",
+      "color": "yellow"
+    }
+  ],
+  "schools": [
+    {
+      "id": "enstib",
+      "name": "ENSTIB"
+    }
+  ],
+  "contestParticipations": [
+    {
+      "id": "2023",
+      "name": "2023"
+    }
+  ],
+  "battleParticipations": []
+}

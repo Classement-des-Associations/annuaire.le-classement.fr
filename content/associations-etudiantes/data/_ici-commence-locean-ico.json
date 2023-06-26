@@ -1,7 +1,7 @@
 {
-  "id": "ico-ici-commence-locean",
-  "name": "I.C.O (Ici Commence L’océan)",
-  "description": "Ici Commence l'Océan (I.C.O) est l'association de voile et sports nautiques de Grenoble Ecole de Management (GEM). On organise un Surftrip, un kayathlon, un nettoyage de l'Isère (Mission Isère Coeur des Océans), une compétition de natation (Gem Siwmming Cup), participation à la Course Croisière Edhec en trophée terre et trophée mer et une croisière étudiante avec 150 participants.",
+  "id": "ici-commence-locean-ico",
+  "name": "Ici Commence l’Océan (I.C.O.)",
+  "description": "Ici Commence l’océan est l’association de voile et de sports nautiques de GEM. Elle compte 50 membres qui partagent les mêmes valeurs : le dépassement de soi et l’esprit d’équipe. Élue meilleure association sportive de France en 2021 d’après le Classement des Associations, I.C.O organise et participe à de nombreux événements.",
   "linkedin": "https://www.linkedin.com/company/ico---ici-commence-l'oc-an/?originalSubdomain=fr",
   "instagram": "https://www.instagram.com/icogem/",
   "website": "www.icicommencelocean.com",
@@ -12,7 +12,8 @@
     "grenoble-ecole-de-management"
   ],
   "contestParticipationsId": [
-    "2022"
+    "2022",
+    "2023"
   ],
   "battleParticipationsId": [
     "2023"
@@ -35,6 +36,10 @@
     {
       "id": "2022",
       "name": "2022"
+    },
+    {
+      "id": "2023",
+      "name": "2023"
     }
   ],
   "battleParticipations": [
