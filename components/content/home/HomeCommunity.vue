@@ -38,7 +38,7 @@ const items = ref<Item[]>([
   },
   {
     icon: 'ph:instagram-logo-fill',
-    value: '1.5k',
+    value: '2.0k',
     label: 'Instagram followers',
     to: instagramLink,
     isExternal: true

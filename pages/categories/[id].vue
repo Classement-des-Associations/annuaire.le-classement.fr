@@ -14,10 +14,10 @@ useSeoMeta({
 <template>
   <BaseSection class="my-20">
     <BaseH1 v-if="category" class="flex items-center gap-4">
-      <Icon :name="category.icon" /> {{ category.name }}
+      <Icon :name="category.icon" /> Catégorie {{ category.name }}
     </BaseH1>
     <AssociationsRelatedListSection v-if="associations" :associations="associations" class="mt-12">
-      Associations de la catégorie
+      Toutes les associations
     </AssociationsRelatedListSection>
     <NuxtLink to="/categories/" class="block mt-24 text-lg font-light">
       Revenir aux catégories

@@ -39,7 +39,7 @@ useSeoMeta({
           </dd>
         </dl>
       </div>
-      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] lg:max-h-[8rem] mx-auto md:mx-0" />
+      <img :src="`/assets/associations/images/${association.id}.png`" :alt="`Logo de l'association ${association.name}`" loading="lazy" class="max-h-[6rem] lg:max-h-[8rem] mx-auto md:mx-0">
     </div>
     <p class="mt-8 text-lg md:text-xl md:leading-8">
       {{ association.description }}
@@ -47,7 +47,7 @@ useSeoMeta({
     <p class="mt-4 text-lg md:text-xl md:leading-8">
       L'association {{ association.name }} a participé
       <template v-if="association.battleParticipations.length">
-        à la <NuxtLink to="https://le-classement.fr/classement/battle" target="_blank" class="hover:underline inline-block">
+        à la <NuxtLink to="https://le-classement.fr/classement/battle" target="_blank" rel="noopener" class="hover:underline inline-block">
           Battle du Classement
         </NuxtLink>
         en <Sentence route="/battle" :data="association.battleParticipations" nuxt-link-class="hover:underline" />
@@ -57,7 +57,7 @@ useSeoMeta({
       </template>
       <template v-if="association.contestParticipations.length">
         au
-        <NuxtLink to="https://le-classement.fr/classement/concours" target="_blank" class="hover:underline inline-block">
+        <NuxtLink to="https://le-classement.fr/classement/concours" rel="noopener" target="_blank" class="hover:underline inline-block">
           Concours du Classement
         </NuxtLink>
         en <Sentence route="/concours" :data="association.contestParticipations" nuxt-link-class="hover:underline" />

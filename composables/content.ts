@@ -61,6 +61,40 @@ export const useAssociationsBySchoolId = (schoolId: string) => {
   )
 }
 
+export const useAssociationsBySchoolIdAndBattleParticipationId = (schoolId: string, participationId: string) => {
+  return useAsyncData(`content:associations:${schoolId}:${participationId}`, () =>
+    queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true,
+      _extension: 'json',
+      schoolsId: {
+        $contains: schoolId
+      },
+      battleParticipationsId: {
+        $contains: participationId
+      }
+    })
+      .only(['id', 'name', 'categories'])
+      .find()
+  )
+}
+
+export const useAssociationsBySchoolIdAndContestParticipationId = (schoolId: string, participationId: string) => {
+  return useAsyncData(`content:associations:${schoolId}:${participationId}`, () =>
+    queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true,
+      _extension: 'json',
+      schoolsId: {
+        $contains: schoolId
+      },
+      contestParticipationsId: {
+        $contains: participationId
+      }
+    })
+      .only(['id', 'name', 'categories'])
+      .find()
+  )
+}
+
 export const useAssociationsByContestParticipationId = (participationId: string) => {
   return useAsyncData(`content:associations:${participationId}`, () =>
     queryContent<Association>('/associations-etudiantes/data').where({
@@ -202,6 +236,20 @@ export const useContestParticipationsById = (participationsId: string[]) => {
   )
 }
 
+export const useContestsBySchoolId = (schoolId: string) => {
+  return useAsyncData(`content:contest:${schoolId}`, () =>
+    queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true,
+      _extension: 'json',
+      schoolsId: {
+        $contains: schoolId
+      }
+    })
+      .only(['contestParticipationsId'])
+      .find()
+  )
+}
+
 export const useBattleParticipations = () => {
   return useAsyncData('content:battle-participations', () =>
     queryContent<BattleParticipation>('/battle/data').where({
@@ -235,6 +283,20 @@ export const useBattleParticipationsById = (participationsId: string[]) => {
       }
     })
       .only(['id', 'name'])
+      .find()
+  )
+}
+
+export const useBattleBySchoolId = (schoolId: string) => {
+  return useAsyncData(`content:battle:${schoolId}`, () =>
+    queryContent<Association>('/associations-etudiantes/data').where({
+      _partial: true,
+      _extension: 'json',
+      schoolsId: {
+        $contains: schoolId
+      }
+    })
+      .only(['battleParticipationsId'])
       .find()
   )
 }
