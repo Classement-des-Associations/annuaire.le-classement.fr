@@ -110,13 +110,13 @@ useSeoMeta({
       <p class="mt-8 text-lg md:text-xl md:leading-8">
         Les associations ont participé
         <template v-if="uniqueBattle && uniqueBattle?.length > 0">
-          à la Battle <Sentence :route="`/ecoles/${route.params.id}/battle`" :data="uniqueBattle" />
+          à la Battle <Sentence :route="`/ecoles/${route.params.id}/battle`" :data="uniqueBattle" nuxt-link-class="hover:underline" />
         </template>
         <template v-if="uniqueBattle && uniqueBattle?.length > 0 && uniqueContests && uniqueContests?.length > 0">
           et
         </template>
         <template v-if="uniqueContests && uniqueContests?.length > 0">
-          au Concours <Sentence :route="`/ecoles/${route.params.id}/concours`" :data="uniqueContests" />
+          au Concours <Sentence :route="`/ecoles/${route.params.id}/concours`" :data="uniqueContests" nuxt-link-class="hover:underline" />
           <span>.</span>
         </template>
       </p>
